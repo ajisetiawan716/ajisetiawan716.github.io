@@ -27,16 +27,16 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Aji Setiawan 
   image             : https://i.imgur.com/uyDNQnn.jpg
-  behance           : your_username
+# behance           : your_username
 # dribbble          : your_username
   email             : ajisetiawan716@gmail.com
-  facebook          : your_username
-  github            : your_username
+  facebook          : adjiee.setiawan
+  github            : ajisetiawan716
 # gitlab            : your_username
 # instagram         : ajisetiawan716
 # kaggle            : your_username
   linkedin          : ajisetiawan716
-  medium            : your_username
+#  medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
@@ -58,7 +58,7 @@ collections:
     output: true
     permalink: /projects/:name
   elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
+    output: false                                        # For Documentation Only
 
 
 ### Disqus ###
