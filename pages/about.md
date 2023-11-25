@@ -15,11 +15,24 @@ Hi I am <b>{{ site.author.name }}</b> :wave:,<br>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 
+<br>
+### **My Skills**
+
+<div class="row">
+{% include about/skills.html title="Native Languages" source=site.data.native-languages %}
+{% include about/skills.html title="Programming Languages" source=site.data.programming-skills %}
+</div>
 <div class="row">
 {% include about/skills.html title="Microsoft Skills" source=site.data.microsoft-skills %}
 {% include about/skills.html title="Google Skills" source=site.data.google-skills %}
 </div>
-
 <div class="row">
+{% include about/skills.html title="Adobe Skills" source=site.data.adobe-skills %}
+</div>
+<div class="row">
+{% include about/skills.html title="Affinity Skills" source=site.data.affinity-skills %}
+{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+</div>
+
 {% include about/timeline.html %}
 </div>
