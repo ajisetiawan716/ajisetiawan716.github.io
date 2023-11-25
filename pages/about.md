@@ -8,7 +8,7 @@ weight: 3
 <p align="center">
 
   <a href="{{ site.baseurl }}">
-    <img src="{{ site.author.image_about }}" alt="{{ site.title }}" width="168px" height="168px" style="display:flex;">
+    <img src="{{ site.author.image }}" alt="{{ site.title }}" width="168px" height="168px" style="display:flex;">
   </a>
 <br>
 Hi I am <b>{{ site.author.name }}</b> :wave:,<br>
