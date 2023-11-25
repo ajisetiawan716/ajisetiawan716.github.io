@@ -20,7 +20,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <div class="row">
 {% include about/skills.html title="Native Languages" source=site.data.native-languages %}
-{% include about/skills.html title="Programming Languages" source=site.data.programming-skills %}
 </div>
 <div class="row">
 {% include about/skills.html title="Microsoft Skills" source=site.data.microsoft-skills %}
