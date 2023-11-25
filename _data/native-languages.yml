@@ -1,0 +1,7 @@
+- name: Indonesian
+  percentage: 90
+  color: success
+  
+- name: English
+  percentage: 80
+  color: info
