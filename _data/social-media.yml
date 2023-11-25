@@ -95,3 +95,18 @@ keybase:
   url   : https://www.keybase.io/
   icon  : fab fa-keybase
   color : 66ccff
+
+whatsapp:
+  url   : https://wa.me/
+  icon  : fab fa-whatsapp
+  color : ff0000
+
+telegram:
+  url   : https://t.me/
+  icon  : fab fa-telegram
+  color : ff0000
+
+paypal:
+  url   : https://paypal.me/
+  icon  : fab fa-paypal
+  color : ff0000
