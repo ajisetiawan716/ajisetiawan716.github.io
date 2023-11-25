@@ -6,7 +6,7 @@ weight: 3
 ---
 
 <p align="center">
-# **About Me**
+ **About Me**
 
   <a href="{{ site.baseurl }}">
     <img src="{{ site.author.image_about }}" alt="{{ site.title }}" width="168px" height="168px" style="display:flex;">
