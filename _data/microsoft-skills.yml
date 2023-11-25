@@ -1,11 +1,11 @@
-- name: Words
-  percentage: 85
-  color: info
-  
-- name: Excel
-  percentage: 75
-  color: success
+- name: HTML5/CSS3
+  percentage: 90
+  color: danger
 
-- name: PowerPoint
+- name: Go
   percentage: 80
-  color: info
+  color:
+
+- name: Python
+  percentage: 70
+  color: secondary
