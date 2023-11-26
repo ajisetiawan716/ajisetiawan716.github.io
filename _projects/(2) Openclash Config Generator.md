@@ -1,6 +1,6 @@
 ---
 name: OcGen - Openclash Config Generator
-tools: [PHP, HTML, #BASH]
+tools: [PHP, HTML, BASH]
 image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
 description: This project is a tool used to import config into Openclash which is based on a web interface.
 ---
