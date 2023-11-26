@@ -1,5 +1,5 @@
 $dark-100: $dark;
-$dark-300: #2c3032;
+$dark-300: #404040;
 $dark-600: #242526;
 $dark-900: #17191a;
 
@@ -27,7 +27,7 @@ $dark-900: #17191a;
   input {
     background-color: $dark-300;
     border-color: $dark-100;
-    color: $dark-900;
+    color: #ffffff;
 
     &::placeholder {
       color: rgba($text-white, 0.64);
