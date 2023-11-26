@@ -11,7 +11,7 @@ weight: 3
   </a>
 <br>
 Hi I am <b>{{ site.author.name }}</b> :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I am a student at STIES Putera Bangsa Tegal with a study focus in Islamic economics in the Sharia Business Management study program.  Apart from that, I have interests and hobbies in the field of IT, graphic design and amateur programming.  I also accept freelance work.  Please contact me at the contact below if you need graphic design services or anything else.
 
 
 {% include social.html %}
