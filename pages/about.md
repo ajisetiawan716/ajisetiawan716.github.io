@@ -15,9 +15,8 @@ weight: 3
 Hi I am <b>{{ site.author.name }}</b> :wave:,<br>
 I am a student at STIES Putera Bangsa Tegal with a study focus in Islamic economics in the Sharia Business Management study program.  Apart from that, I have interests and hobbies in the field of IT, graphic design and amateur programming.  I also accept freelance work.  Please contact me at the contact below if you need graphic design services or anything else.
 </p>
-<p align="center">
+
 {% include social.html %}
-</p>
 <br>
 <br>
 ### **My Skills**
