@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -138,8 +138,14 @@
 	</a>
 	</div>
 	<div class="col">
+	<a id="btn-trakteer">
+	<div><img src="/assets/img/trakteer-qrcode.jpeg" alt="trakteer"></div>
+	<p class="tcolor">Trakteer</p>
+	</a>
+	</div>
+	<div class="col">
 	<a id="btn-qris">
-	<div><img src="/assets/img/img-qris.svg" alt="bca"></div>
+	<div><img src="/assets/img/img-qris.svg" alt="qris"></div>
 	<p class="tcolor">QRIS</p>
 	</a>
 	</div>
@@ -428,6 +434,23 @@
 	</div>
 	<div class="modal-footer">
 		<button class="btn btn-primary" type="button" onclick="window.open('https://flip.id/me/helmiamirudin','_blank')">Open Flip App</button>
+		<button class="btn btn-danger" type="button" data-dismiss="modal">Close</button>
+	</div>
+	</div>
+	</div>
+</div><div class="modal fade" role="dialog" tabindex="-1" id="qr-trakteer">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	<div class="modal-content">
+	<div class="modal-header">
+	<h4 class="modal-title" style="font-size: 1.2em;"><strong>Payment Via Trakteer.Id</strong></h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+	<div class="modal-body">
+	<div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-xl-center"><img class="d-flex d-sm-flex w-75 h-75" src="/assets/img/trakteer-qrcode.jpeg"></div>
+	<!--
+	<p class="text-center mx-auto">Or pay using <a class="tcolor" href="https://trakteer.id/ajisetiawan/tip?open=true" aria-label="trakteer-ajisetiawan"><strong>Trakteer @ajisetiawan</strong></a> url.</p>
+	-->
+	</div>
+	<div class="modal-footer">
+		<button class="btn btn-primary" type="button" onclick="window.open('https://trakteer.id/ajisetiawan/tip?open=true','_blank')">Open Trakteer.id</button>
 		<button class="btn btn-danger" type="button" data-dismiss="modal">Close</button>
 	</div>
 	</div>
