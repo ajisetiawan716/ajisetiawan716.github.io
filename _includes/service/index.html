@@ -25,7 +25,7 @@
         {%- assign service_url   = service.html_url -%}
         {%- assign service_tools = service.topics -%}
 
-        {% include services/service-card.html %}
+        {% include service/service-card.html %}
 
       {%- endif -%}
 
@@ -49,7 +49,7 @@
       {%- assign service_url = service.url | relative_url -%}
     {%- endif -%}
 
-    {% include services/service-card.html %}
+    {% include service/service-card.html %}
 
   {% endfor %}
 
