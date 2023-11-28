@@ -58,9 +58,7 @@ collections:
     output: true
     permalink: /projects/:name
  ### ADD SERVICE ###   
-  service:
-    output: true
-    permalink: /service/:name
+  
   ### END OF SERVICE ###  
   elements:                                             # For Documentation Only
     output: false                                        # For Documentation Only
@@ -109,11 +107,7 @@ defaults:
     values:
       layout: "page"                                   # For Documentation Only
   ### SERVICE ADD ###
-  - scope:
-      path: ""
-      type: "service"
-    values:
-      layout: "page"
+
   ### END OF SERVICE ADD ###    
   - scope:
       path: ""
