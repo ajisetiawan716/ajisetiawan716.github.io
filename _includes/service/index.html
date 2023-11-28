@@ -1,0 +1,56 @@
+
+<div class="card-columns m-3 mt-5">
+
+  <!-- Remote services -->
+  {% for remote_service in page.remote_services %}
+
+    {%- for repo in site.github.public_repositories -%}
+
+      {%- if remote_service == repo.name -%}
+
+        {%- assign service = repo -%}
+        {%- assign words = service.name | split: '-' -%}
+        
+        {%- capture titlecase -%}
+          {%- for word in words -%}
+            {{ word | capitalize | append: ' ' }}
+          {%- endfor -%}
+        {%- endcapture -%}
+
+        {%- assign service_type  = "remote" -%}
+        {%- assign service_id    = service.name -%}
+        {%- assign service_img   = false -%}
+        {%- assign service_name  = titlecase | strip -%}
+        {%- assign service_desc  = service.description -%}
+        {%- assign service_url   = service.html_url -%}
+        {%- assign service_tools = service.topics -%}
+
+        {% include services/service-card.html %}
+
+      {%- endif -%}
+
+    {%- endfor -%}
+
+  {% endfor %}
+
+  <!-- Local services -->
+  {% for service in site.services %}
+
+    {%- assign service_type  = "local" -%}
+    {%- assign service_id    = service.name | slugify -%}
+    {%- assign service_img   = service.image -%}
+    {%- assign service_name  = service.name -%}
+    {%- assign service_desc  = service.description -%}
+    {%- assign service_tools = service.tools -%}
+
+    {%- if service.external_url -%}
+      {%- assign service_url = service.external_url -%}
+    {%- else -%}
+      {%- assign service_url = service.url | relative_url -%}
+    {%- endif -%}
+
+    {% include services/service-card.html %}
+
+  {% endfor %}
+
+</div>
