@@ -60,6 +60,7 @@ collections:
  ### ADD SERVICE ###   
   service:
     output: true
+    permalink: /service/:name
   ### END OF SERVICE ###  
   elements:                                             # For Documentation Only
     output: false                                        # For Documentation Only
