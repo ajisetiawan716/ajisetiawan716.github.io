@@ -58,7 +58,8 @@ collections:
     output: true
     permalink: /projects/:name
  ### ADD SERVICE ###   
-  
+  service:
+    output: true
   ### END OF SERVICE ###  
   elements:                                             # For Documentation Only
     output: false                                        # For Documentation Only
