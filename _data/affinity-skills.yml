@@ -1,9 +1,9 @@
 - name: Designer
-  percentage: 98
+  percentage: 95
   color: info
 
-- name: Photo
-  percentage: 50
+- name: Photography
+  percentage: 80
   color: success
 
 - name: Publisher
