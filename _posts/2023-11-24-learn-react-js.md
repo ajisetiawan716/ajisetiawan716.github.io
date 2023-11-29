@@ -1,6 +1,7 @@
 ---
 title: Learn React.js in 5 minutes
 tags: [React, JavaScript, Web Development]
+categories: [Tutorial, React, Javascript]
 style: border
 color: primary
 description: A quick introduction to the popular JavaScript library.
