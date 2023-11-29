@@ -1,6 +1,6 @@
 ---
 name: Desain Grafis
-tools: [Desain, Layanan, Jasa]
+tags: [Desain, Layanan, Jasa]
 image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
 description: Ciptakan desain sesuai dengan pesananmu!
 ---
