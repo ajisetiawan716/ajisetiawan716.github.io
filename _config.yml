@@ -110,7 +110,7 @@ defaults:
       layout: "page"                                   # For Documentation Only
   ### SERVICE ADD ###
   - scope:
-      path: "service"
+      path: ""
       type: "service"
     values:
       layout: "page"
