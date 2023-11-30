@@ -25,7 +25,7 @@ Mengenai pengecekan plagiasi menggunakan Turnitin. Saya menyediakan jasa pengece
 1. `Aman,` file akan dihapus setelah transaksi (privasi terjaga). Dengan demikian, privasi dan kemanan penulis tetap terjaga.
 2. `*No Repository,*` data/file naskah yang di-upload tidak akan tersimpan di database Turnitin. Hal ini membantu melindungi hak cipta dan privasi penulis, serta mencegah penyalahgunaan data.
 3. `Tanpa batas jumlah halaman.` Layanan cek plagiasi dengan Turnitin tidak memiliki batasan jumlah halaman, sehingga penulis dapat dengan bebas memeriksa integritas seluruh karya ilmiah mereka tanpa harus khawatir tentang pembatasan.
-4. Proses pengecekan cepat.`
+4. 'Proses pengecekan cepat.`
 
 Jadi, jika Anda berminat untuk melakukan pengecekan tingkat plagiasi untuk skripsi, jurnal, atau karya tulis ilmiah lainnya. Anda dapat menghubungi melalui kontak berikut dengan mengirimkan pesan dengan format ``*Cek Plagiasi#Skripsi/Jurnal/Lainnya.*``
 
