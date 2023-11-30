@@ -13,5 +13,5 @@ Cek menggunakan Turnitin.
 ![preview](https://www.ajisetiawan.my.id/assets/img/cek-plagiasi.jpg)
 
 <p class="text-center">
-{% include elements/button.html link="/" text="Go to Home" %}
+{% include elements/button.html link="/" text="Go to Home" style="primary" size="sm" %}
 </p>
