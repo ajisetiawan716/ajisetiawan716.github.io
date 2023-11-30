@@ -7,7 +7,7 @@ description: Cek tingkat plagiasi skripsi, jurnal atau karya tulis ilmiah lain y
 
 # Cek Plagiarisme
 
-Plagiasi karya ilmiah, seperti skripsi, jurnal, dan karya tulis ilmiah lainnya, merupakan pelanggaran etika akademik yang serius. Plagiasi terjadi ketika seseorang menyalin atau menggunakan bahan dari karya orang lain tanpa memberikan pengakuan atau kutipan yang tepat. Hal ini melanggar hak cipta dan kejujuran intelektual.
+Plagiasi karya ilmiah, seperti ``skripsi, jurnal,`` dan ``karya tulis ilmiah`` lainnya, merupakan pelanggaran etika akademik yang serius. Plagiasi terjadi ketika seseorang menyalin atau menggunakan bahan dari karya orang lain tanpa memberikan pengakuan atau kutipan yang tepat. Hal ini melanggar hak cipta dan kejujuran intelektual.
 
 Plagiasi karya ilmiah dapat merusak reputasi dan integritas penulis, institusi pendidikan, dan dunia akademik secara keseluruhan. Plagiasi juga merugikan penulis asli karya ilmiah yang telah bekerja keras dan menyumbangkan kontribusi baru ke dalam pengetahuan.
 
