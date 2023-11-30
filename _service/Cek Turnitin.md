@@ -9,6 +9,9 @@ description: Cek tingkat plagiasi Skripsi atau Jurnal yang kamu bikin.
 
 Cek menggunakan Turnitin.
 
+
+![preview](/assets/img/cek-pagiasi.jpg)
+
 <p class="text-center">
 {% include elements/button.html link="/" text="Go to Home" %}
 </p>
