@@ -21,6 +21,8 @@ Dengan menggunakan layanan cek plagiasi, penulis dapat memastikan bahwa karya il
 
 Cek plagiasi dengan menggunakan layanan cek plagiasi seperti Turnitin merupakan langkah penting dalam memastikan orisinalitas karya ilmiah, seperti skripsi, jurnal, atau karya tulis ilmiah lainnya. Turnitin adalah salah satu platform terkemuka dalam deteksi plagiasi yang digunakan oleh banyak institusi pendidikan dan organisasi di seluruh dunia.
 
+![preview](https://www.ajisetiawan.my.id/assets/img/cek-plagiasi.jpg)
+
 Salah satu keunggulan utama dari layanan cek plagiasi dengan Turnitin adalah keamanannya. File yang diunggah untuk pengecekan plagiasi dijamin kerahasiaannya dan akan dihapus setelah proses transaksi selesai. Dengan demikian, privasi dan keamanan penulis tetap terjaga.
 
 Selain itu, Turnitin juga menjamin bahwa data atau file yang diunggah tidak akan tersimpan di database mereka. Hal ini membantu melindungi hak cipta dan privasi penulis, serta mencegah penyalahgunaan data.
@@ -32,8 +34,6 @@ Turnitin juga memiliki kemampuan untuk mendeteksi plagiator dari berbagai bahasa
 Layanan cek plagiasi dengan Turnitin tidak memiliki batasan jumlah halaman, sehingga penulis dapat dengan bebas memeriksa integritas seluruh karya ilmiah mereka tanpa harus khawatir tentang pembatasan.
 
 Kesimpulannya, layanan cek plagiasi dengan Turnitin adalah pilihan yang sangat baik bagi penulis karya ilmiah yang ingin memastikan keaslian dan integritas karya mereka. Dengan kecepatan, akurasi, dan keamanannya, layanan ini membantu penulis mencegah plagiasi, melindungi hak cipta, dan mempromosikan integritas akademik.
-
-![preview](https://www.ajisetiawan.my.id/assets/img/cek-plagiasi.jpg)
 
 <p class="text-center">
 {% include elements/button.html link="/" text="Go to Home" style="primary" size="sm" %}
