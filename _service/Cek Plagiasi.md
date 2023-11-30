@@ -27,8 +27,17 @@ Mengenai pengecekan plagiasi menggunakan Turnitin. Saya menyediakan jasa pengece
 3. Tanpa batas jumlah halaman. Layanan cek plagiasi dengan Turnitin tidak memiliki batasan jumlah halaman, sehingga penulis dapat dengan bebas memeriksa integritas seluruh karya ilmiah mereka tanpa harus khawatir tentang pembatasan.
 4. Proses pengecekan cepat.
 
+Jadi, jika Anda berminat untuk melakukan pengecekan tingkat plagiasi untuk skripsi, jurnal, atau karya tulis ilmiah. Bisa menghubungi melalui kontak berikut.
 
 
+<p class="text-center">
+{% include elements/button.html link="/wa" text="Contact Me via WhatsApp" %}
+</p>
+
+
+<p class="text-center">
+{% include elements/button.html link="/tg" text="Contact Me via Telegram" %}
+</p>
 
 Kesimpulannya, layanan cek plagiasi dengan Turnitin adalah pilihan yang sangat baik bagi penulis karya ilmiah yang ingin memastikan keaslian dan integritas karya mereka. Dengan kecepatan, akurasi, dan keamanannya, layanan ini membantu penulis mencegah plagiasi, melindungi hak cipta, dan mempromosikan integritas akademik.
 
