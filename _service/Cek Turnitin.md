@@ -1,13 +1,13 @@
 ---
-name: Cek Turnitin
-tags: [Cek Turnitin, Plagiasi, Skripsi, Layanan, Jasa]
+name: Cek Plagiarisme
+tags: [Cek Plagiarisme, Cek Turnitin, Plagiasi, Skripsi, Layanan, Jasa]
 image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
 description: Cek tingkat plagiasi Skripsi atau Jurnal yang kamu bikin.
 ---
 
-# Cek Turnitin
+# Cek Plagiarisme
 
-Under editing proccess..
+Cek menggunakan Turnitin.
 
 <p class="text-center">
 {% include elements/button.html link="/" text="Go to Home" %}
