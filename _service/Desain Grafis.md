@@ -10,5 +10,5 @@ description: Ciptakan desain sesuai dengan pesananmu!
 Under editing proccess..
 
 <p class="text-center">
-{% include elements/button.html link="/" text="Go to Home" %}
+{% include elements/button.html link="/" text="Go to Home" style="primary" size="sm" %}
 </p>
