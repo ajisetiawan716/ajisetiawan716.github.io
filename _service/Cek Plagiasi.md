@@ -22,7 +22,7 @@ Cek plagiasi dengan menggunakan layanan cek plagiasi seperti ``Turnitin`` merupa
 ![preview](https://www.ajisetiawan.my.id/assets/img/cek-plagiasi.jpg)
 
 Mengenai pengecekan plagiasi menggunakan Turnitin. Saya menyediakan jasa pengecekannya. Adapaun benefit yang Anda dapatkan melalui pengecekan tersebut antara lain.
-1. **Aman,** file akan dihapus setelah transaksi (privasi terjaga). Dengan dem#ikian, privasi dan kemanan penulis tetap terjaga.
+1. **Aman,** file akan dihapus setelah transaksi (privasi terjaga). Dengan demikian, privasi dan kemanan penulis tetap terjaga.
 2. ***No Repository,*** data/file naskah yang di-upload tidak akan tersimpan di database Turnitin. Hal ini membantu melindungi hak cipta dan privasi penulis, serta mencegah penyalahgunaan data.
 3. **Tanpa batas jumlah halaman.** Layanan cek plagiasi dengan Turnitin tidak memiliki batasan jumlah halaman, sehingga penulis dapat dengan bebas memeriksa integritas seluruh karya ilmiah mereka tanpa harus khawatir tentang pembatasan.
 4. **Proses pengecekan cepat.**
