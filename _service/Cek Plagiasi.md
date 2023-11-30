@@ -2,7 +2,7 @@
 name: Cek Plagiarisme
 tags: [Cek Plagiarisme, Cek Turnitin, Plagiasi, Skripsi, Layanan, Jasa]
 image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
-description: Cek tingkat plagiasi Skripsi atau Jurnal yang kamu bikin.
+description: Cek tingkat plagiasi Skripsi, Jurnal atau Karya Ilmiah lain yang kamu bikin.
 ---
 
 # Cek Plagiarisme
