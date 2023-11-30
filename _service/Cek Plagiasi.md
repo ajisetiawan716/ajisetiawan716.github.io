@@ -17,7 +17,7 @@ Untuk mencegah plagiasi, penting bagi penulis karya ilmiah untuk mengikuti atura
 
 Dalam cek plagiasi, skripsi, jurnal, dan karya ilmiah lainnya dianalisis secara menyeluruh untuk mendeteksi kemiripan dengan sumber lain yang telah ada. Layanan ini membantu memastikan orisinalitas karya ilmiah dan memberikan bukti yang sah tentang keaslian karya tersebut.
 
-Cek plagiasi dengan menggunakan layanan cek plagiasi seperti Turnitin merupakan langkah penting dalam memastikan orisinalitas karya ilmiah, seperti skripsi, jurnal, atau karya tulis ilmiah lainnya. Turnitin adalah salah satu platform terkemuka dalam deteksi plagiasi yang digunakan oleh banyak institusi pendidikan dan organisasi di seluruh dunia.
+Cek plagiasi dengan menggunakan layanan cek plagiasi seperti ''Turnitin'' merupakan langkah penting dalam memastikan orisinalitas karya ilmiah, seperti skripsi, jurnal, atau karya tulis ilmiah lainnya. Turnitin adalah salah satu platform terkemuka dalam deteksi plagiasi yang digunakan oleh banyak institusi pendidikan dan organisasi di seluruh dunia.
 
 ![preview](https://www.ajisetiawan.my.id/assets/img/cek-plagiasi.jpg)
 
