@@ -11,8 +11,11 @@ A tool used for tunneling equipment on the Openwrt operating system. This tool w
 
 
 **Preview**
-![preview](https://user-images.githubusercontent.com/126588109/252545522-a4f53a79-bce5-4532-9ff0-731e0d04f73c.jpg)
-![preview](https://user-images.githubusercontent.com/126588109/252545698-09ec6e4c-c35d-4cb0-bdbd-5f275c123d52.png)
+{% capture carousel_images %}
+https://user-images.githubusercontent.com/126588109/252545522-a4f53a79-bce5-4532-9ff0-731e0d04f73c.jpg
+https://user-images.githubusercontent.com/126588109/252545698-09ec6e4c-c35d-4cb0-bdbd-5f275c123d52.png
+{% endcapture %}
+{% include elements/carousel.html %}
 
 <p class="text-center">
 {% include elements/button.html link="https://github.com/mitralola716/ocgen" text="More Info" %}
