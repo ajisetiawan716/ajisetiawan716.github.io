@@ -29,10 +29,11 @@
       var markdown = "# " + judul + "\n\n" + konten;
 
       // Mengirim konten markdown ke GitHub
-      var token = "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";
+      var token = "YOUR_GITHUB_TOKEN";
+      var username = "ajisetiawan716";
       var repository = "ajisetiawan716.github.io";
       var file = judul.replace(/\s+/g, "-") + ".md"; // Menggunakan judul sebagai nama file
-      var url = "https://api.github.com/repos/" + repository + "/contents/_posts" + file;
+      var url = "https://api.github.com/repos/" + username + "/" + repository + "/contents/_posts/" + file;
 
       fetch(url, {
         method: "PUT",
