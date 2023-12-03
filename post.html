@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Input dan Simpan ke GitHub</title>
+</head>
+<body>
+
+  <h1>Input Nama/Judul dan Konten</h1>
+
+  <div>
+    <label for="judul">Nama/Judul:</label>
+    <input type="text" id="judul" required>
+  </div>
+
+  <div>
+    <label for="konten">Konten:</label>
+    <textarea id="konten" rows="4" cols="50" required></textarea>
+  </div>
+
+  <button onclick="simpanKonten()">Simpan ke GitHub</button>
+
+  <script>
+    function simpanKonten() {
+      var judul = document.getElementById("judul").value;
+      var konten = document.getElementById("konten").value;
+
+      // Membuat konten markdown
+      var markdown = "# " + judul + "\n\n" + konten;
+
+      // Mengirim konten markdown ke GitHub
+      var token = "YOUR_GITHUB_TOKEN";
+      var repository = "YOUR_REPOSITORY_NAME";
+      var file = judul.replace(/\s+/g, "-") + ".md"; // Menggunakan judul sebagai nama file
+      var url = "https://api.github.com/repos/" + repository + "/contents/" + file;
+
+      fetch(url, {
+        method: "PUT",
+        headers: {
+          "Authorization": "Bearer " + token,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          message: "Menambahkan konten baru",
+          content: btoa(markdown) // Mengenkripsi konten markdown ke base64
+        })
+      })
+      .then(response => {
+        if (response.ok) {
+          alert("Konten berhasil disimpan!");
+        } else {
+          alert("Terjadi kesalahan saat menyimpan konten.");
+        }
+      })
+      .catch(error => {
+        alert("Terjadi kesalahan saat menyimpan konten: " + error);
+      });
+    }
+  </script>
+
+</body>
+</html>
