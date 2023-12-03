@@ -2,62 +2,22 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Input dan Simpan ke GitHub</title>
+  <title>Buat Postingan Jekyll</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+  <h1>Buat Postingan Jekyll</h1>
 
-  <h1>Input Nama/Judul dan Konten</h1>
-
-  <div>
-    <label for="judul">Nama/Judul:</label>
-    <input type="text" id="judul" required>
-  </div>
-
-  <div>
+  <form id="form">
+    <label for="judul">Judul:</label>
+    <input type="text" id="judul" required><br>
     <label for="konten">Konten:</label>
-    <textarea id="konten" rows="4" cols="50" required></textarea>
-  </div>
+    <textarea id="konten" rows="4" cols="50" required></textarea><br>
+    <input type="submit" value="Buat Postingan">
+  </form>
 
-  <button onclick="simpanKonten()">Simpan ke GitHub</button>
+  <div id="pesan"></div>
 
-  <script>
-    function simpanKonten() {
-      var judul = document.getElementById("judul").value;
-      var konten = document.getElementById("konten").value;
-
-      // Membuat konten markdown
-      var markdown = "# " + judul + "\n\n" + konten;
-
-      // Mengirim konten markdown ke GitHub
-      var token = "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";
-      var username = "ajisetiawan716";
-      var repository = "ajisetiawan716.github.io";
-      var file = judul.replace(/\s+/g, "-") + ".md"; // Menggunakan judul sebagai nama file
-      var url = "https://api.github.com/repos/" + username + "/" + repository + "/contents/_posts/" + file;
-
-      fetch(url, {
-        method: "PUT",
-        headers: {
-          "Authorization": "Bearer " + token,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          message: "Menambahkan konten baru",
-          content: btoa(markdown) // Mengenkripsi konten markdown ke base64
-        })
-      })
-      .then(response => {
-        if (response.ok) {
-          alert("Konten berhasil disimpan!");
-        } else {
-          alert("Terjadi kesalahan saat menyimpan konten.");
-        }
-      })
-      .catch(error => {
-        alert("Terjadi kesalahan saat menyimpan konten: " + error);
-      });
-    }
-  </script>
-
+  <script src="script.js"></script>
 </body>
 </html>
