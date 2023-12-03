@@ -6,7 +6,7 @@ document.getElementById("form").addEventListener("submit", function(e) {
   var file = judul.replace(/\s+/g, "-").toLowerCase() + ".md"; // Membuat nama file dari judul dan mengganti spasi dengan tanda strip
 
   var url = "https://api.github.com/repos/YOUR_USERNAME/YOUR_REPOSITORY/contents/_posts/" + file;
-  var token = "YOUR_GITHUB_TOKEN";
+  var token = "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";
 
   var data = {
     message: "Menambahkan postingan baru",
