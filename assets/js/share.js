@@ -1,4 +1,3 @@
-<script>
         document.querySelector('#bagikan')
         .addEventListener('click', event => {
   
@@ -29,4 +28,3 @@
                 alert("Use HTTPS, or another browser.");
             }
         })
-    </script>
