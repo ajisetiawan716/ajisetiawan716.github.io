@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-permalink: /
+permalink: https:/www.ajisetiawan.my.id
 ---
 
 {% include landing.html %}
