@@ -19,7 +19,11 @@
     <div class="container">
         <a class="brand" href="{{ site.baseurl }}/"><h5><b>{{ site.title }}</b></h5></a>
         <div id="menu">
-         <!-- Original -->   
+         <!-- Original -->
+<nav class="navbar navbar-expand-lg navbar-themed">	
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto">
 
@@ -76,8 +80,8 @@
       <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
     </div>
   </div>
+</nav>		
             <!-- Original -->
         </div>
-        {% include toggle-menu.html %}
     </div>
 </div>
