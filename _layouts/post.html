@@ -13,11 +13,10 @@ layout: page
     {{ words | divided_by: 180 }} mins read time
   {%- endif -%}
   </b>
-
-  <br>
 <img alt="Hits" src="https://hits.sh/{{ site.url | remove: "https://" }}{{ site.baseurl }}{{ page.url }}.svg?style=flat-square&label=Views&color=708aea"/>
-  <br>
   
+  <br>
+
   {%- if page.tags != empty -%}
     Tags: 
     {% for tag in page.tags %}
