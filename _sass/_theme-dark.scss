@@ -38,6 +38,11 @@ $dark-900: #17191a;
       color: $text-white;
     }
   }
+  
+  // Navbar
+  .navbar {
+    background-color: $dark-600;
+  }
 
   // Cards
   .card {
