@@ -13,8 +13,7 @@ layout: page
     {{ words | divided_by: 180 }} mins read time
   {%- endif -%}
   </b>
-<img alt="Hits" src="https://hits.sh/{{ site.url | remove: "https://" }}{{ site.baseurl }}{{ page.url }}.svg?style=flat-square&label=Views&color=708aea"/>
-  
+
   <br>
 
   {%- if page.tags != empty -%}
@@ -24,7 +23,8 @@ layout: page
       <span class="tag badge badge-pill text-primary border border-primary">{{ tag }}</span>
     </a>
     {% endfor %}
-  {%- endif -%}
+  {%- endif -%} <img alt="Hits" src="https://hits.sh/{{ site.url | remove: "https://" }}{{ site.baseurl }}{{ page.url }}.svg?style=flat-square&label=Views&color=708aea"/>
+  
 </p>
 </p>
 <!-- trakteer widget -->
