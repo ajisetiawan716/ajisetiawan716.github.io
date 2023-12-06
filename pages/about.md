@@ -17,9 +17,7 @@ I am a student at <b>STIES Putera Bangsa Tegal</b> with a study focus in Islamic
 
 <p class="text-center"> {% include social.html %} </p>
 <p class="text-center">
-<a class="m-1 btn btn-outline-primary btn-2 " href="#" id="buttonmodal">
-  Donate Me
-</a></p>
+{% include elements/button.html link="#" id="buttonmodal" text="Donate Me" %}</p>
 <br>
 <br>
 ### **My Skills**
