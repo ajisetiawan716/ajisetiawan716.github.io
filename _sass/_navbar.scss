@@ -33,3 +33,15 @@
     margin-top: -0.25em;
   }
 }
+
+#navigation {background: white; border-bottom: 0.0625rem solid #e5e5e5; position: fixed; width: 100%; z-index: 99;}
+#navigation .container {display: flex; align-items: center;}
+#navigation .container #menu {display: flex; align-items: center; justify-content: space-between; flex-grow: 1;}
+#navigation ul {display: flex; align-items: center;}
+#navigation ul li {list-style: none;}
+#navigation .brand img {display: inline-block; height: 2rem; vertical-align: middle;}
+#navigation .brand {font-size: 1.05rem; color: #777777; padding: 0.25rem 0.9rem 0.25rem 0;}
+#navigation ul li a {display: block; color: #777777; text-decoration: none; padding: 0.25rem 0.9rem;}
+#navigation .brand:hover, #navigation ul li a:hover, #navigation ul li.active a {color: #d9230f;}
+#navigation ul li svg {height: 1rem; fill: #777; position: relative; top: 0.0625rem;}
+
