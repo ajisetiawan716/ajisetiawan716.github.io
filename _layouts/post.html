@@ -15,7 +15,9 @@ layout: page
   </b>
 
   <br>
-
+<img alt="Hits" src="https://hits.sh/{{ site.url | remove: "https://" }}{{ site.baseurl }}{{ page.url }}.svg?style=flat-square&label=Views&color=708aea"/>
+  <br>
+  
   {%- if page.tags != empty -%}
     Tags: 
     {% for tag in page.tags %}
@@ -24,8 +26,6 @@ layout: page
     </a>
     {% endfor %}
   {%- endif -%}
-  <br>
-  <img alt="Hits" src="https://hits.sh/{{ site.url | remove: "https://" }}{{ site.baseurl }}{{ page.url }}.svg?style=flat-square&label=Views&color=708aea"/>
 </p>
 </p>
 <!-- trakteer widget -->
