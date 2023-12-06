@@ -27,7 +27,8 @@
   }
 }
 
-.navbar-brand {
+.navbar-brand {  
+  position:fixed;
   margin-bottom: -14px;
   &::after {
     margin-top: -0.25em;
