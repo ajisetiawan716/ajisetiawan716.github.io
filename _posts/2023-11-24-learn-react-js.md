@@ -220,6 +220,6 @@ class Hello extends React.Component {
 
 The **updateMessage** method then calls **this.setState()** which changes the `this.state.message` value. And when we click the button, here’s how that will play out:
 
-[video link](https://youtu.be/iWowJBRMtpc?t=90s){:.no-lightbox}
+[image link](https://jekyllcodex.org/uploads/grumpycat.jpg){:.no-lightbox}
 
 Congrats! You now have a very basic understanding of the most important concepts in React.
