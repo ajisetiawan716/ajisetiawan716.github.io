@@ -12,8 +12,8 @@
       </h5>
       <p id="{{ service_id }}-desc" class="card-text">{{ service_desc }}</p>
       <p id="{{ service_id }}-tools" class="card-text">
-        {%- for tool in service_tools -%}
-        <span class="badge badge-pill text-primary border border-primary ml-1">{{ tool }}</span>
+        {%- for tag in service_tags -%}
+        <span class="badge badge-pill text-primary border border-primary ml-1">{{ tag }}</span>
         {%- endfor -%}
       </p>
     </div>
