@@ -4,7 +4,7 @@ layout: page
 
 <h1><b>{{ page.title }}</b></h1>
 <p class="post-metadata text-muted">
-  <i class="fa fa-calendar fa-1x"></i>{{ page.date | date_to_long_string }} -  
+  <i class="fa fa-calendar fa-1x"></i> {{ page.date | date_to_long_string }} -  
   <b>
   {%- assign words = content | number_of_words -%}
   {%- if words < 360 -%}
