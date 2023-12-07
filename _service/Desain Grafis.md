@@ -1,6 +1,6 @@
 ---
 name: Desain Grafis
-tags: [Desain, Layanan, Jasa]
+tools: [Desain, Layanan, Jasa]
 image: https://www.ajisetiawan.my.id/assets/img/content/desain-grafis-thumb.jpg
 description: Design flyers, certificates, social media promotion feeds.
 ---
