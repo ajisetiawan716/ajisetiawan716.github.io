@@ -7,7 +7,7 @@ weight: 4
 
 <p align="center">
   <a href="{{ site.baseurl }}">
-    <img src="{{ site.author.image }}" alt="{{ site.title }}" width="168px" height="168px" style="display:flex;">
+    <img src="{{ site.author.image }}" alt="{{ site.title }}" width="168px" height="168px" style="display:flex;" class="circle-image">
   </a>
 <br>
 
