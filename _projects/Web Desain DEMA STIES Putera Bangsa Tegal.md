@@ -1,6 +1,6 @@
 ---
 name: Web Desain - DEMA STIES Putera Bangsa Tegal
-tools: [Web Design, Wordpress, Website, Blog]
+tags: [Web Design, Wordpress, Website, Blog]
 image: https://www.ajisetiawan.my.id/assets/img/content/web-desain1.png
 description: Portofolio web desain dan konten situs web DEMA STIES Putera Bangsa Tegal.
 ---
