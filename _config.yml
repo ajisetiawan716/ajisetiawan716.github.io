@@ -10,10 +10,9 @@ open_new_tab        : false                             # Opens external URLs in
 
 
 ### Plugins ###
-plugins:
+plugins: [jekyll-paginate]
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-paginate 
   - jekyll-redirect-from
   - jemoji
 
