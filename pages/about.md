@@ -6,7 +6,7 @@ weight: 4
 ---
 
 <p align="center">
-    <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s"">
+    <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
 <br>
 
 Hi I am <b>{{ site.author.name }}</b> :wave:,<br>
