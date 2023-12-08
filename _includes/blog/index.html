@@ -1,6 +1,6 @@
 <div class="card-group mt-2">
 
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
     {% include blog/post-card.html %}
     {% include blog/pagination.html %}
   {% endfor %}
