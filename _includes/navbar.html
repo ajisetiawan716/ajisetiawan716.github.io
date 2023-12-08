@@ -54,23 +54,26 @@
 
       {%- endfor -%}
 
-      {% for html_page in filtered_pages %}  
+{% for html_page in filtered_pages %}
 
-        {%- if page.url contains html_page.url -%}
-          {%- assign active_status = "active" -%}
-        {%- else -%}
-          {%- assign active_status = "" -%}
-        {%- endif -%}
+  {%- if page.url contains html_page.url -%}
+    {%- assign active_status = "active" -%}
+  {%- else -%}
+    {%- assign active_status = "" -%}
+  {%- endif -%}
 
-        {%- if html_page.external_url -%}
-          {%- assign url = html_page.external_url -%}
-        {%- else -%}
-          {%- assign url = html_page.url | relative_url -%}
-        {%- endif -%}
+  {%- if html_page.url == "/blog/" or html_page.url contains "/blog/" and html_page.url != "/blog/page" -%}
+    {%- if html_page.external_url -%}
+      {%- assign url = html_page.external_url -%}
+    {%- else -%}
+      {%- assign url = html_page.url | relative_url -%}
+    {%- endif -%}
 
-        <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">{{ html_page.title }}</a>
+    <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">{{ html_page.title }}</a>
+  {%- endif -%}
 
-      {% endfor %}
+{% endfor %}
+
       
       <!-- start google translate button-->
       <div id="google_translate_element" class="nav-item nav-link"></div>
