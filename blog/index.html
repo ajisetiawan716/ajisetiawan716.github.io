@@ -59,6 +59,8 @@ weight: 2
       {{ post.date | date_to_long_string }}
     </div>
   </a>
+  
+  {% include blog/reading_time.html %}
 </div>
 {% endfor %}
 
