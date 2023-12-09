@@ -2,6 +2,7 @@ $dark-100: $dark;
 $dark-300: #404040;
 $dark-600: #242526;
 $dark-900: #17191a;
+$dark_btn_color: #E74C3C;
 
 [data-theme="dark"] {
   body {
@@ -77,26 +78,45 @@ $dark-900: #17191a;
     }
   }
 
-  // Post
+  /* Post */
   .post footer {
     text-decoration: none;
   }
 
-  // Timeline 
+  /* Timeline */
   .timeline-body .timeline-item:after{
     background-color: $dark-900;
   }
 
-  // Modal Pop Up Payment
+  /* Modal Pop Up Payment */
   .modal-content {
     background-color: #4e4e4e;
     color: $text-white
   }
 
-  // Text Color Payment Page
+  /* Text Color Payment Page */
   .tcolor {
     color: $text-white
   }
+  
+  /* Pagination Theme */
+  .pagination-box-hit {
+		border:2px solid $dark_btn_color;
+		background-color: $dark_btn_color;
+    }
+	.pagination-box-idle {
+		border:2px solid #333;
+		color: $dark_btn_color
+	}
+	.pagination{
+		a {
+			&:hover {
+				border:2px solid $dark_btn_color;
+				background-color: $dark_btn_color;
+			}
+		}
+	}
+ /* end of pagination theme */ 
 }
 
 
