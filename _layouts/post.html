@@ -13,7 +13,7 @@ layout: page
     {{ words | divided_by: 180 }} mins read time
   {%- endif -%}
   </b> 
-  <i class="fa fa-book fa-1x"> {{words}} words</i>
+  <span class="fa fa-envelope" style="position: absolute; top: 0; right: 0;"> {{ words }} words</span>
   <br>
 
   {%- if page.tags != empty -%}
