@@ -3,6 +3,7 @@ $dark-300: #404040;
 $dark-600: #242526;
 $dark-900: #17191a;
 $dark_btn_color: #E74C3C;
+$text-white: #ffffff;
 
 [data-theme="dark"] {
   body {
@@ -11,7 +12,6 @@ $dark_btn_color: #E74C3C;
   }
 
   // Code blocks & Syntax highlighting
-
   @import "native.scss";
 
   pre,
@@ -28,7 +28,7 @@ $dark_btn_color: #E74C3C;
   input {
     background-color: $dark-300;
     border-color: $dark-100;
-    color: #ffffff;
+    color: $text-white;
 
     &::placeholder {
       color: rgba($text-white, 0.64);
@@ -39,7 +39,7 @@ $dark_btn_color: #E74C3C;
       color: $text-white;
     }
   }
-  
+
   // Navbar
   .navbar {
     background-color: $dark-600;
@@ -48,11 +48,11 @@ $dark_btn_color: #E74C3C;
   // Cards
   .card {
     background-color: $dark-600;
-  }
 
-  .card.border {
-    .card-footer {
-      background-color: rgba(0, 0, 0, 0.1);
+    &.border {
+      .card-footer {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
     }
   }
 
@@ -84,40 +84,39 @@ $dark_btn_color: #E74C3C;
   }
 
   /* Timeline */
-  .timeline-body .timeline-item:after{
+  .timeline-body .timeline-item:after {
     background-color: $dark-900;
   }
 
   /* Modal Pop Up Payment */
   .modal-content {
     background-color: #4e4e4e;
-    color: $text-white
+    color: $text-white;
   }
 
   /* Text Color Payment Page */
   .tcolor {
-    color: $text-white
+    color: $text-white;
   }
-  
+
   /* Pagination Theme */
   .pagination-box-hit {
-		border:2px solid $dark_btn_color;
-		background-color: $dark_btn_color;
+    border: 2px solid $dark_btn_color;
+    background-color: $dark_btn_color;
+  }
+
+  .pagination-box-idle {
+    border: 2px solid #333;
+    color: $dark_btn_color;
+  }
+
+  .pagination-theme {
+    a {
+      &:hover {
+        border: 2px solid $dark_btn_color;
+        background-color: $dark_btn_color;
+      }
     }
-	.pagination-box-idle {
-		border:2px solid #333;
-		color: $dark_btn_color
-	}
-	.pagination-theme{
-		a {
-			&:hover {
-				border:2px solid $dark_btn_color;
-				background-color: $dark_btn_color;
-			}
-		}
-	}
- /* end of pagination theme */ 
+  }
+  /* end of pagination theme */
 }
-
-
-    
