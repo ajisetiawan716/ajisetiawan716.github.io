@@ -1,6 +1,15 @@
 
 {% assign words = post.content | strip_html | strip_newlines | remove: " " | size %}
-{% assign time = post.content | strip_html | strip_newlines | remove: " " | size | divided_by: 400 | plus: 1 %}
+{% assign words = content | number_of_words %}
+{% assign time = words | divided_by: 180 %}
+{% if time < 1 %}
+  {% assign seconds = words | times: 0.3 | round %}
+  {% assign read_time = '00:' | append: seconds %}
+{% else %}
+  {% assign minutes = time | floor %}
+  {% assign seconds_remaining = words | modulo: 180 | times: 0.3 | round %}
+  {% assign read_time = minutes | append: ':' | append: '%02d' | format: seconds_remaining %}
+{% endif %}
 
     <div class="readingtime-meta">
 	    <div>
