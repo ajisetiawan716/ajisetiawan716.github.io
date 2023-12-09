@@ -1,13 +1,7 @@
-{% assign words = content | number_of_words %}
-{% assign time = words | divided_by: 180 %}
-{% if time < 1 %}
-  {% assign seconds = words | times: 0.3 | round %}
-  {% assign read_time = '00:' | append: seconds %}
-{% else %}
-  {% assign minutes = time | floor %}
-  {% assign seconds_remaining = words | modulo: 180 | times: 0.3 | round %}
-  {% assign read_time = minutes | append: ':' | append: '%02d' | format: seconds_remaining %}
-{% endif %}
+{% assign word = content | split: ' ' | size %}
+{% assign time = word | divided_by: 200 | plus: 1 %}
+{% assign minutes = time | divided_by: 1 %}
+{% assign seconds = (time | times: 60) | minus: (minutes | times: 60) %}
 
     <div class="readingtime-meta">
 	    <div>
