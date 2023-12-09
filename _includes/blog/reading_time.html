@@ -6,7 +6,7 @@
 {% else %}
   {% assign minutes = time | floor %}
   {% assign seconds_remaining = words | modulo: 180 | times: 0.3 | round %}
-  {% assign time = minutes | append: ':' | append: '%02d' | format: seconds_remaining %}
+  {% assign time = minutes | append: ':' | append: '%02s' | format: seconds_remaining %}
 {% endif %}
 
     <div class="readingtime-meta">
