@@ -1,12 +1,12 @@
-<div class="rect">
+<div class="relatedPosts">
 
-  {% assign maxRelated = 4 %}
-  {% assign minCommonTags =  1 %}
-  {% assign maxRelatedCounter = 0 %}
+<h4>You May Also Enjoy</h4>
 
+{% assign maxRelated = 4 %}
+{% assign minCommonTags =  2 %}
+{% assign maxRelatedCounter = 0 %}
 
   {% for post in site.posts %}
-
 
     {% assign sameTagCount = 0 %}
     {% assign commonTags = '' %}
@@ -22,18 +22,15 @@
     {% endfor %}
 
     {% if sameTagCount >= minCommonTags %}
-
-          <a href="{{ site.baseurl }}{{ post.url }}">
-              <div class="rel">
-                  <h5>{{ post.title }}</h5>
-                  <img width="100%" src="/thumbs/{{post.image}}">
-              </div>
-          </a>
-
+      <div>
+      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a></h5>
+      </div>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
         {% break %}
       {% endif %}
     {% endif %}
+
   {% endfor %}
+
 </div>
