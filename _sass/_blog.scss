@@ -70,6 +70,17 @@ $btnColor: #4183c4;
     margin-bottom: 18px;
     font-size: 15px;
 }
+.tip-block a {
+    background-color: #673AB7;
+    padding: 2px 10px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    transition: all .25s;
+}
 /* End of Tip */
 
 /* Related Post */
