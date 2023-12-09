@@ -14,8 +14,7 @@ layout: page
   {%- endif -%}
   </b> 
   <span class="fa fa-book fa-1x" style="position: absolute; top: 20px; right: 0;"> {{ words }} words</span><br>
-  <span class="fa fa-eye fa-1x" style="position: absolute; top: 70px; right: 0;"> <span id="busuanzi_value_page_pv" class="text-muted"></span></span>
-<br>
+  <br>
 
   {%- if page.tags != empty -%}
     Tags: 
@@ -25,6 +24,7 @@ layout: page
     </a>
     {% endfor %}
   {%- endif -%}
+  <span class="fa fa-eye fa-1x" style="position: absolute; top: 70px; right: 0;"> <span id="busuanzi_value_page_pv" class="text-muted"></span></span>
   <br>
   <img style="margin: 5px 0px;" alt="Hits" src="https://hits.sh/{{ site.url | remove: 'https://' }}{{ site.baseurl }}{{ page.url }}.svg?style=flat-square&label=Views&color=708aea"/>
 </p>
