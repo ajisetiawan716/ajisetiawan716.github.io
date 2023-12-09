@@ -6,13 +6,15 @@ layout: page
 <p class="post-metadata text-muted">
   <i class="fa fa-calendar fa-1x"></i> {{ page.date | date_to_long_string }} -  
   <i class="fa fa-clock-o fa-1x"></i> <b>
-  {%- assign words = content | number_of_words -%}
-  {%- if words < 360 -%}
+  {%- assign time = content | number_of_words -%}
+  {%- if time < 360 -%}
     less than 1 min read time
   {%- else -%}
-    {{ words | divided_by: 180 }} mins read time
+    {{ time | divided_by: 180 }} mins read time
   {%- endif -%}
-  </b>
+  </b> 
+  {% assign words = post.content | number_of_words %}
+  <i class="fa fa-book fa-1x"> {{words}} words</i>
 
   <br>
 
