@@ -15,8 +15,8 @@
   <span class="icon-hourglass readingtime" style="margin-right:20px">阅读时间：{{ time }} {%if time > 1 %}mins{% else %}min{% endif %}</span>
   <span class="icon-book readingtime" >字数：{{ words }}</span>
 {% else %}
-  <span class="fa fa-clock-o fa-1x" style="margin-left:30px;"> {{ time }} minutes</span>
-  <span style="display: inline-block; text-align: right;">
+  <span class="fa fa-clock-o fa-1x" style="margin-left:20px;"> {{ time }} minutes</span>
+  <span style="position: relative; left: 30px;">
   <i class="fa fa-book fa-1x"></i> {{ words }} words
 </span>
 {% endif %}
