@@ -1,4 +1,4 @@
-{% assign words = post.content | number_of_words %}
+{% assign words = content | number_of_words %}
 {% assign time = words | divided_by: 180 %}
 {% if time < 1 %}
   {% assign seconds = words | times: 0.3 | round %}
@@ -6,7 +6,8 @@
 {% else %}
   {% assign minutes = time | floor %}
   {% assign seconds_remaining = words | modulo: 180 | times: 0.3 | round %}
-  {% assign time = minutes | append: ':' | append: '%02s' | format: seconds_remaining %}
+  {% assign formatted_seconds = seconds_remaining | format: '%02d' %}
+  {% assign time = minutes | append: ':' | append: formatted_seconds %}
 {% endif %}
 
     <div class="readingtime-meta">
