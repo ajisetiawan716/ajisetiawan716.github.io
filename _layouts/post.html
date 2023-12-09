@@ -13,9 +13,11 @@ layout: page
     {{ words | divided_by: 180 }} mins read time
   {%- endif -%}
   </b> 
-  <span class="fa fa-book fa-1x" style="position: absolute; top: 10; right: 0;"> {{ words }} words</span>
-  <span class="fa fa-eye fa-1x" style="position: absolute; top: 12; right: 0;"> <span id="busuanzi_value_page_pv" class="text-muted"></span></span>
-  <br>
+<div style="position: relative;">
+  <span class="fa fa-book fa-1x" style="position: absolute; top: 10px; left: 0;"> {{ words }} words</span>
+  <span class="fa fa-eye fa-1x" style="position: absolute; top: 10px; right: 0;"> <span id="busuanzi_value_page_pv" class="text-muted"></span></span>
+</div>
+<br>
 
   {%- if page.tags != empty -%}
     Tags: 
