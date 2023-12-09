@@ -13,7 +13,7 @@ layout: page
     {{ words | divided_by: 180 }} mins read time
   {%- endif -%}
   </b> 
-  <span class="fa fa-book fa-1x" style="position: absolute; top: 50px; right: 0;"> {{ words }} words</span>
+  <span class="fa fa-book fa-1x" style="position: relative; top: 0px; left: 574px;"> {{ words }} words</span>
   <br>
 
   {%- if page.tags != empty -%}
@@ -24,7 +24,7 @@ layout: page
     </a>
     {% endfor %}
   {%- endif -%}
-  <span class="fa fa-eye fa-1x" style="position: absolute; top: 70px; right: 0;"> <span id="busuanzi_value_page_pv" class="text-muted"></span></span>
+  <span class="fa fa-eye fa-1x" style="relative: absolute; top: 0px; left: 880px;"> <span id="busuanzi_value_page_pv" class="text-muted"></span></span>
   </p>
 </div>
 <!-- trakteer widget -->
