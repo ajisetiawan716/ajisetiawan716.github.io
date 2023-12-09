@@ -1,6 +1,6 @@
 <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
-<div class="pagination">
+<div class="pagination-theme">
   {% if paginator.previous_page %}
     <a class="pagination-box pagination-box-idle" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
   {% else %}
