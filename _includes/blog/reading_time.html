@@ -1,4 +1,4 @@
-{% assign words = content | number_of_words %}
+{% assign words = post.content | number_of_words %}
 {% assign time = words | divided_by: 180 %}
 {% if time < 1 %}
   {% assign seconds = words | times: 0.3 | round %}
