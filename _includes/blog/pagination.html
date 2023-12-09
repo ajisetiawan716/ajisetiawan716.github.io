@@ -1,45 +1,26 @@
-<!-- Pagination -->
+<!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
-<nav aria-label="Page navigation example">
-  <small>
-    <ul class="pagination">
-      {% if paginator.previous_page %}
-        <li class="page-item">
-          <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
-        </li>
-      {% else %}
-        <li class="page-item disabled">
-          <span class="page-link">&laquo; Prev</span>
-        </li>
-      {% endif %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a class="pagination-box pagination-box-idle" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
+  {% else %}
+  <!--do not add button here -->
+  {% endif %}
 
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <li class="page-item active">
-            <span class="page-link">{{ page }}</span>
-          </li>
-        {% elsif page == 1 %}
-          <li class="page-item">
-            <a class="page-link" href="/">{{ page }}</a>
-          </li>
-        {% else %}
-          <li class="page-item">
-            <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-          </li>
-        {% endif %}
-      {% endfor %}
-
-      {% if paginator.next_page %}
-        <li class="page-item">
-          <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
-        </li>
-      {% else %}
-        <li class="page-item disabled">
-          <span class="page-link">&raquo; Next</span>
-        </li>
-      {% endif %}
-    </ul>
-  </small>
-</nav>
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="pagination-box pagination-box-hit">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a class="pagination-box pagination-box-idle" href="{{ '/blog/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a class="pagination-box pagination-box-idle" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+{% endfor %}
+  
+  {% if paginator.next_page %}
+    <a class="pagination-box pagination-box-idle" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"> &raquo;</a>
+  {% else %}
+  <!--do not add button here -->
+  {% endif %}
+</div>
 {% endif %}
-<!-- END Pagination -->
