@@ -1,16 +1,7 @@
-<script>
-//<![CDATA[
-   var disqus_shortname = '{{ site.comments.disqus.shortname }}';
-(function() { // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
-var d = document, s = d.createElement('script'); // IMPORTANT: Replace EXAMPLE with your forum shortname!
-s.src = '//' + disqus_shortname + '.disqus.com/recommendations.js'; s.async = true; s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-//]]>
-</script>
 
 {%- if page.comments != false and jekyll.environment == "production" -%}
-  <div id="disqus_thread"></div>
+<div id="disqus_recommendations"></div>
+<div id="disqus_thread"></div>
   <script type="text/javascript">
     var disqus_shortname = '{{ site.comments.disqus.shortname }}';
     (function() {
