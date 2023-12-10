@@ -1,5 +1,5 @@
 <script>
-   var disqus_shortname = '{{ site.disqus.shortname }}';
+   var disqus_shortname = '{{ site.comments.disqus.shortname }}';
 (function() { 
 var d = document, s = d.createElement('script'); // IMPORTANT: Replace EXAMPLE with your forum shortname!
 s.src = '//' + disqus_shortname + '.disqus.com/recommendations.js'; s.setAttribute('data-timestamp', +new Date());
@@ -16,7 +16,7 @@ comments powered by Disqus.
 {%- if page.comments != false and jekyll.environment == "production" -%}
   <div id="disqus_thread"></div>
   <script type="text/javascript">
-    var disqus_shortname = '{{ site.disqus.shortname }}';
+    var disqus_shortname = '{{ site.comments.disqus.shortname }}';
     (function() {
       var disqus = document.createElement('script');
       disqus.type = 'text/javascript';
