@@ -11,8 +11,6 @@ description: Sepasang Suami-istri tak sengaja tersesat karena masuk terlalu jauh
 ---
 
 
-TEPUK TANGAN
-
 Sepasang Suami-istri tak sengaja tersesat karena masuk terlalu jauh ke dalam hutan ketika mereka sedang mendaki gunung. Hari yang semakin gelap, membuat mereka enggan untuk berjalan lebih jauh karena dapat membahayakan diri mereka.
 
 Dengan sisa-sisa tenaganya, mereka mencoba menapaki lebatnya hutan berharap dapat menemukan jalan keluar sebelum malam benar- benar tiba.
