@@ -10,7 +10,7 @@
 {%- for tag in tags_list -%}
 <div class="signboard-meta">
     <div class="signboard signboard-tag tag-label-orange">
-    <a href="#{{- tag -}}" class="badge badge-primary"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;<span>({{site.tags[tag].size}})</span></a>
+    <a href="#{{- tag -}}"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;<span>({{site.tags[tag].size}})</span></a>
     </div>
 </div>
 {%- endfor -%}
