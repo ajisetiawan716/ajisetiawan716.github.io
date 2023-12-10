@@ -8,7 +8,7 @@
 {%- assign tags_list = site_tags | split:',' | sort -%}
 
 {%- for tag in tags_list -%}
-    <a href="#{{- tag -}}" class="badge {{ badge_style }}><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;<span>({{site.tags[tag].size}})</a></span>
+    <a href="#{{- tag -}}" class="badge badge-primary><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;<span>({{site.tags[tag].size}})</a></span>
 {%- endfor -%}
 
 <div class="py-3">
