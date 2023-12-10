@@ -107,4 +107,4 @@ Tepuk tangan. Tepuk tangan"
 
 _Sumber: creepypasta_
 
-_Ilustrasi: Arsip | Koran Tempo_
+_Ilustrasi: Arsip - Koran Tempo_
