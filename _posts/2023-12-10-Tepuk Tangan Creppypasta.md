@@ -97,15 +97,14 @@ Tepuk tangan. Tepuk tangan. Tepuk tangan. Tepuk tangan.
 
 Tepuk tangan. Tepuk tangan. Tepuk tangan. Tepuk tangan.
 
-Tepuk tangan. Tepuk tangan. Tepuk tangan. Tepuk tanga
+Tepuk tangan. Tepuk tangan. Tepuk tangan. Tepuk tangan.
 
-Tepuk tangan. Tepuk tangan. Tepuk tangan. Tepuk tanga
+Tepuk tangan. Tepuk tangan. Tepuk tangan. Tepuk tangan.
 
 Tepuk tangan. Tepuk tangan"
 
--bubu
 
-sumber: creepypasta
-ilustrasi: Inder Caver | Pinterest
+_Sumber: creepypasta_
+_Ilustrasi: Inder Caver | Pinterest_
 
 #bubupedia #bubuhoror #bubumisteri #creepypasta
