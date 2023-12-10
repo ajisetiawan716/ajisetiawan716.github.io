@@ -1,3 +1,23 @@
+{%- comment -%} Default Styles {%- endcomment -%}
+{%- assign card_style  = '' -%}
+{%- assign text_style  = 'text-themed' -%}
+{%- assign badge_style = 'badge-dark' -%}
+
+{%- comment -%} Update Styles {%- endcomment -%}
+{%- if post.style == 'fill' -%}
+  {%- assign card_style = post.color | prepend: 'bg-' -%}
+  {%- if post.color != 'light' -%}
+    {%- assign text_style  = 'text-white' -%}
+    {%- assign badge_style = 'badge-light text-' -%}
+    {%- assign badge_style = badge_style | append: post.color -%}
+  {%- endif -%}
+{%- else -%}
+  {%- assign card_style = post.color | prepend: 'border border-' -%}
+  {%- if post.color -%}
+    {%- assign badge_style =  post.color | prepend: 'badge-' -%}
+  {%- endif -%}
+{%- comment -%} End Modif {%- endcomment -%}
+
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 
 {%- capture site_tags -%}
@@ -8,15 +28,15 @@
 {%- assign tags_list = site_tags | split:',' | sort -%}
 
 {%- for tag in tags_list -%}
-    <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
+    <a href="#{{- tag -}}" class="badge {{ badge_style }}><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
 {%- endfor -%}
 
 <div class="py-3">
 {%- for tag in tags_list -%}
-    <h2 id="{{- tag -}}" class="linked-section">
+    <h4 id="{{- tag -}}" class="linked-section">
         <i class="fas fa-tag" aria-hidden="true"></i>
         &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
-    </h2>
+    </h4>
     <div class="post-list">
         {%- for post in site.tags[tag] -%}
             <div class="tag-entry">
