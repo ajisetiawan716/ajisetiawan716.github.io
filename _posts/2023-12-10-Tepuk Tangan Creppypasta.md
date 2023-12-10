@@ -106,6 +106,5 @@ Tepuk tangan. Tepuk tangan"
 
 
 _Sumber: creepypasta_
-_Ilustrasi: Inder Caver | Pinterest_
 
-#bubupedia #bubuhoror #bubumisteri #creepypasta
+_Ilustrasi: Arsip | Koran Tempo_
