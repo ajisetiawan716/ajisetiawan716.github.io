@@ -102,6 +102,16 @@ $btnColor: #4183c4;
      opacity: 1;    
 }
 /* End of Related Post */
+
+/* Start of Span Tag*/
+.signboard a span {
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    vertical-align: super;
+    font-size: 10px;
+    padding-left: 2px;
+}
+/* End of Span Tag */	
 .post {
   .post-metadata {
     font-size: 14px;
