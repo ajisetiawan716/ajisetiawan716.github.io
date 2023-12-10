@@ -7,7 +7,7 @@ baseurl             : ""                     # Change to empty quotes if you are
 repository          : ajisetiawan716/ajisetiawan716.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : ajisetiawan716/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
-
+breadcrumbs         : true # true, false (default)
 
 ### Plugins ###
 plugins: 
@@ -72,18 +72,33 @@ collections:
     output: false                                        # For Documentation Only
 
 
-### Disqus ###
-disqus:
-  shortname: ajisetiawan                      # Your website Shortname on disqus
-
+### Disqus ## #comments:
+comments:
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  disqus:
+    shortname            : "ajisetiawan" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+      
+# SEO Related
+google_site_verification : "YOUR_GOOGLE_SITE_CODE"
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
 
 ### Analytics ###
 analytics:
+  provider: "google" # false (default), "google", "google-universal", "custom"
   enabled: false                                        # Set true to enable analytics
   google:
     tracking_id: your-google-tracking-id
 
-### Google Translate ###
+### Google Adsense ###
 tagmanager:
   enabled: true                                        # Set true to enable google Adsense
   google:
@@ -125,7 +140,6 @@ defaults:
       path: ""
       type: "posts"
     values:
-      comments: true                                   # Set to true to enable disqus comments
 
 
 ### Exclude from processing ###
