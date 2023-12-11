@@ -86,7 +86,7 @@
           {%- assign icon_class = "fas fa-book" -%}
         {%- elsif html_page.title == "About" -%}
           {%- assign icon_class = "fas fa-user" -%}
-        {%- elsif html_page.title == "Portfolio" -%}
+        {%- elsif html_page.title == "Projects" -%}
           {%- assign icon_class = "fas fa-briefcase" -%}
         {%- endif -%}
 
@@ -94,8 +94,7 @@
           <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">{{ html_page.title }}</a>
         {%- else -%}
           <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">
-            {{ html_page.title }}
-            <i class="{{ icon_class }}"></i>
+           <i class="{{ icon_class }}"></i> {{ html_page.title }}     
           </a>
         {%- endif -%}
       {%- endfor %}
