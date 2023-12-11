@@ -83,9 +83,9 @@
         {%- assign icon_class = "" -%}
 
        
-        {%- elseif html_page.title == "Home" -%}
+        {%- if html_page.title == "Home" -%}
           {%- assign icon_class = "fa fa-home" -%}
-        {%- if html_page.title == "Blog" -%}
+        {%- elsif html_page.title == "Blog" -%}
           {%- assign icon_class = "fa fa-pencil-square" -%}
         {%- elsif html_page.title == "About" -%}
           {%- assign icon_class = "fas fa-user" -%}
