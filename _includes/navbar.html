@@ -38,11 +38,6 @@
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto">
-{%- if page.url == site.baseurl -%}
-  {%- assign active_status = "active" -%}
-{%- else -%}
-  {%- assign active_status = "" -%}
-{%- endif -%}
       {%- assign html_pages = site.html_pages | sort: 'weight' -%}
       {%- assign filtered_pages = "" | split: "" -%}
 
@@ -68,11 +63,15 @@
       {%- endfor -%}
 
       {%- for html_page in filtered_pages %}
-        {%- if page.url contains html_page.url -%}
-          {%- assign active_status = "active" -%}
-        {%- else -%}
-          {%- assign active_status = "" -%}
-        {%- endif -%}
+  {%- if page.url contains html_page.url -%}
+    {%- assign active_status = "active" -%}
+  {%- else -%}
+    {%- if html_page.title == "Home" and page.url != "/" -%}
+      {%- assign active_status = "" -%}
+    {%- else -%}
+      {%- assign active_status = "" -%}
+    {%- endif -%}
+  {%- endif -%}
 
         {%- if html_page.url contains "/blog/" and html_page.url != "/blog/" -%}
           {%- continue -%}
