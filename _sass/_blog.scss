@@ -136,6 +136,11 @@ $linkColor: #0366d6;
     }
   }
 }
+/* CSS Tambahan untuk Hover pada Link di dalam .signboard */
+.signboard a:hover {
+  color: silver; /* Ganti dengan warna silver atau properti lain yang diinginkan */
+  /* Atau tambahkan efek lain yang diinginkan */
+}
 .signboard-archive {
   a {
     &:hover {
