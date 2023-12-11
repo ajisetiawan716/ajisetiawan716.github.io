@@ -143,9 +143,9 @@ $linkColor: #0366d6;
 .signboard-archive {
 	a {
 		&:hover {
-			color: $linkColor!important;
+			color: $linkColor;
 			span {
-				color: $linkColor!important;
+				color: $linkColor;
 			}
 		}
 	}
@@ -154,10 +154,10 @@ $linkColor: #0366d6;
     a {
 		font-family: Raleway, Arial, sans-serif; 		
 		&:hover {
-			color: #CB4335!important;
+			color: #CB4335;
 			font-weight: bold;
 			span {
-				color: #CB4335!important;
+				color: #CB4335;
 				font-weight: bold;
 			}
 		}
