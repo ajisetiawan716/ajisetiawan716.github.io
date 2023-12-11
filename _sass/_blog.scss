@@ -143,9 +143,9 @@ $linkColor: #0366d6;
 .signboard-archive {
 	a {
 		&:hover {
-			color: $linkColor;
+			color: $linkColor!important;
 			span {
-				color: $linkColor;
+				color: $linkColor!important;
 			}
 		}
 	}
@@ -154,10 +154,10 @@ $linkColor: #0366d6;
     a {
 		font-family: Raleway, Arial, sans-serif; 		
 		&:hover {
-			color: #CB4335;
+			color: #CB4335!important;
 			font-weight: bold;
 			span {
-				color: #CB4335;
+				color: #CB4335!important;
 				font-weight: bold;
 			}
 		}
@@ -181,9 +181,9 @@ $linkColor: #0366d6;
 }
 .tag-label-orange {
   a {
-    background-color: #F39C12 !important;
+    background-color: #F39C12!important;
 	span {
-		background-color: #F39C12 !important;
+		background-color: #F39C12!important;
 	}
   }
 }
