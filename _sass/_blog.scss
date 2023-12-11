@@ -108,16 +108,19 @@ $linkColor: #0366d6;
 }
 /* End of Related Post */
 
+
 /* Start of Span Tag*/
 .signboard {
   margin-bottom: 20px;
   margin-right: 10px;
+
   a {
     padding: 6px 20px 6px 22px;
     font-size: 14px;
     border-radius: 40px;
     color: #ffffff;
     text-decoration: none;
+
     span {
       color: #ffffff;
       font-family: Roboto, sans-serif;
@@ -125,10 +128,14 @@ $linkColor: #0366d6;
       font-size: 10px;
       padding-left: 2px;
     }
+
     @media screen and (max-width: $mobileW) {
       margin-top: 5px;
     }
-    &:hover {
+  }
+
+  &:hover {
+    a {
       background-color: #e3e3e3;
       span {
         background-color: #e3e3e3;
@@ -136,11 +143,7 @@ $linkColor: #0366d6;
     }
   }
 }
-/* CSS Tambahan untuk Hover pada Link di dalam .signboard */
-.signboard a:hover {
-  color: silver; /* Ganti dengan warna silver atau properti lain yang diinginkan */
-  /* Atau tambahkan efek lain yang diinginkan */
-}
+
 .signboard-archive {
   a {
     &:hover {
