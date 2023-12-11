@@ -9,7 +9,7 @@
   }
 </script>
 
-<!-- Perbaikan pada URL skrip Google Translate: -->
+<!--  Google Translate: -->
 <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <!-- end of google translate button-->
 {%- endif -%}
@@ -81,7 +81,8 @@
         {%- endif -%}
 
         {%- assign icon_class = "" -%}
-
+        {%- if html_page.title == "Home" -%}
+          {%- assign icon_class = "fa fa-home" -%}
         {%- if html_page.title == "Blog" -%}
           {%- assign icon_class = "fas fa-book" -%}
         {%- elsif html_page.title == "About" -%}
