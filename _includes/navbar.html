@@ -1,81 +1,111 @@
 {%- if site.translate.enabled == true -%}
-	<!-- google translate button-->
-	<script type="text/javascript">
-	function googleTranslateElementInit() {
-	  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-	}
-	</script>
+<!-- google translate button-->
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      { pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE },
+      'google_translate_element'
+    );
+  }
+</script>
 
-	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-	<!-- end of google translate button-->
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- end of google translate button-->
 {%- endif -%}
 
 <!-- Javascript reminder -->
 <noscript>
-    <meta http-equiv="refresh" content="0; url=/404.html" />
+  <meta http-equiv="refresh" content="0; url=/404.html" />
 </noscript>
 
 <nav class="navbar navbar-expand-lg navbar-themed fixed-top">
 
-  <a class="navbar-brand" href="{{ site.baseurl }}/"><h5><b>{{ site.title }}</b></h5></a>
+  <a class="navbar-brand" href="{{ site.baseurl }}/">
+    <h5><b>{{ site.title }}</b></h5>
+  </a>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
     <i class="fas fa-1x fa-bars text-themed"></i>
   </button>
 
-<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-  <div class="navbar-nav ml-auto">
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
 
-    {%- assign html_pages = site.html_pages | sort: 'weight' -%}
-    {%- assign filtered_pages = "" | split: "" -%}
+      {%- assign html_pages = site.html_pages | sort: 'weight' -%}
+      {%- assign filtered_pages = "" | split: "" -%}
 
-    {%- for html_page in html_pages -%} 
-      {%- assign exclude = false -%}
+      {%- for html_page in html_pages -%}
+        {%- assign exclude = false -%}
 
-      {%- for exclude_path in site.nav_exclude -%}
-        {%- if exclude_path == html_page.path -%}
-          {%- assign exclude = true -%}
-          {%- break -%}
-        {%- elsif exclude_path contains '**' -%}
-          {%- assign match = exclude_path | remove: '**' -%}
-          {%- if html_page.path contains match -%}
+        {%- for exclude_path in site.nav_exclude -%}
+          {%- if exclude_path == html_page.path -%}
             {%- assign exclude = true -%}
             {%- break -%}
+          {%- elsif exclude_path contains '**' -%}
+            {%- assign match = exclude_path | remove: '**' -%}
+            {%- if html_page.path contains match -%}
+              {%- assign exclude = true -%}
+              {%- break -%}
+            {%- endif -%}
           {%- endif -%}
-        {%- endif -%}
+        {%- endfor -%}
+
+        {%- unless exclude -%}
+          {%- assign filtered_pages = filtered_pages | push: html_page -%}
+        {%- endunless -%}
       {%- endfor -%}
 
-      {%- unless exclude -%}
-        {%- assign filtered_pages = filtered_pages | push: html_page -%}
-      {%- endunless -%}
-    {%- endfor -%}
+      {%- for html_page in filtered_pages %}
+        {%- if page.url contains html_page.url -%}
+          {%- assign active_status = "active" -%}
+        {%- else -%}
+          {%- assign active_status = "" -%}
+        {%- endif -%}
 
-    {% for html_page in filtered_pages %}
-      {%- if page.url contains html_page.url -%}
-        {%- assign active_status = "active" -%}
-      {%- else -%}
-        {%- assign active_status = "" -%}
-      {%- endif -%}
+        {%- if html_page.url contains "/blog/" and html_page.url != "/blog/" -%}
+          {%- continue -%}
+        {%- endif -%}
 
-      {%- if html_page.url contains "/blog/" and html_page.url != "/blog/" -%}
-        {%- continue -%}
-      {%- endif -%}
+        {%- if html_page.external_url -%}
+          {%- assign url = html_page.external_url -%}
+        {%- else -%}
+          {%- assign url = html_page.url | relative_url -%}
+        {%- endif -%}
 
-      {%- if html_page.external_url -%}
-        {%- assign url = html_page.external_url -%}
-      {%- else -%}
-        {%- assign url = html_page.url | relative_url -%}
-      {%- endif -%}
+        {%- assign icon_class = "" -%}
 
-      <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">{{ html_page.title }}</a>
-    {%- endfor %}
+        {%- if html_page.title == "Blog" -%}
+          {%- assign icon_class = "fas fa-book" -%}
+        {%- elsif html_page.title == "About" -%}
+          {%- assign icon_class = "fas fa-user" -%}
+        {%- elsif html_page.title == "Portfolio" -%}
+          {%- assign icon_class = "fas fa-briefcase" -%}
+        {%- endif -%}
 
-    <!-- start google translate button-->
-    <div id="google_translate_element" class="nav-item nav-link"></div>
-    <!-- end of google translate button-->
+        {%- if icon_class == "" -%}
+          <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">{{ html_page.title }}</a>
+        {%- else -%}
+          <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">
+            {{ html_page.title }}
+            <i class="{{ icon_class }}"></i>
+          </a>
+        {%- endif -%}
+      {%- endfor %}
 
-    <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+      <!-- start google translate button-->
+      <div id="google_translate_element" class="nav-item nav-link"></div>
+      <!-- end of google translate button-->
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
   </div>
-</div>
-        
+
 </nav>
