@@ -25,174 +25,170 @@ $linkColor: #0366d6;
 
 /* Start of Pagination */
 .pagination-box-idle {
-	border:2px solid #eee;
-	color: #888888;
+  border: 2px solid #eee;
+  color: #888888;
 }
-.pagination-box-hit{
-	
-    border:2px solid $btnColor;
-    color: #ffffff;
-	background-color: $btnColor;
+.pagination-box-hit {
+  border: 2px solid $btnColor;
+  color: #ffffff;
+  background-color: $btnColor;
 }
-.pagination-box{
-    font-family: 'Verdana', 'Arial', 'Microsoft Yahei', sans-serif;
-	font-weight: 300;
-	font-size: 14px;
-	padding: 4px 8px;
-	border-radius: 50%;
-	text-align:center;
-	align-items: center;
+.pagination-box {
+  font-family: 'Verdana', 'Arial', 'Microsoft Yahei', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
 }
-.pagination-theme{
-    font-family: 'Verdana', 'Arial', 'Microsoft Yahei', sans-serif;
-	width:100%;
-	text-align:center;
-	font-weight: 200;
-	font-size: 14px;
-    color: #888;
-	align-items: center;
-	a {
-		text-decoration: none;
-		
-		&:hover {
-			color:#ffffff;
-			background-color: $btnColor;
-			border: 2px solid $btnColor;
-		}
-	}
+.pagination-theme {
+  font-family: 'Verdana', 'Arial', 'Microsoft Yahei', sans-serif;
+  width: 100%;
+  text-align: center;
+  font-weight: 200;
+  font-size: 14px;
+  color: #888;
+  align-items: center;
+  a {
+    text-decoration: none;
+
+    &:hover {
+      color: #ffffff;
+      background-color: $btnColor;
+      border: 2px solid $btnColor;
+    }
+  }
 }
 /* End of Pagination */
 
 /* Tip */
 .tip-block {
-    background-image: linear-gradient(111.3deg, #eadeff 9.6%, #c9abff 93.6%);
-    font-weight: bold;
-    padding: 10px 15px;
-    border-radius: 10px 14px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 18px;
-    font-size: 15px;
+  background-image: linear-gradient(111.3deg, #eadeff 9.6%, #c9abff 93.6%);
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 10px 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+  font-size: 15px;
 }
 .tip-block a {
-    background-color: #673AB7;
-    padding: 2px 10px;
-    color: white;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 14px;
-    transition: all .25s;
+  background-color: #673AB7;
+  padding: 2px 10px;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  transition: all .25s;
 }
 /* End of Tip */
 
 /* Related Post */
 .rect {
-    border-top: 3px solid #333;
-    border-bottom: 3px solid #333;
-    padding-top: 15px;
-    margin:0 auto;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  padding-top: 15px;
+  margin: 0 auto;
 }
 
 .rel {
-    width: 200px;
-    display: inline-block;
-    padding: 5px;
-    opacity: 0.8;
+  width: 200px;
+  display: inline-block;
+  padding: 5px;
+  opacity: 0.8;
 }
 
-.rel hover {
-     opacity: 1;    
+.rel:hover {
+  opacity: 1;    
 }
 /* End of Related Post */
 
 /* Start of Span Tag*/
 .signboard {
-	margin-bottom: 20px;
-	margin-right: 10px;
-	a {
-		padding: 6px 20px 6px 22px;
-		font-size: 14px;
-		border-radius: 40px;
-		color: #ffffff;
-		text-decoration: none;
-		
-		span {
-			color: #ffffff;
-			font-family: Roboto, sans-serif;
-			vertical-align:super;
-			font-size: 10px;
-			padding-left: 2px;
-		}
-		
-		@media screen and (max-width: $mobileW) {
-		  margin-top: 5px;
-		}
-		
-		&:hover {
-			background-color: #e3e3e3;
-			span {
-				background-color: #e3e3e3;
-			}
-		}
-	}
+  margin-bottom: 20px;
+  margin-right: 10px;
+  a {
+    padding: 6px 20px 6px 22px;
+    font-size: 14px;
+    border-radius: 40px;
+    color: #ffffff;
+    text-decoration: none;
+    span {
+      color: #ffffff;
+      font-family: Roboto, sans-serif;
+      vertical-align: super;
+      font-size: 10px;
+      padding-left: 2px;
+    }
+    @media screen and (max-width: $mobileW) {
+      margin-top: 5px;
+    }
+    &:hover {
+      background-color: #e3e3e3;
+      span {
+        background-color: #e3e3e3;
+      }
+    }
+  }
 }
 .signboard-archive {
-	a {
-		&:hover {
-			color: $linkColor;
-			span {
-				color: $linkColor;
-			}
-		}
-	}
+  a {
+    &:hover {
+      color: $linkColor;
+      span {
+        color: $linkColor;
+      }
+    }
+  }
 }
 .signboard-tag {
-    a {
-		font-family: Raleway, Arial, sans-serif; 		
-		&:hover {
-			color: #CB4335;
-			font-weight: bold;
-			span {
-				color: #CB4335;
-				font-weight: bold;
-			}
-		}
-	}
+  a {
+    font-family: Raleway, Arial, sans-serif;
+    &:hover {
+      color: #CB4335;
+      font-weight: bold;
+      span {
+        color: #CB4335;
+        font-weight: bold;
+      }
+    }
+  }
 }
 .tag-label-pink {
   a {
     background-color: #F1948A;
-	span {
-		background-color: #F1948A;
-	}
+    span {
+      background-color: #F1948A;
+    }
   }
 }
 .tag-label-red {
   a {
     background-color: #E74C3C;
-	span {
-		 background-color: #E74C3C;
-	}
+    span {
+      background-color: #E74C3C;
+    }
   }
 }
 .tag-label-orange {
   a {
-    background-color: #F39C12!important;
-	span {
-		background-color: #F39C12!important;
-	}
+    background-color: #F39C12 !important;
+    span {
+      background-color: #F39C12 !important;
+    }
   }
 }
 .signboard-meta {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content : flex-start;
-  align-items : flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
   align-content: flex-start;
 }
 /* End of Span Tag */	
@@ -201,12 +197,10 @@ $linkColor: #0366d6;
     font-size: 14px;
     margin-top: -6px;
   }
-
   .tag:hover {
     background-color: $primary;
     color: white !important;
   }
-
   footer {
     font-size: 10px;
     color: #6c757d;
@@ -216,23 +210,18 @@ $linkColor: #0366d6;
     margin-top: 4em;
     margin-right: 2em;
   }
-
-  h1,
-  h2 {
+  h1, h2 {
     margin-top: 32px;
   }
-
   hr {
     background: $secondary;
   }
-
   img:not(.emoji) {
     display: block;
     max-width: 100%;
     height: auto;
     margin: 1rem auto;
   }
-
   .video {
     position: relative;
     padding-bottom: 56.25%;
@@ -244,15 +233,12 @@ $linkColor: #0366d6;
       width: 100%;
     }
   }
-
   a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline) {
     display: inline-block;
     text-decoration: none;
-
     &:hover {
       color: $primary;
     }
-
     &::after {
       content: "";
       display: block;
@@ -262,12 +248,10 @@ $linkColor: #0366d6;
       background: $primary;
       transition: width 0.35s;
     }
-
     &:hover::after {
       width: 100%;
     }
   }
-
   pre {
     background: $light;
     border: 1px solid #ddd;
@@ -283,7 +267,6 @@ $linkColor: #0366d6;
     overflow: auto;
     word-wrap: break-word;
   }
-
   code.highlighter-rouge {
     background-color: $light;
     color: $dark;
@@ -291,23 +274,19 @@ $linkColor: #0366d6;
     margin: 0;
     padding: 0.2em 0.65em;
   }
-
   blockquote {
     border-left: 0.25em solid $primary;
     color: $secondary;
     padding: 0 1em;
   }
-
   table:not(.highlight) {
     display: block;
     overflow-x: auto;
     margin: 1rem 0;
-
     td {
       border: 1px solid #ddd;
       padding: 8px 16px;
     }
-
     th {
       @extend td;
       padding-top: 12px;
@@ -317,7 +296,6 @@ $linkColor: #0366d6;
       background-color: $primary;
       color: white;
     }
-
     tr:nth-child(even) {
       background-color: rgba(0, 0, 0, 0.05);
     }
