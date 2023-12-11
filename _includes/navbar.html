@@ -1,39 +1,50 @@
-{%- for html_page in filtered_pages %}
-  {%- if page.url contains html_page.url -%}
-    {%- assign active_status = "active" -%}
-  {%- else -%}
-    {%- if html_page.title == "Home" and page.url != "/" -%}
-      {%- assign active_status = "" -%}
-    {%- else -%}
-      {%- assign active_status = "" -%}
-    {%- endif -%}
-  {%- endif -%}
+{% assign home_page_url = "/" %} <!-- Ganti dengan URL halaman home sesuai dengan konfigurasi tema Anda -->
 
-  {%- if html_page.url contains "/blog/" and html_page.url != "/blog/" -%}
-    {%- continue -%}
-  {%- endif -%}
+<nav class="navbar navbar-expand-lg navbar-themed fixed-top">
+  <a class="navbar-brand" href="{{ site.baseurl }}{{ home_page_url }}">
+    <h5><b>{{ site.title }}</b></h5>
+  </a>
 
-  {%- if html_page.external_url -%}
-    {%- assign url = html_page.external_url -%}
-  {%- else -%}
-    {%- assign url = html_page.url | relative_url -%}
-  {%- endif -%}
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
 
-  {%- assign icon_class = "" -%}
+  <div id="navbarNavAltMarkup" class="collapse navbar-collapse">
+    <div class="navbar-nav ml-auto">
+      {% for html_page in filtered_pages %}
+        {% assign url = (html_page.external_url | default: html_page.url) | relative_url %}
 
-  {%- if html_page.title == "Blog" -%}
-    {%- assign icon_class = "fas fa-book" -%}
-  {%- elsif html_page.title == "About" -%}
-    {%- assign icon_class = "fas fa-user" -%}
-  {%- elsif html_page.title == "Projects" -%}
-    {%- assign icon_class = "fas fa-briefcase" -%}
-  {%- endif -%}
+        {% if html_page.url contains "/blog/" and html_page.url != "/blog/" %}
+          {% continue %}
+        {% endif %}
+        
+        {% if html_page.title == "Home" and page.url != home_page_url %}
+          {% assign active_status = "" %}
+        {% elsif page.url contains html_page.url %}
+          {% assign active_status = "active" %}
+        {% else %}
+          {% assign active_status = "" %}
+        {% endif %}
+        
+        {% assign icon_class = "" %}
+        
+        {% if html_page.title == "Blog" %}
+          {% assign icon_class = "fas fa-book" %}
+        {% elsif html_page.title == "About" %}
+          {% assign icon_class = "fas fa-user" %}
+        {% elsif html_page.title == "Projects" %}
+          {% assign icon_class = "fas fa-briefcase" %}
+        {% endif %}
 
-  {%- if icon_class == "" -%}
-    <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">{{ html_page.title }}</a>
-  {%- else -%}
-    <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">
-     <i class="{{ icon_class }}"></i> {{ html_page.title }}     
-    </a>
-  {%- endif -%}
-{%- endfor %}
+        {% if icon_class != "" %}
+          <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">
+            <i class="{{ icon_class }}"></i> {{ html_page.title }}
+          </a>
+        {% else %}
+          <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">{{ html_page.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</nav>
