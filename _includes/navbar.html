@@ -9,7 +9,8 @@
   }
 </script>
 
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- Perbaikan pada URL skrip Google Translate: -->
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <!-- end of google translate button-->
 {%- endif -%}
 
@@ -63,15 +64,11 @@
       {%- endfor -%}
 
       {%- for html_page in filtered_pages %}
-  {%- if page.url contains html_page.url -%}
-    {%- assign active_status = "active" -%}
-  {%- else -%}
-    {%- if html_page.title == "Home" and page.url != "/" -%}
-      {%- assign active_status = "" -%}
-    {%- else -%}
-      {%- assign active_status = "" -%}
-    {%- endif -%}
-  {%- endif -%}
+        {%- if page.url == html_page.url or (html_page.title == "Home" and page.url == site.baseurl) -%}
+          {%- assign active_status = "active" -%}
+        {%- else -%}
+          {%- assign active_status = "" -%}
+        {%- endif -%}
 
         {%- if html_page.url contains "/blog/" and html_page.url != "/blog/" -%}
           {%- continue -%}
@@ -97,7 +94,7 @@
           <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">{{ html_page.title }}</a>
         {%- else -%}
           <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">
-           <i class="{{ icon_class }}"></i> {{ html_page.title }}     
+            <i class="{{ icon_class }}"></i> {{ html_page.title }}     
           </a>
         {%- endif -%}
       {%- endfor %}
