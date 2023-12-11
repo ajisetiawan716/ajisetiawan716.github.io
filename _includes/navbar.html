@@ -9,7 +9,7 @@
   }
 </script>
 
-<!--  Google Translate: -->
+<!-- Google Translate: -->
 <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <!-- end of google translate button-->
 {%- endif -%}
@@ -81,10 +81,9 @@
         {%- endif -%}
 
         {%- assign icon_class = "" -%}
-        {%- if html_page.title == "Home" -%}
-          {%- assign icon_class = "fa fa-home" -%}
+
         {%- if html_page.title == "Blog" -%}
-          {%- assign icon_class = "fa fa-pencil-square" -%}
+          {%- assign icon_class = "fas fa-book" -%}
         {%- elsif html_page.title == "About" -%}
           {%- assign icon_class = "fas fa-user" -%}
         {%- elsif html_page.title == "Projects" -%}
@@ -97,7 +96,7 @@
           <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">{{ html_page.title }}</a>
         {%- else -%}
           <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">
-            <i class="{{ icon_class }}" aria-hidden="true"></i> {{ html_page.title }}     
+            <i class="{{ icon_class }}"></i> {{ html_page.title }}     
           </a>
         {%- endif -%}
       {%- endfor %}
