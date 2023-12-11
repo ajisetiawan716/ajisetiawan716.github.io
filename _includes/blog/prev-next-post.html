@@ -1,8 +1,12 @@
-<div class="navigation">
+<ul class="navigation">
   {% if page.previous %}
-    <a class="btn btn-primary" href="{{ page.previous.url }}">Previous Post</a>
+  <li>
+    <a class="btn btn-outline-primary" href="{{ page.previous.url }}">Previous Post</a>
+  </li>
   {% endif %}
   {% if page.next %}
-    <a class="btn btn-primary" href="{{ page.next.url }}">Next Post</a>
+  <li class="next">
+    <a class="btn btn-outline-primary" href="{{ page.next.url }}">Next Post</a>
+  </li>
   {% endif %}
-</div>
+</ul>
