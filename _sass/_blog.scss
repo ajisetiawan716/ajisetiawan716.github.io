@@ -204,6 +204,14 @@ $linkColor: #0366d6;
   .post-metadata {
     font-size: 14px;
     margin-top: -6px;
+  .post .kanan {
+    float:right
+    }
+   @media (max-width: 424px) {
+    .post {
+        font-size: 13px;
+        padding: 0.2rem;
+    } 
   }
   .tag:hover {
     background-color: $primary;
