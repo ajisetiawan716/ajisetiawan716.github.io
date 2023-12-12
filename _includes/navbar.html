@@ -74,6 +74,10 @@
           {%- continue -%}
         {%- endif -%}
 
+        {%- if html_page.title == "Payment Portal" and html_page.url == "/pay" -%}
+          {%- continue -%} {# Skip the Payment Portal page #}
+        {%- endif -%}
+
         {%- if html_page.external_url -%}
           {%- assign url = html_page.external_url -%}
         {%- else -%}
@@ -82,7 +86,6 @@
 
         {%- assign icon_class = "" -%}
 
-       
         {%- if html_page.title == "Home" -%}
           {%- assign icon_class = "fa fa-home" -%}
         {%- elsif html_page.title == "Blog" -%}
@@ -99,7 +102,7 @@
           <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">{{ html_page.title }}</a>
         {%- else -%}
           <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">
-            <i class="{{ icon_class }} aria-hidden="true"></i> {{ html_page.title }}     
+            <i class="{{ icon_class }}" aria-hidden="true"></i> {{ html_page.title }}     
           </a>
         {%- endif -%}
       {%- endfor %}
