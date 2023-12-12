@@ -1,4 +1,3 @@
-
 {%- if site.translate.enabled == true -%}
   <!-- google translate button-->
   <script type="text/javascript">
@@ -21,7 +20,6 @@
 </noscript>
 
 <nav class="navbar navbar-expand-lg navbar-themed fixed-top">
-
   <a class="navbar-brand" href="{{ site.baseurl }}/">
     <h5><b>{{ site.title }}</b></h5>
   </a>
@@ -72,6 +70,10 @@
         {%- endif -%}
       {%- endfor -%}
 
+      <!-- Conditionally include "/pay" link for the "Payment Portal" -->
+      {%- if is_payment_portal -%}
+        <a class="nav-item nav-link {{ page.url == '/pay/' ? 'active' : '' }}" href="{{ '/pay/' }}">Payment Portal</a>
+      {%- endif -%}
 
       {%- for html_page in filtered_pages %}
         {%- assign active_status = (page.url == html_page.url or (html_page.title == "Home" and page.url == site.baseurl)) | if: 'active', '' -%}
@@ -117,5 +119,4 @@
       <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
     </div>
   </div>
-
 </nav>
