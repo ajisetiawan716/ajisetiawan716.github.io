@@ -71,9 +71,9 @@
       {%- endfor -%}
 
       <!-- Conditionally include "/pay" link for the "Payment Portal" -->
-      {%- if is_payment_portal -%}
-        <a class="nav-item nav-link {{ page.url == '/pay/' ? 'active' : '' }}" href="{{ '/pay/' }}">Payment Portal</a>
-      {%- endif -%}
+{%- if is_payment_portal and page.url == "/pay/" -%}
+  <a class="nav-item nav-link active" href="{{ '/pay/' }}">Payment Portal</a>
+{%- endif -%}
 
       {%- for html_page in filtered_pages %}
         {%- assign active_status = (page.url == html_page.url or (html_page.title == "Home" and page.url == site.baseurl)) | if: 'active', '' -%}
