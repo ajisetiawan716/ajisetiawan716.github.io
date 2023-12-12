@@ -67,6 +67,8 @@ layout: page
  {% include blog/prev-next-post.html %}
 {% if page.comments %}
 <div class="pt-5">
+{% if post.comments != 0 %} 
   {% include blog/disqus.html %}
+ {% endif %}  
 </div>
 {% endif %}
