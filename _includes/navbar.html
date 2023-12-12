@@ -69,11 +69,6 @@
         {%- else -%}
           {%- assign active_status = "" -%}
         {%- endif -%}
- 
-  <!-- Conditionally include "/pay" link for the "Payment Portal" -->
-  {%- if page.url == "/pay/" and html_page.title == "Payment Portal" -%}
-    <a class="nav-item nav-link active" href="{{ url }}">{{ html_page.title }}</a>
-  {%- endif -%}
 
         {%- if html_page.url contains "/blog/" and html_page.url != "/blog/" -%}
           {%- continue -%}
