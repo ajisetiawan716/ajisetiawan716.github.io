@@ -1,17 +1,17 @@
 {%- if site.translate.enabled == true -%}
-  <!-- google translate button-->
-  <script type="text/javascript">
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement(
-        { pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE },
-        'google_translate_element'
-      );
-    }
-  </script>
+<!-- google translate button-->
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      { pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE },
+      'google_translate_element'
+    );
+  }
+</script>
 
-  <!-- Google Translate: -->
-  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-  <!-- end of google translate button-->
+<!-- Google Translate: -->
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- end of google translate button-->
 {%- endif -%}
 
 <!-- Javascript reminder -->
@@ -20,6 +20,7 @@
 </noscript>
 
 <nav class="navbar navbar-expand-lg navbar-themed fixed-top">
+
   <a class="navbar-brand" href="{{ site.baseurl }}/">
     <h5><b>{{ site.title }}</b></h5>
   </a>
@@ -62,21 +63,12 @@
         {%- endunless -%}
       {%- endfor -%}
 
-      {%- assign is_payment_portal = false -%}
       {%- for html_page in filtered_pages %}
-        {%- if html_page.url == "/pay/" and html_page.title == "Payment Portal" -%}
-          {%- assign is_payment_portal = true -%}
-          {%- break -%}
+        {%- if page.url == html_page.url or (html_page.title == "Home" and page.url == site.baseurl) -%}
+          {%- assign active_status = "active" -%}
+        {%- else -%}
+          {%- assign active_status = "" -%}
         {%- endif -%}
-      {%- endfor -%}
-
-      <!-- Conditionally include "/pay" link for the "Payment Portal" -->
-      {%- if is_payment_portal and page.url == "/pay/" -%}
-        <a class="nav-item nav-link active" href="{{ '/pay/' }}">Payment Portal</a>
-      {%- endif -%}
-
-      {%- for html_page in filtered_pages %}
-        {%- assign active_status = (page.url == html_page.url or (html_page.title == "Home" and page.url == site.baseurl)) | if: 'active', '' -%}
 
         {%- if html_page.url contains "/blog/" and html_page.url != "/blog/" -%}
           {%- continue -%}
@@ -89,25 +81,25 @@
         {%- endif -%}
 
         {%- assign icon_class = "" -%}
+
        
-        {%- case html_page.title -%}
-          {%- when "Home" -%}
-            {%- assign icon_class = "fa fa-home" -%}
-          {%- when "Blog" -%}
-            {%- assign icon_class = "fa fa-pencil-square" -%}
-          {%- when "About" -%}
-            {%- assign icon_class = "fas fa-user" -%}
-          {%- when "Projects" -%}
-            {%- assign icon_class = "fas fa-briefcase" -%}
-          {%- when "Services" -%}
-            {%- assign icon_class = "fa fa-handshake-o" -%}
-        {%- endcase -%}
+        {%- if html_page.title == "Home" -%}
+          {%- assign icon_class = "fa fa-home" -%}
+        {%- elsif html_page.title == "Blog" -%}
+          {%- assign icon_class = "fa fa-pencil-square" -%}
+        {%- elsif html_page.title == "About" -%}
+          {%- assign icon_class = "fas fa-user" -%}
+        {%- elsif html_page.title == "Projects" -%}
+          {%- assign icon_class = "fas fa-briefcase" -%}
+        {%- elsif html_page.title == "Services" -%}
+          {%- assign icon_class = "fa fa-handshake-o" -%}
+        {%- endif -%}
 
         {%- if icon_class == "" -%}
           <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">{{ html_page.title }}</a>
         {%- else -%}
           <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">
-            <i class="{{ icon_class }}" aria-hidden="true"></i> {{ html_page.title }}     
+            <i class="{{ icon_class }} aria-hidden="true"></i> {{ html_page.title }}     
           </a>
         {%- endif -%}
       {%- endfor %}
@@ -119,4 +111,5 @@
       <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
     </div>
   </div>
+
 </nav>
