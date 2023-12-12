@@ -4,7 +4,7 @@ layout: page
 
 <h1><b>{{ page.title }}</b></h1>
 <div class="separator"></div>
-<div class="row-metadata text-muted">
+<div class="post-metadata text-muted" style="margin-top: 8px;">
   <span class="fa fa-calendar fa-1x"></span> {{ page.date | date_to_long_string }} -  
   <span class="fa fa-clock-o fa-1x"></span> <b>
   {%- assign words = content | number_of_words -%}
@@ -14,7 +14,7 @@ layout: page
     {{ words | divided_by: 180 }} mins read time
   {%- endif -%}
   </b> 
-  <span class="fa fa-book fa-1x" style="position: absolute; top: 50px; right: 0px;"> {{ words }} words</span>
+  <span class="fa fa-book fa-1x" style="position: absolute; float:right;"> {{ words }} words</span>
   <br>
 
   {%- if page.tags != empty -%}
