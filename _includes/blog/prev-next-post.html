@@ -1,4 +1,31 @@
-<div class="py-2">
+<style>
+.pager {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.pager li {
+  float: left;
+}
+
+.pager .next {
+  float:right
+}
+.pager .disable a {
+  border-color: #ccc;
+  color: #808080;
+}
+
+@media (max-width: 424px) {
+    .pager .btn {
+        font-size: 13px;
+        padding: 0.2rem;
+    }
+}
+</style>
+<div class="pager">
   {% if page.previous %}
   <li>
     <a class="btn btn-outline-primary" href="{{ page.previous.url }}">Previous Post</a>
