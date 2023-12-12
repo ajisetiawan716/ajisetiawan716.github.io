@@ -5,7 +5,7 @@ layout: page
 <h1><b>{{ page.title }}</b></h1>
 <div class="separator"></div>
 <div class="row metadata text-muted">
-  <div class="col-12 col-md-8 offset-md-2">
+  <div class="col-12 col-md-8">
  <li class="fa fa-calendar fa-1x"></li> {{ page.date | date_to_long_string }} -  
  <li class="fa fa-clock-o fa-1x"></li> <b>
   {%- assign words = content | number_of_words -%}
@@ -26,7 +26,7 @@ layout: page
     </a>
     {% endfor %}
   {%- endif -%}
- <li class="fa fa-eye fa-1x" style="position: absolute; top: 70px; right: 0px;"><li id="busuanzi_value_page_pv" class="text-muted"></li></li>
+ <li class="fa fa-eye fa-1x" style="position: absolute; top: 70px; right: 0px;"><span id="busuanzi_value_page_pv" class="text-muted"></span></li>
   </p>
 </div>
 </div>  
