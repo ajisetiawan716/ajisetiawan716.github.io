@@ -5,8 +5,9 @@ layout: page
 <h1><b>{{ page.title }}</b></h1>
 <div class="separator"></div>
 <div class="row metadata text-muted">
-  <span class="fa fa-calendar fa-1x"></span> {{ page.date | date_to_long_string }} -  
-  <span class="fa fa-clock-o fa-1x"></span> <b>
+  <div class="col-12 col-md-8 offset-md-2">
+ <li class="fa fa-calendar fa-1x"></li> {{ page.date | date_to_long_string }} -  
+ <li class="fa fa-clock-o fa-1x"></li> <b>
   {%- assign words = content | number_of_words -%}
   {%- if words < 360 -%}
     less than 1 min read time
@@ -14,20 +15,21 @@ layout: page
     {{ words | divided_by: 180 }} mins read time
   {%- endif -%}
   </b> 
-  <span class="fa fa-book fa-1x" style="position: absolute; top: 50px; right: 0px;"> {{ words }} words</span>
+ <li class="fa fa-book fa-1x" style="position: absolute; top: 50px; right: 0px;"> {{ words }} words</li>
   <br>
 
   {%- if page.tags != empty -%}
     Tags: 
     {% for tag in page.tags %}
     <a class="text-decoration-none no-underline" href="{{ tag | slugify | prepend:'/blog/tags#' | relative_url }}">
-      <span class="tag badge badge-pill text-primary border border-primary">{{ tag }}</span>
+     <li class="tag badge badge-pill text-primary border border-primary">{{ tag }}</li>
     </a>
     {% endfor %}
   {%- endif -%}
-  <span class="fa fa-eye fa-1x" style="position: absolute; top: 70px; right: 0px;"> <span id="busuanzi_value_page_pv" class="text-muted"></span></span>
+ <li class="fa fa-eye fa-1x" style="position: absolute; top: 70px; right: 0px;"><li id="busuanzi_value_page_pv" class="text-muted"></li></li>
   </p>
 </div>
+</div>  
 <!-- trakteer widget -->
 <br>
 <center>
@@ -57,7 +59,7 @@ layout: page
 <div class="tip-block">
       <p style="margin-top: 10px; margin-bottom: 6px;">Like this article? Consider leaving a</p> 
       <a href="/pay" target="_blank">
-        <span>Tip</span>
+       <li>Tip</li>
         <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="12" cy="12" r="10" stroke="#ffffff" stroke-width="1.5"></circle> <path d="M12 6V18" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"></path> <path d="M15 9.5C15 8.11929 13.6569 7 12 7C10.3431 7 9 8.11929 9 9.5C9 10.8807 10.3431 12 12 12C13.6569 12 15 13.1193 15 14.5C15 15.8807 13.6569 17 12 17C10.3431 17 9 15.8807 9 14.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
       </a>
     </div>
