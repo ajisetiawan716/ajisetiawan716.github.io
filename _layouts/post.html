@@ -4,7 +4,8 @@ layout: page
 
 <h1><b>{{ page.title }}</b></h1>
 <div class="separator"></div>
-<div class="post-metadata text-muted">
+<div class="row-metadata">
+  <div class="col-12 col-md-8 offset-md-2">
   <span class="fa fa-calendar fa-1x"></span> {{ page.date | date_to_long_string }} -  
   <span class="fa fa-clock-o fa-1x"></span> <b>
   {%- assign words = content | number_of_words -%}
@@ -28,6 +29,7 @@ layout: page
   <span class="fa fa-eye fa-1x" style="position: absolute; top: 70px; right: 0px;"> <span id="busuanzi_value_page_pv" class="text-muted"></span></span>
   </p>
 </div>
+</div>  
 <!-- trakteer widget -->
 <br>
 <center>
