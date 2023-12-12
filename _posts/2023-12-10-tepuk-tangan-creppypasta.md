@@ -26,7 +26,7 @@ Namun mereka tidak mau ambil pusing, mereka sudah sangat bersyukur tidak terjeba
 
 Karena sudah sangat lelah, sang istri segera mengajak suaminya untuk tidur, mengumpulkan tenaga agar besok dapat melanjutkan perjalanan untuk keluar dari hutan ini.
 
-Namun sesaat sebelum mereka terlelap, sang suni mendengar suara langkah kaki seperti mengeliling pondok tersebut. Seketika itu juga sang suami langsung beranjak membuka jendela sambil berteriak "Siapa disana!?"
+Namun sesaat sebelum mereka terlelap, sang suami mendengar suara langkah kaki seperti mengeliling pondok tersebut. Seketika itu juga sang suami langsung beranjak membuka jendela sambil berteriak "Siapa disana!?"
 
 Tak ada jawaban, hanya keheningan yang ada disana. Sang suami pun menutup jendelanya dan kembali berbaring, namun tidak lama, terdengar lagi suara langkah kaki itu, kali ini semakin keras, sang suami pun langsung membuka jendela dan bertanya untuk kedua kalinya.
 
