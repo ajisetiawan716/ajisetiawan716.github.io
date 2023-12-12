@@ -199,19 +199,22 @@ $linkColor: #0366d6;
   align-items: flex-start;
   align-content: flex-start;
 }
-/* End of Span Tag */	
+/* End of Span Tag */
 .post {
   .post-metadata {
     font-size: 14px;
     margin-top: -6px;
+  }
+
   .post .kanan {
-    float:right;
-    }
-   @media (max-width: 424px) {
+    float: right;
+  }
+
+  @media (max-width: 424px) {
     .post {
-        font-size: 13px;
-        padding: 0.2rem;
-    } 
+      font-size: 13px;
+      padding: 0.2rem;
+    }
   }
   .tag:hover {
     background-color: $primary;
