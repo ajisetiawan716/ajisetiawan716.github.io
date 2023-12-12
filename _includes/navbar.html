@@ -69,7 +69,10 @@
         {%- else -%}
           {%- assign active_status = "" -%}
         {%- endif -%}
-
+ <!-- Conditionally include "/pay" link -->
+  {%- if page.url == "/pay" -%}
+    <a class="nav-item nav-link active" href="{{ site.baseurl }}/pay">Pay</a>
+  {%- endif -%}
         {%- if html_page.url contains "/blog/" and html_page.url != "/blog/" -%}
           {%- continue -%}
         {%- endif -%}
