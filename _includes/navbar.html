@@ -74,7 +74,7 @@
 
       <!-- Conditionally include "/pay" link for the "Payment Portal" -->
       {%- if is_payment_portal -%}
-        <a class="nav-item nav-link active" href="{{ site.baseurl }}/pay">Payment Portal</a>
+        <a class="nav-item nav-link active" href="{{ url }}">Payment Portal</a>
       {%- endif -%}
 
       {%- for html_page in filtered_pages %}
