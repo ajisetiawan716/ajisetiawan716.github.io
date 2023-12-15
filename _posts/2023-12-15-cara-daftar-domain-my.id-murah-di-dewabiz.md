@@ -46,26 +46,18 @@ Pada kali ini, saya akan memberikan tutorial lebih tepatnya untuk berbagi bagaim
      Setelah berhasil login atau setelah kalian selesai membuat akun, silahkan centang atau *checklist* pada bagian *I have read and agree to the Terms of Service* untuk menyetujui kebijakan dari Dewabiz.com. Kemudian kalian klik, *Checkout* untuk melakukan pembayaran domain.
 
 
-7. Silahkan kalian pilih metode pembayaran yang kalian suka, disini saya akan memilih menggunakan QRIS biar lebih gampang dan langsung *auto paid.* Hehee. Kemudian kalian klik, *Pay Now.*
-
-![Melakukan pembayaran](/assets/img/content/daftar-domain-6.png)
-
-> Untuk setiap pembelian domain dikenakan pajak PPN sebesar 10%, yaitu sebesar Rp.220.
-
-
-
-7. Jika sudah berhasil untuk melakukan pembayaran, maka status *invoice* atau pembayarannya kita telah berhasil yang ditandai dengan status *Paid.*
+6. Silahkan kalian pilih metode pembayaran yang kalian suka, disini saya akan memilih menggunakan QRIS biar lebih gampang dan langsung *auto paid.* Hehee. Kemudian kalian klik, *Pay Now.*
+   ![Melakukan pembayaran](/assets/img/content/daftar-domain-6.png)
+   > Untuk setiap pembelian domain dikenakan pajak PPN sebesar 10%, yaitu sebesar Rp.220.
    
-![Status invoice atau pembayaran](/assets/img/content/daftar-domain-7.png)
+7. Jika sudah berhasil untuk melakukan pembayaran, maka status *invoice* atau pembayarannya kita telah berhasil yang ditandai dengan status *Paid.*
+   ![Status invoice atau pembayaran](/assets/img/content/daftar-domain-7.png)
    
    
 
 8.  Setelah itu, kita tinggal menunggu status domainnya yang awalnya *Pending* hingga menjadi *Active,* yang menandakan bahwa domain berhasil terdaftar dan dapat kita gunakan.
-   
    ![Menunggu status domain menjadi aktif](/assets/img/content/daftar-domain-8.png)
    
-   
-
 > Untuk promo domain murah dengan harga Rp.2.000 di Dewabiz.com diatas hanya berlaku selama promonya masih ada. Harga sewaktu-waktu dapat kembali normal sesuai dengan harga nama domain .my.id pada umumnya.
 
 
