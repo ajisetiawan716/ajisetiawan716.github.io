@@ -1,17 +1,16 @@
 ---
 layout: post
 tags: [Creppypasta, Horror, Cerita Horor, Misteri]
-categories: []
+#categories: []
 #date: 2023-12-15 15:25:15
 #excerpt: ''
 #image: 'BASEURL/assets/blog/img/.png'
-description: Dahlia memeluk dirinya sendiri di sofa.
-Terkadang matanya melirik ke arah pintu utama. Sekitar setengah jam yang lalu ia sudah menghubungi ketiga temannya, Zahra, Jennie dan Mimi. Ia meminta ketiganya untuk menginap malam ini karena orangtuanya pergi keluar kota.
+#description: 
 #permalink:
-title: 'Lebih Baik Matikan Lampunya!'
+title: 'Lebih Baik Matikan Lampunya! - Creepypasta'
 ---
 
-![Lampu](F:\Backup%20Github\myportofolio\bloging\Jepretan-Layar-2019-07-03-pada-4.19.17-PM-1024x683.png "Gambar Lampu")
+![Lampu](/assets/img/content/Jepretan-Layar-2019-07-03-pada-4.19.17-PM-1024x683.png "Gambar Lampu")
 
 Dahlia memeluk dirinya sendiri di sofa.
 Terkadang matanya melirik ke arah pintu utama. Sekitar setengah jam yang lalu ia sudah menghubungi ketiga temannya, Zahra, Jennie dan Mimi. Ia meminta ketiganya untuk menginap malam ini karena orangtuanya pergi keluar kota.
