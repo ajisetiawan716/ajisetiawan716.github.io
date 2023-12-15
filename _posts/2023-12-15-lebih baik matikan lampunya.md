@@ -1,4 +1,6 @@
 ---
+
+title: 'Lebih Baik Matikan Lampunya! - Creepypasta'
 layout: post
 tags: [Creppypasta, Horror, Cerita Horor, Misteri]
 #categories: []
@@ -7,7 +9,6 @@ tags: [Creppypasta, Horror, Cerita Horor, Misteri]
 #image: 'BASEURL/assets/blog/img/.png'
 #description: 
 #permalink:
-title: 'Lebih Baik Matikan Lampunya! - Creepypasta'
 ---
 
 ![Lampu](/assets/img/content/Jepretan-Layar-2019-07-03-pada-4.19.17-PM-1024x683.png "Gambar Lampu")
