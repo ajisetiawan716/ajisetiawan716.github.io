@@ -1,15 +1,15 @@
 ---
 title: 'Cara Mendaftar Domain My.Id Murah di Dewabiz.com'
 tag: [Domain, My.Id, Domain Murah, Domain Gratis]
-description: Sebuah tutorial untuk mendapaptkan domain .my.id murah dari Dewabiz.com
+description: Sebuah tutorial untuk mendapatkan domain .my.id murah dari Dewabiz.com
  
 ---
 
 # Pendahuluan
 
-Domain merupakan salah satu unsur  terpenting dalam suatu website. Tanpa sebuah domain maka website tersebut tidak dapat diakses. Selain itu, fungsi utama domain yaitu untuk mengidentifikasi alamat suatu website yang terdapat dalam internet, mirip seperti rumah website juga mempunyai alamatnya tersendiri. Domain juga digunakan untuk mempermudah pengguna internet untuk mengunjungi suatu website tanpa mengingat penomoran IP (Internet Protocol) dari website yang terdiri dari beberapa angka yang terbilang sangat susah diingat. Maka dari itulah suatu domain diciptakan beserta sistem DNS (Domain Name System) untuk mengatur dan meng-rute suatu bentuk IP ke dalam sebuah domain.
+Domain merupakan salah satu unsur  terpenting dalam suatu website. Tanpa sebuah domain maka website tersebut tidak dapat diakses. Selain itu, fungsi utama domain yaitu untuk mengidentifikasi alamat suatu website yang terdapat dalam internet, mirip seperti rumah website juga mempunyai alamatnya tersendiri. Domain juga digunakan untuk mempermudah pengguna internet untuk mengunjungi suatu website tanpa mengingat penomoran IP (_Internet Protocol)_ dari website yang terdiri dari beberapa angka yang terbilang sangat susah diingat. Maka dari itulah suatu domain diciptakan beserta sistem DNS (_Domain Name System)_ untuk mengatur dan meng-rute suatu bentuk IP ke dalam sebuah domain.
 
-Pada kali ini saya akan membagikan cara mendaftar sebuah domain, untuk contohnya saya menggunakan domain .my.id yang merupakan TtLD domain yang disediakan oleh PANDI selaku pengelola domain nasional di Indonesia yang menaungi sistem domain .id. Selain domain .my.id lembaga tersebut juga mengatur penamaan domain yang lain seperti .co.id, .net.id, biz.id dan sebagainya. 
+Pada kali ini saya akan membagikan cara mendaftar sebuah domain, untuk contohnya saya menggunakan domain .my.id yang merupakan TLD domain yang disediakan oleh PANDI selaku pengelola domain nasional di Indonesia yang menaungi sistem domain .id. Selain domain .my.id lembaga tersebut juga mengatur penamaan domain yang lain seperti .co.id, .net.id, biz.id dan sebagainya. 
 
 Sebelumnya saya sudah mendaftarkan sebuah domain di provider yang lain, yaitu saya mendapatkan di [Idcloudhost.com](Idcloudhost.com) yang kebetulan didapatkan secara gratis selama setahun pada saat promo bulan kemarin. Hehee. Pada umumnya harga domain .my.id dan .biz.id ataupun domain .id yang lain sekitar Rp.12.000 - Rp.20.000 yang terbilang cukup terjangkau daripada domain TLD yang lain. Namun terkadang beberapa provider biasanya mengadakan promo domain murah ataupun bahkan gratis untuk pembelian domain-domain tersebut.
 
@@ -21,13 +21,13 @@ Pada kali ini, saya akan memberikan tutorial lebih tepatnya untuk berbagi bagaim
 
 2. Silahkan masukkan nama domain yang kalian inginkan, misalnya saya disini akan mencoba mendaftarkan domain www.mrasx.my.id. Jika nama domain tersedia maka akan bisa kalian beli dan kita bisa untuk melanjutkan ke langkah berikutnya. 
 
-![](/assets/img/content/daftar-domain-1.png)
+![Memasukan nama domain](/assets/img/content/daftar-domain-1.png)
 
 
 
 3. Ternyata domain yang saya daftarkan masih tersedia, maka kita bisa melanjutkan untuk melakukan proses pendaftarannya dengan cara klik *Add to Cart* untuk menambahkannya ke daftar keranjang. Setelah yakin untuk mendaftarkan domain tersebut silahkan klik, *Continue.*
 
-![](/assets/img/content/daftar-domain-2.png)
+![Menambahkan nama domain ke daftar keranjang](/assets/img/content/daftar-domain-2.png)
 
 
 
@@ -35,25 +35,25 @@ Pada kali ini, saya akan memberikan tutorial lebih tepatnya untuk berbagi bagaim
    
    Selanjutnya, kalian bisa klik *Continue* untuk ke langkah berikutnya.
    
-   ![](/assets/img/content/daftar-domain-3.png)
+   ![Centang DNS Management](/assets/img/content/daftar-domain-3.png)
    
    
 
 5. Disini kalian akan diminta untuk mengisi detail pembayaran, jika kalian belum punya akun maka silahkan buat akun terlebih dahulu dengan pilih *Create a New Account*. Kemudian silahkan lengkapi detail yang diminta.
    
-   ![](/assets/img/content/daftar-domain-4.png)
+   ![Lengkapi pendaftaran akun](/assets/img/content/daftar-domain-4.png)
 
-       Berhubung saya sudah punya akun, maka saya hanya login saja dengan akun yang sudah terdaftar sebelumnya dengan memilih *Existing Customer Login*.
+ Berhubung saya sudah punya akun, maka saya hanya login saja dengan akun yang sudah terdaftar sebelumnya dengan memilih *Existing Customer Login*.
 
-![](/assets/img/content/daftar-domain-5.png)
+![Login ke akun](/assets/img/content/daftar-domain-5.png)
 
-      Setelah berhasil login atau setelah kalian selesai membuat akun, silahkan centang atau *checklist* pada bagian *I have read and agree to the Terms of Service* untuk menyetujui kebijakan dari Dewabiz.com. Kemudian kalian klik, *Checkout* untuk melakukan pembayaran domain.
+Setelah berhasil login atau setelah kalian selesai membuat akun, silahkan centang atau *checklist* pada bagian *I have read and agree to the Terms of Service* untuk menyetujui kebijakan dari Dewabiz.com. Kemudian kalian klik, *Checkout* untuk melakukan pembayaran domain.
 
 
 
 6. Silahkan kalian pilih metode pembayaran yang kalian suka, disini saya akan memilih menggunakan QRIS biar lebih gampang dan langsung *auto paid.* Hehee. Kemudian kalian klik, *Pay Now.*
 
-![](/assets/img/content/daftar-domain-6.png)
+![Melakukan pembayaran](/assets/img/content/daftar-domain-6.png)
 
 > Untuk setiap pembelian domain dikenakan pajak PPN sebesar 10%, yaitu sebesar Rp.220.
 
@@ -61,19 +61,19 @@ Pada kali ini, saya akan memberikan tutorial lebih tepatnya untuk berbagi bagaim
 
 7. Jika sudah berhasil untuk melakukan pembayaran, maka status *invoice* atau pembayarannya kita telah berhasil yang ditandai dengan status *Paid.*
    
-   ![](/assets/img/content/daftar-domain-7.png)
+![Status invoice atau pembayaran](/assets/img/content/daftar-domain-7.png)
    
    
 
 8.  Setelah itu, kita tinggal menunggu status domainnya yang awalnya *Pending* hingga menjadi *Active,* yang menandakan bahwa domain berhasil terdaftar dan dapat kita gunakan.
    
-   ![](/assets/img/content/daftar-domain-8.png)
+   ![Menunggu status domain menjadi aktif](/assets/img/content/daftar-domain-8.png)
    
    
 
 > Untuk promo domain murah dengan harga Rp.2.000 di Dewabiz.com diatas hanya berlaku selama promonya masih ada. Harga sewaktu-waktu dapat kembali normal sesuai dengan harga nama domain .my.id pada umumnya.
 
-## 
+
 
 # Kesimpulan
 
