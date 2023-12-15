@@ -42,13 +42,11 @@ Pada kali ini, saya akan memberikan tutorial lebih tepatnya untuk berbagi bagaim
 
     Berhubung saya sudah punya akun, maka saya hanya login saja dengan akun yang sudah terdaftar sebelumnya dengan memilih *Existing Customer Login*.
 
-![Login ke akun](/assets/img/content/daftar-domain-5.png)
-
-   Setelah berhasil login atau setelah kalian selesai membuat akun, silahkan centang atau *checklist* pada bagian *I have read and agree to the Terms of Service* untuk menyetujui kebijakan dari Dewabiz.com. Kemudian kalian klik, *Checkout* untuk melakukan pembayaran domain.
-
+   ![Login ke akun](/assets/img/content/daftar-domain-5.png)
+     Setelah berhasil login atau setelah kalian selesai membuat akun, silahkan centang atau *checklist* pada bagian *I have read and agree to the Terms of Service* untuk menyetujui kebijakan dari Dewabiz.com. Kemudian kalian klik, *Checkout* untuk melakukan pembayaran domain.
 
 
-6. Silahkan kalian pilih metode pembayaran yang kalian suka, disini saya akan memilih menggunakan QRIS biar lebih gampang dan langsung *auto paid.* Hehee. Kemudian kalian klik, *Pay Now.*
+7. Silahkan kalian pilih metode pembayaran yang kalian suka, disini saya akan memilih menggunakan QRIS biar lebih gampang dan langsung *auto paid.* Hehee. Kemudian kalian klik, *Pay Now.*
 
 ![Melakukan pembayaran](/assets/img/content/daftar-domain-6.png)
 
