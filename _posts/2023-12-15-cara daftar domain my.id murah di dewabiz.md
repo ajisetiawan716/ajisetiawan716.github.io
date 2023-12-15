@@ -23,32 +23,25 @@ Pada kali ini, saya akan memberikan tutorial lebih tepatnya untuk berbagi bagaim
 
 ![Memasukan nama domain](/assets/img/content/daftar-domain-1.png)
 
-
-
 3. Ternyata domain yang saya daftarkan masih tersedia, maka kita bisa melanjutkan untuk melakukan proses pendaftarannya dengan cara klik *Add to Cart* untuk menambahkannya ke daftar keranjang. Setelah yakin untuk mendaftarkan domain tersebut silahkan klik, *Continue.*
 
 ![Menambahkan nama domain ke daftar keranjang](/assets/img/content/daftar-domain-2.png)
 
-
-
 4. Maka domain yang kita beli akan masuk ke daftar keranjang. Setelah itu, kalian bisa *checklist* atau centang pada bagian *DNS Management.* Jadi, selain kita mendapatkan domain yang murah, kalian juga mendapatkan fitur *DNS Management* secara gratis. *DNS Management* sendiri berfungsi untuk mengatur DNS pada domain kita, yang biasanya digunakan jika kita akan melakukan *pointing* atau transfer domain ke penyedia hosting lain atau penyedia *DNS Management* pihak ketiga.
    
-   Selanjutnya, kalian bisa klik *Continue* untuk ke langkah berikutnya.
+  Selanjutnya, kalian bisa klik *Continue* untuk ke langkah berikutnya.
    
    ![Centang DNS Management](/assets/img/content/daftar-domain-3.png)
-   
-   
-
+      
 5. Disini kalian akan diminta untuk mengisi detail pembayaran, jika kalian belum punya akun maka silahkan buat akun terlebih dahulu dengan pilih *Create a New Account*. Kemudian silahkan lengkapi detail yang diminta.
    
    ![Lengkapi pendaftaran akun](/assets/img/content/daftar-domain-4.png)
 
- Berhubung saya sudah punya akun, maka saya hanya login saja dengan akun yang sudah terdaftar sebelumnya dengan memilih *Existing Customer Login*.
+Berhubung saya sudah punya akun, maka saya hanya login saja dengan akun yang sudah terdaftar sebelumnya dengan memilih *Existing Customer Login*.
 
 ![Login ke akun](/assets/img/content/daftar-domain-5.png)
 
 Setelah berhasil login atau setelah kalian selesai membuat akun, silahkan centang atau *checklist* pada bagian *I have read and agree to the Terms of Service* untuk menyetujui kebijakan dari Dewabiz.com. Kemudian kalian klik, *Checkout* untuk melakukan pembayaran domain.
-
 
 
 6. Silahkan kalian pilih metode pembayaran yang kalian suka, disini saya akan memilih menggunakan QRIS biar lebih gampang dan langsung *auto paid.* Hehee. Kemudian kalian klik, *Pay Now.*
@@ -58,19 +51,16 @@ Setelah berhasil login atau setelah kalian selesai membuat akun, silahkan centan
 > Untuk setiap pembelian domain dikenakan pajak PPN sebesar 10%, yaitu sebesar Rp.220.
 
 
-
 7. Jika sudah berhasil untuk melakukan pembayaran, maka status *invoice* atau pembayarannya kita telah berhasil yang ditandai dengan status *Paid.*
    
 ![Status invoice atau pembayaran](/assets/img/content/daftar-domain-7.png)
    
    
-
 8.  Setelah itu, kita tinggal menunggu status domainnya yang awalnya *Pending* hingga menjadi *Active,* yang menandakan bahwa domain berhasil terdaftar dan dapat kita gunakan.
    
    ![Menunggu status domain menjadi aktif](/assets/img/content/daftar-domain-8.png)
    
    
-
 > Untuk promo domain murah dengan harga Rp.2.000 di Dewabiz.com diatas hanya berlaku selama promonya masih ada. Harga sewaktu-waktu dapat kembali normal sesuai dengan harga nama domain .my.id pada umumnya.
 
 
