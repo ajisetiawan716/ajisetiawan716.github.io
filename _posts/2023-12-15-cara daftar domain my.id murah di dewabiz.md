@@ -23,13 +23,12 @@ Pada kali ini, saya akan memberikan tutorial lebih tepatnya untuk berbagi bagaim
 ![Memasukan nama domain](/assets/img/content/daftar-domain-1.png)
 
 
-3. Ternyata domain yang saya daftarkan masih tersedia, maka kita bisa melanjutkan untuk melakukan proses pendaftarannya dengan cara klik *Add to Cart* untuk menambahkannya ke daftar keranjang. Setelah yakin untuk mendaftarkan domain tersebut silahkan klik, *Continue.*
+3. Ternyata domain yang saya daftarkan masih tersedia, maka kita bisa melanjutkan untuk melakukan proses pendaftarannya dengan cara klik *Add to Cart* untuk menambahkannya ke daftar keranjang. Setelah yakin untuk mendaftarkan domain tersebut silahkan klik, *Continue.*
 ![Menambahkan nama domain ke daftar keranjang](/assets/img/content/daftar-domain-2.png)
 
-
-
-4. Maka domain yang kita beli akan masuk ke daftar keranjang. Setelah itu, kalian bisa *checklist* atau centang pada bagian *DNS Management.* Jadi, selain kita mendapatkan domain yang murah, kalian juga mendapatkan fitur *DNS Management* secara gratis. *DNS Management* sendiri berfungsi untuk mengatur DNS pada domain kita, yang biasanya digunakan jika kita akan melakukan *pointing* atau transfer domain ke penyedia hosting lain atau penyedia *DNS Management* pihak ketiga.
-Selanjutnya, kalian bisa klik *Continue* untuk ke langkah berikutnya.
+
+1. Maka domain yang kita beli akan masuk ke daftar keranjang. Setelah itu, kalian bisa *checklist* atau centang pada bagian *DNS Management.* Jadi, selain kita mendapatkan domain yang murah, kalian juga mendapatkan fitur *DNS Management* secara gratis. *DNS Management* sendiri berfungsi untuk mengatur DNS pada domain kita, yang biasanya digunakan jika kita akan melakukan *pointing* atau transfer domain ke penyedia hosting lain atau penyedia *DNS Management* pihak ketiga.
+    Selanjutnya, kalian bisa klik *Continue* untuk ke langkah berikutnya.
    
    ![Centang DNS Management](/assets/img/content/daftar-domain-3.png)
    
@@ -39,11 +38,11 @@ Selanjutnya, kalian bisa klik *Continue* untuk ke langkah berikutnya.
    
    ![Lengkapi pendaftaran akun](/assets/img/content/daftar-domain-4.png)
 
- Berhubung saya sudah punya akun, maka saya hanya login saja dengan akun yang sudah terdaftar sebelumnya dengan memilih *Existing Customer Login*.
+    Berhubung saya sudah punya akun, maka saya hanya login saja dengan akun yang sudah terdaftar sebelumnya dengan memilih *Existing Customer Login*.
 
 ![Login ke akun](/assets/img/content/daftar-domain-5.png)
 
-Setelah berhasil login atau setelah kalian selesai membuat akun, silahkan centang atau *checklist* pada bagian *I have read and agree to the Terms of Service* untuk menyetujui kebijakan dari Dewabiz.com. Kemudian kalian klik, *Checkout* untuk melakukan pembayaran domain.
+    Setelah berhasil login atau setelah kalian selesai membuat akun, silahkan centang atau *checklist* pada bagian *I have read and agree to the Terms of Service* untuk menyetujui kebijakan dari Dewabiz.com. Kemudian kalian klik, *Checkout* untuk melakukan pembayaran domain.
 
 
 
