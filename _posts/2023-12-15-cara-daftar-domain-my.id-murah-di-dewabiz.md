@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'Cara Mendaftar Domain My.Id Murah di Dewabiz.com'
 tag: [Domain, My.Id, Domain Murah, Domain Gratis]
 image: 'BASEURL/assets/img/content/domain-myid-murah-blog-thumbnail.png'
