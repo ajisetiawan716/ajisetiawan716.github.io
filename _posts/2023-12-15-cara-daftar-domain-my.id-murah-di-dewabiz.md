@@ -6,11 +6,11 @@ description: Sebuah tutorial untuk mendapatkan domain .my.id murah dari Dewabiz.
  
 ---
 
+![Domain .My.Id Murah](/assets/img/content/domain-myid-murah-blog-thumbnail.png)
+
 # Pendahuluan
 
 Domain merupakan salah satu unsur  terpenting dalam suatu website. Tanpa sebuah domain maka website tersebut tidak dapat diakses. Selain itu, fungsi utama domain yaitu untuk mengidentifikasi alamat suatu website yang terdapat dalam internet, mirip seperti rumah website juga mempunyai alamatnya tersendiri. Domain juga diigunakan untuk memudahkan pengguna internet mengunjungi suatu website tanpa perlu mengingat penomoran IP (_Internet Protocol)_ yang terdiri dari angka-angka sulit diingat. Oleh karena itu, diciptakanlah domain beserta sistem DNS (_Domain Name System)_ untuk mengatur dan mengarahkan IP ke dalam suatu domain.
-
-![Domain .My.Id Murah](/assets/img/content/domain-myid-murah-blog-thumbnail.png)
 
 Pada kali ini saya akan membagikan cara mendaftar sebuah domain, untuk contohnya saya menggunakan domain .my.id yang merupakan TLD domain yang disediakan oleh PANDI selaku pengelola domain nasional di Indonesia yang menaungi sistem domain .id. Selain domain .my.id lembaga tersebut juga mengatur penamaan domain yang lain seperti .co.id, .net.id, biz.id dan sebagainya. 
 
