@@ -1,69 +1,104 @@
-// get the button
-const audioBtn = document.querySelector(".audio-block");
-// set the default state of the button
+// Created By gurudzgn.com
+const togglePlayButton = document.getElementById("toggle-play");
+const textContainer = document.getElementById("post-body");
+
 let isPlaying = false;
-// get the default title of the tab (so we can change it later)
-let defaultTabTitle = document.title;
-// check if speechSynthesis is available in the browser
-const isSynthAvailable = window.speechSynthesis !== undefined;
-// if speechSynthesis is not available, hide the button
-if (!isSynthAvailable) {
-  audioBtn.style.display = "none";
-}
-// speak the text passed in as a parameter, and call the onend function when the speech is finished
-function speak(text, onend) {
-  window.speechSynthesis.cancel();
-  var ssu = new SpeechSynthesisUtterance(text);
-  window.speechSynthesis.speak(ssu);
-  function _wait() {
-    if (!window.speechSynthesis.speaking) {
-      onend();
-      return;
+let currentParagraph = 0;
+const paragraphs = textContainer.querySelectorAll("p, h1, h2, h3, h4, h5, h6");
+let currentHighlightedSpan = null;
+
+togglePlayButton.addEventListener("click", function () {
+  if (!isPlaying) {
+    if (currentParagraph >= paragraphs.length) {
+      // Reset ke awal jika sudah selesai
+      currentParagraph = 0;
     }
-    window.setTimeout(_wait, 200);
-  }
-  _wait();
-}
-
-// get the text from the blog post
-function getBlogText() {
-  const text = document.querySelectorAll(".content > *");
-  let textArray = [];
-  text.forEach((elem) => {
-    textArray.push(elem.innerText);
-  });
-  // remove "Copy" from the start of the text
-  textArray.forEach((elem, index) => {
-    // if the text starts with "Copy", remove it
-    if (elem.startsWith("Copy")) textArray[index] = elem.replace("Copy\n", "");
-  });
-  return textArray.join("\n");
-}
-// add click event listener to the button
-audioBtn.addEventListener("click", () => {
-  isPlaying = !isPlaying;
-  if (isPlaying) {
-    let text = getBlogText();
-    speak(text, () => {
-      isPlaying = false;
-      audioBtn.classList.remove("active");
-    });
+    isPlaying = true;
+    togglePlayButton.innerHTML = `
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+        </svg>
+        Jeda
+    `;
+    play();
   } else {
-    window.speechSynthesis.cancel();
+    isPlaying = false;
+    togglePlayButton.innerHTML = `
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M8 5v14l11-7z"/>
+        </svg>
+        Putar
+    `;
+    speechSynthesis.cancel();
+    clearHighlight(paragraphs[currentParagraph]);
   }
-  audioBtn.classList.toggle("active");
 });
 
-// stop audio when user navigates away from the page
-window.addEventListener("beforeunload", () => {
-  window.speechSynthesis.cancel();
-});
-
-// change title of the tab when audio is playing (to show that audio is playing)
-window.setInterval(() => {
-  if (isPlaying) {
-    document.title = "🔊 Playing... " + defaultTabTitle;
+async function play() {
+  if (currentParagraph < paragraphs.length) {
+    const paragraph = paragraphs[currentParagraph];
+    const text = paragraph.textContent;
+    await speak(text);
   } else {
-    document.title = defaultTabTitle;
+    isPlaying = false;
+    togglePlayButton.innerHTML = `
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M8 5v14l11-7z"/>
+        </svg>
+        Putar
+    `;
   }
-}, 500);
+}
+
+async function speak(text) {
+  const rate = 1.0; // Atur kecepatan (contoh: 1.0 = 1x lebih cepat)
+
+  const sentences = text.match(/[^.!?]+[.!?]/g) || [];
+  for (let i = 0; i < sentences.length; i++) {
+    const sentence = sentences[i].trim();
+    if (sentence !== "") {
+      highlightWord(paragraphs[currentParagraph], i);
+      await speakSentence(sentence, rate);
+    }
+  }
+
+  // Setelah selesai membaca kalimat-kalimat, lanjutkan ke kalimat berikutnya
+  currentParagraph++;
+  setTimeout(play, 0); // Jeda 0ms sebelum membaca paragraf berikutnya
+}
+
+function speakSentence(sentence, rate) {
+  return new Promise((resolve) => {
+    const utterance = new SpeechSynthesisUtterance(sentence);
+    utterance.lang = "id-ID"; // Atur bahasa yang sesuai
+    utterance.rate = rate; // Atur kecepatan baca
+    speechSynthesis.speak(utterance);
+
+    utterance.onend = function () {
+      resolve();
+    };
+  });
+}
+
+function highlightWord(paragraph, sentenceIndex) {
+  const sentences = paragraph.textContent.match(/[^.!?]+[.!?]/g) || [];
+  const words = sentences[sentenceIndex].split(/\s+/);
+  const highlightedWord = words[0]; // Ambil kata pertama untuk di-highlight
+  sentences[sentenceIndex] = sentences[sentenceIndex].replace(
+    highlightedWord,
+    `<span class="highlighttts">${highlightedWord}</span>`
+  );
+  paragraph.innerHTML = sentences.join(" ");
+  currentHighlightedSpan = paragraph.querySelector(".highlighttts");
+}
+
+function clearHighlight(paragraph) {
+  if (currentHighlightedSpan) {
+    unhighlightWord(currentHighlightedSpan);
+  }
+}
+
+function unhighlightWord(span) {
+  const text = span.textContent;
+  span.outerHTML = text;
+}
