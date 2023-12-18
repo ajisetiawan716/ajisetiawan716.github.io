@@ -200,6 +200,51 @@ $linkColor: #0366d6;
   align-content: flex-start;
 }
 /* End of Span Tag */
+
+/* TTS*/
+.highlighttts {
+            display: inline;
+        }
+
+        .highlighttts:after {
+            content: "";
+            margin-right: -1.86px;
+            border-right: 2px solid #19aee8;
+            animation: kedip 1s linear infinite;
+        }
+
+        svg.icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+            fill: #19aee8;
+        }
+
+        #toggle-play {
+            position: relative;
+            display: flex;
+            align-items: center;
+            border-radius: 50px;
+            padding: 0 15px 0 10px;
+            border: 1px solid #19aee8;
+            color: #000;
+            background: #fff;
+        }
+
+        @keyframes kedip {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+}
+/* End of TTS */
 .post {
   .post-metadata {
     font-size: 14px;
