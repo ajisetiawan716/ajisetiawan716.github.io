@@ -6,7 +6,7 @@ tags: [Creppypasta, Horror, Cerita Horor, Misteri]
 #categories: []
 #date: 2023-12-15 15:25:15
 #excerpt: ''
-image: '/assets/img/content/Jepretan-Layar-2019-07-03-pada-4.19.17-PM-1024x683.png'
+image: 'Jepretan-Layar-2019-07-03-pada-4.19.17-PM-1024x683.png'
 image-alt: Gambar Lampu
 #description: 
 #permalink:
