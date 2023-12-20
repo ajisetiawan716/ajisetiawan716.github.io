@@ -4,11 +4,11 @@ title: 'Cara Mendaftar Domain My.Id Murah di Dewabiz.com'
 layout: post
 tags: [Domain, My.Id, Domain Murah, Domain Gratis]
 image: 'domain-myid-murah-blog-thumbnail.png'
+image-alt: Domain .My.Id Murah
 description: Sebuah tutorial untuk mendapatkan domain .my.id murah dari Dewabiz.com
  
 ---
 
-![Domain .My.Id Murah](/assets/img/content/domain-myid-murah-blog-thumbnail.png "Domain .My.Id Murah")
 
 # Pendahuluan
 
