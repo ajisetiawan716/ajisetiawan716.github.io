@@ -6,7 +6,7 @@ tags: [Creppypasta, Horror Story]
 #date: 2023-12-10 13:14:15
 #excerpt: ''
 #image: 'BASEURL/assets/blog/img/.png'
-description: Sepasang Suami-istri tak sengaja tersesat karena masuk terlalu jauh ke dalam hutan ketika mereka sedang mendaki gunung...
+#description: Sepasang Suami-istri tak sengaja tersesat karena masuk terlalu jauh ke dalam hutan ketika mereka sedang mendaki gunung...
 #permalink:
 ---
 
