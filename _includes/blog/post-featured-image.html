@@ -1,1 +1,15 @@
-<img class="feat-img" src="{{ site.baseurl }}/assets/img/content/{{ include.image }}" alt="{{ include.alt | default: 'image representing a theme in this article' }}" />
+{% assign is_external = include.external_image | default: false %}
+
+{% if is_external %}
+  {% comment %}
+    Jika gambar eksternal, gunakan URL langsung.
+  {% endcomment %}
+  {% assign image_url = include.external_image %}
+{% else %}
+  {% comment %}
+    Jika gambar internal, gunakan baseurl dari Jekyll.
+  {% endcomment %}
+  {% assign image_url = site.baseurl | append: '/assets/img/content/' | append: include.image %}
+{% endif %}
+
+<img class="feat-img" src="{{ image_url }}" alt="{{ include.image_alt | default: 'image representing a theme in this article' }}" />
