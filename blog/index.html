@@ -48,6 +48,7 @@ weight: 2
       </p>
       {%- endif -%}
       <p class="card-text">
+        {%- if post.description -%}
         {{ post.description }}
         {%- else -%}
         {{ post.content | truncatewords: 25, "<small><i>  read more...</i></small>" }}
