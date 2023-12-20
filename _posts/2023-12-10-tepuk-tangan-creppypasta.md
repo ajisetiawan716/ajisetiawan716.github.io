@@ -5,7 +5,8 @@ tags: [Creppypasta, Horror Story]
 #categories: []
 #date: 2023-12-10 13:14:15
 #excerpt: ''
-image: 'https://images-tm.tempo.co/all/2023/08/26/840117/840117_1200.jpg'
+external_image: 'https://images-tm.tempo.co/all/2023/08/26/840117/840117_1200.jpg'
+image-alt: Gambar Tangan
 #description: Sepasang Suami-istri tak sengaja tersesat karena masuk terlalu jauh ke dalam hutan ketika mereka sedang mendaki gunung...
 #permalink:
 ---
