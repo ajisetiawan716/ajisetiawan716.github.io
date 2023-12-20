@@ -11,7 +11,7 @@ image-alt: Gambar Lampu
 #description: 
 #permalink:
 ---
-
+![Lampu](/assets/img/content/Jepretan-Layar-2019-07-03-pada-4.19.17-PM-1024x683.png "Gambar Lampu")
 Dahlia memeluk dirinya sendiri di sofa.
 Terkadang matanya melirik ke arah pintu utama. Sekitar setengah jam yang lalu ia sudah menghubungi ketiga temannya, Zahra, Jennie dan Mimi. Ia meminta ketiganya untuk menginap malam ini karena orangtuanya pergi keluar kota.
 
