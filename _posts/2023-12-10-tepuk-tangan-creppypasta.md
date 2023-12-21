@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tepuk Tangan - Creppypasta 
-tags: [Creppypasta, Horror Story]
+title: Tepuk Tangan - Creepypasta 
+tags: [Creepypasta, Horror Story]
 #categories: []
 #date: 2023-12-10 13:14:15
 #excerpt: ''
