@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [Horror, Cerita Horor, Creppypasta, Misteri]
+tags: [Horror, Cerita Horor, Creepypasta, Misteri]
 #categories: []
 #date: 2023-12-21 13:14:15
 #excerpt: ''
@@ -8,7 +8,7 @@ tags: [Horror, Cerita Horor, Creppypasta, Misteri]
 #description:
 #permalink:
 title: 'Face To Ghost - Creppypasta'
-external-inage: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7_oM7ZibTZBwiF8KVcPL5v69MUe3iDg1dLi8LHrSp6vmJ9mG98jVq8Ug&s=10
+external-image: https://thumbs2.imgbox.com/b0/f2/h5rMvfSj_t.jpeg
 inage-alt: Face to Ghost
 ---
 
