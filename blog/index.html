@@ -52,7 +52,7 @@ weight: 2
 {% assign default_image = site.defaults[0].values.image %}
 
 {% if post.image or post.external-image %}
-  {% include blog/post-featured-image.html image=post.image external-image=post.external-image alt=post.image-alt %}
+  {% include blog/post-featured-image.html external-image=post.external-image image=post.image alt=post.image-alt %}
 {% endif %}
 
         {%- if post.description -%}
