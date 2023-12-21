@@ -1,14 +1,12 @@
-<div class="separator"></div>
-<h4 class="text-muted">Related Posts</h4>
-<div class="rect">
-  
   {% assign maxRelated = 4 %}
   {% assign minCommonTags =  1 %}
   {% assign maxRelatedCounter = 0 %}
 
 
   {% for post in site.posts %}
-
+<div class="separator"></div>
+<h4 class="text-muted">Related Posts</h4>
+<div class="rect">
 
     {% assign sameTagCount = 0 %}
     {% assign commonTags = '' %}
