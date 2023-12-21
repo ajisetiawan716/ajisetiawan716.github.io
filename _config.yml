@@ -146,7 +146,7 @@ defaults:
       path: "" # an empty string here means all files in the project
       type: posts # Apply the default values below only to posts
     values:
-      image: cover-default-image.png
+      image: "https://placehold.co/1200x630/FA8072/FFFFFF.png?text={{ post.title | uri_escape | replace: '%2F', '/' | replace: '%20', ' ' }}%5Cn{{ site.url | uri_escape }}&font=Source%20Sans%20Pro"
       image-alt: Default Image Post
 
 ### Exclude from processing ###
