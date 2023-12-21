@@ -7,7 +7,7 @@
     {% assign image_url = site.baseurl | append: '/assets/img/content/' | append: include.image %}
   {% elsif is_external %}
     {# Jika variabel external-image diatur, tampilkan gambarnya #}
-    {% assign image_url = site.baseurl | append: '/assets/img/content/' | append: include.external-image %}
+    {% assign image_url = include.external-image | default: false %}
   {% elsif default_image and not is_external %}
     {# Jika default image diatur dan external image tidak diatur, tampilkan gambarnya #}
     {% assign image_url = default_image %}
