@@ -3,21 +3,21 @@
 
 {% if page.url == '/blog/' %}
   {% if include.image %}
-    
+    {# Jika variabel image diatur, tampilkan gambarnya #}
     {% assign image_url = site.baseurl | append: '/assets/img/content/' | append: include.image %}
   {% elsif is_external %}
-   
+    {# Jika variabel external-image diatur, tampilkan gambarnya #}
     {% assign image_url = include.external-image %}
-  {% elsif default_image %}
-
+  {% elsif default_image and not is_external %}
+    {# Jika default image diatur dan external image tidak diatur, tampilkan gambarnya #}
     {% assign image_url = default_image %}
   {% else %}
-  
+    {# Jika tidak ada gambar internal, eksternal, atau default, jangan tampilkan gambar #}
     {% assign image_url = nil %}
   {% endif %}
 {% else %}
-
-  {% assign image_url = include.image | default: nil %}
+  {# Jika bukan halaman /blog/, jangan tampilkan gambar default #}
+  {% assign image_url = default_image | default: nil %}
 {% endif %}
 
 {% if image_url %}
