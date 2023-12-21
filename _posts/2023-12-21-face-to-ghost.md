@@ -7,9 +7,9 @@ tags: [Horror, Cerita Horor, Creepypasta, Misteri]
 #image: 'BASEURL/assets/blog/img/.png'
 #description:
 #permalink:
-title: 'Face To Ghost - Creppypasta'
+title: 'Face To Ghost - Creepypasta'
 external-image: https://thumbs2.imgbox.com/b0/f2/h5rMvfSj_t.jpeg
-inage-alt: Face to Ghost
+image-alt: Face to Ghost
 ---
 
 
@@ -120,7 +120,6 @@ Kalian boleh percaya, atau mengatakan bahwa mereka tidak ada. Tapi aku tahu send
 
 
 
+_Penulis: Ice Prince_
 
-Sumber: Dark Ice
-
-Penulis: Ice Prince
+_Sumber: Dark Ice_
