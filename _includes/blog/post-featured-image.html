@@ -8,15 +8,14 @@
   {% assign image_url = include.external-image %}
 {% elsif include.image %}
   {% comment %}
-    Jika variabel image diatur, gunakan baseurl dari Jekyll.
+    Jika gambar internal diatur, gunakan baseurl dari Jekyll.
   {% endcomment %}
   {% assign image_url = site.baseurl | append: '/assets/img/content/' | append: include.image %}
 {% else %}
   {% comment %}
-    Jika tidak ada gambar internal maupun eksternal, atau variabel image tidak diatur,
-    pada halaman index tampilkan gambar default, sedangkan pada halaman post tidak tampilkan gambar.
+    Jika tidak ada gambar internal maupun eksternal, gunakan gambar default.
   {% endcomment %}
-  {% assign image_url = page.url == '/blog/' ? default_image : nil %}
+  {% assign image_url = default_image %}
 {% endif %}
 
 {% if image_url %}
