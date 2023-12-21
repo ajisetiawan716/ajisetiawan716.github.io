@@ -2,7 +2,7 @@
 
 title: 'Lebih Baik Matikan Lampunya! - Creepypasta'
 layout: post
-tags: [Creppypasta, Horror, Cerita Horor, Misteri]
+tags: [Creepypasta, Horror, Cerita Horor, Misteri]
 #categories: []
 #date: 2023-12-15 15:25:15
 #excerpt: ''
