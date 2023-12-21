@@ -42,7 +42,9 @@ layout: page
 <!-- trakteer widget -->
 <br>
  <!– call the featured-post-image.html template file –>
-{% include blog/post-featured-image.html external-image=page.external-image image=page.image alt=page.image-alt %}
+    {% if page.image and page.external-image %}
+      {% include post-featured-image.html external-image=page.image alt=page.title image=page.image %}
+    {% endif %}
 
 <div id="post-body">
 {{ content }}
