@@ -1,4 +1,4 @@
-{% assign default_image_url = site.defaults[0].values.image %}
+{% assign default_image = site.defaults[0].values.image %}
 {% assign is_external = include.external-image | default: false %}
 
 {% if is_external %}
@@ -13,19 +13,12 @@
   {% assign image_url = site.baseurl | append: '/assets/img/content/' | append: include.image %}
 {% else %}
   {% comment %}
-    Jika tidak ada gambar internal maupun eksternal pada variabel image,
-    pada halaman index tampilkan default image dari _config.yml,
-    sedangkan pada halaman post, tidak tampilkan gambar.
+    Jika tidak ada gambar internal maupun eksternal, atau variabel image tidak diatur,
+    pada halaman index tampilkan gambar default, sedangkan pada halaman post tidak tampilkan gambar.
   {% endcomment %}
-  {% assign is_index_page = page.url == '/blog/' or page.url == '/blog/index.html' %}
-  {% assign image_url = is_index_page ? default_image_url : nil %}
+  {% assign image_url = page.url == '/blog/' ? default_image : nil %}
 {% endif %}
 
 {% if image_url %}
-  {% if default_image_url contains 'http://' or default_image_url contains 'https://' %}
-    {% assign title_for_url = page.title | uri_escape | replace: '%2F', '/' | replace: '%20', ' ' %}
-    {% assign url_for_site = site.url | uri_escape %}
-    {% assign image_url = default_image_url | replace: '{{ post.title | uri_escape }}', title_for_url | replace: '{{ site.url | uri_escape }}', url_for_site %}
-  {% endif %}
   <img class="feat-img" src="{{ image_url }}" alt="{{ include.alt | default: 'image representing a theme in this article' }}" title="{{ include.alt | default: 'image post' }}" />
 {% endif %}
