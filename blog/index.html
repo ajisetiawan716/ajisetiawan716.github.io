@@ -51,12 +51,11 @@ weight: 2
         <!– call the featured-post-image.html template file –>
 {% assign default_image = site.defaults[0].values.image %}
 
-{% if post.image or post.external_image %}
-  {% include blog/post-featured-image.html image=post.image external_image=post.external_image alt=post.image_alt %}
+{% if post.image or post.external-image %}
+  {% include blog/post-featured-image.html image=post.image external-image=post.external-image alt=post.image-alt %}
 {% else %}
-  {% include blog/post-featured-image.html image=default_image alt=site.defaults[0].values.image_alt %}
+  {% include blog/post-featured-image.html image=default_image alt=site.defaults[0].values.image-alt %}
 {% endif %}
-
 
         {%- if post.description -%}
         {{ post.description }}
