@@ -1,10 +1,10 @@
-{% assign is_external = include.external_image | default: false %}
+{% assign is_external = include.external-image | default: false %}
 
 {% if is_external %}
   {% comment %}
     Jika gambar eksternal, gunakan URL langsung.
   {% endcomment %}
-  {% assign image_url = include.external_image %}
+  {% assign image_url = include.external-image %}
 {% else %}
   {% comment %}
     Jika gambar internal, gunakan baseurl dari Jekyll.
