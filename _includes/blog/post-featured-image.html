@@ -19,5 +19,5 @@
 {% endif %}
 
 {% if image_url %}
-  <img class="feat-img" src="{{ image_url }}" alt="{{ page.image_alt | default: 'image representing a theme in this article' }}" title="{{ page.image_alt | default: 'image post' }}" />
+  <img class="feat-img" src="{{ image_url }}" alt="{{ page.image_alt | default: 'image representing a theme in this article' }}" title="{{ page.image-alt | default: 'image post' }}" />
 {% endif %}
