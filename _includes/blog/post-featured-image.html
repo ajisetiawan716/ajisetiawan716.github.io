@@ -10,7 +10,7 @@
   {% comment %}
     Jika variabel image diatur, gunakan baseurl dari Jekyll.
   {% endcomment %}
-  {% assign image_url = site.baseurl | append: '/assets/img/content/' | append: include.image %}
+  {% assign image_url = site.baseurl | append: include.image %}
 {% else %}
   {% comment %}
     Jika tidak ada gambar internal maupun eksternal, atau variabel image tidak diatur,
