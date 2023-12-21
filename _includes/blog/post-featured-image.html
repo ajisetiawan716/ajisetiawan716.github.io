@@ -17,7 +17,7 @@
   {% endif %}
 {% else %}
 
-  {% assign image_url = page.image | default: nil %}
+  {% assign image_url = include.image | default: nil %}
 {% endif %}
 
 {% if image_url %}
