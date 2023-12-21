@@ -43,7 +43,7 @@ layout: page
 <br>
  <!– call the featured-post-image.html template file –>
     {% if page.image and page.external-image %}
-      {% include post-featured-image.html external-image=page.image alt=page.title image=page.image %}
+      {% include blog/post-featured-image.html external-image=page.image alt=page.title image=page.image %}
     {% endif %}
 
 <div id="post-body">
