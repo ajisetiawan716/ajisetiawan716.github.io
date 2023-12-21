@@ -42,27 +42,7 @@ layout: page
 <!-- trakteer widget -->
 <br>
  <!– call the featured-post-image.html template file –>
- {% assign default_image = site.defaults[0].values.image %}
-
-{% if page.image %}
-  {% comment %}
-    Tampilkan gambar jika variabel image diatur.
-  {% endcomment %}
-  {% include blog/post-featured-image.html image=page.image alt=page.image-alt %}
-
-{% elsif page.external-image %}
-  {% comment %}
-    Jika variabel external_image diatur, gunakan gambar eksternal.
-  {% endcomment %}
-  {% include blog/post-featured-image.html external-image=page.external-image alt=page.image-alt %}
-
-{% elsif default_image %}
-  {% comment %}
-    Jika variabel image dan external_image tidak diatur, gunakan gambar default dan jangan tampilkan gambarnya.
-  {% endcomment %}
-  <!-- Jangan tampilkan elemen img untuk gambar default -->
-
-{% endif %}
+{% include blog/post-featured-image.html external_image=page.external_image image=page.image alt=page.image_alt %}
 
 <div id="post-body">
 {{ content }}
