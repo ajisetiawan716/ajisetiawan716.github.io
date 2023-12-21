@@ -49,11 +49,7 @@ weight: 2
       {%- endif -%}
       <p class="card-text">
         <!– call the featured-post-image.html template file –>
-{% if post.image or post.external-image %}
-  {% include blog/post-featured-image.html image=post.image external-image=post.external-image alt=post.image-alt %}
-{% else %}
-  {% include blog/post-featured-image.html image=site.defaults[0].values.image alt=site.defaults[0].values.image-alt %}
-{% endif %}
+{% include blog/post-featured-image.html image=post.image external-image=post.external-image alt=post.image-alt %}
         {%- if post.description -%}
         {{ post.description }}
         {%- else -%}
