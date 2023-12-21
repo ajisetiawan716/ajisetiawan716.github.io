@@ -146,7 +146,8 @@ defaults:
       path: "" # an empty string here means all files in the project
       type: posts # Apply the default values below only to posts
     values:
-      image: cover-default-image.png    
+      image: cover-default-image.png
+      image-alt: Default Image Post
 
 ### Exclude from processing ###
 exclude:
