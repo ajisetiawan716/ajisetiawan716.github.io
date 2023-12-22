@@ -15,7 +15,6 @@ I am a student at <b>STIES Putera Bangsa Tegal</b> with a study focus in Islamic
 
 <p class="text-center"> {% include social.html %} </p>
 <br>
-[View My CV](#){:.buttonmodal}
 <br>
 ### **My Skills**
 
