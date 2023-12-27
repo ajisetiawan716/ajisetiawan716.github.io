@@ -18,7 +18,13 @@
   <title>{{ title }} | Portofolio {{ site.title }}</title>
   <!-- Manifest file -->
   <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
-  <meta name="description" content="{{ description }}">
+  <!-- SEO -->
+  <meta name="description" content="{{ page.description }}">
+  {% if page.keywords %}
+  <meta name="keywords" content="{{ page.keywords }}">
+  {% else %}
+  <meta name="keywords" content="portfolio, resume, aji setiawan, ajisetiawan716, ajisetiawan, python, HTML, CSS, design graphic, desain grafis, personal website, indonesia, indonesian, indonesia freelancers, freelancer">
+  {% endif %}
   <!-- Favicon link original 
   <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
    -->
