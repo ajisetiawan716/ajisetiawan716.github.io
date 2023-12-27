@@ -31,7 +31,7 @@ var CACHE_NAME = 'aji-setiawan-cache-v18';
 // Cache assets
 // Removed assets/posts because I only want assets from the most recent posts getting cached
 {% for file in site.static_files %}
-    {% if file.path contains '/public/css' or file.path contains '/public/js' or file.path contains '/public/images' %}
+    {% if file.path contains '/assets/css' or file.path contains '/assets/js' or file.path contains '/assets/images' %}
       urlsToCache.push("{{ file.path }}");
     {% endif %}
 {% endfor %}
