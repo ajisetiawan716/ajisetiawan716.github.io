@@ -1,0 +1,281 @@
+---
+layout: default
+title: Home
+description: Hello there! I am Omkar Pathak, a software developer by profession, Pythonista by ♥ stuffed inside a compact, witty, artistic body
+image: https://i.imgur.com/FYxQwXN.jpg
+---
+<div class="jumbotron jumbotron-fluid  d-flex align-items-center" id="header-image">
+    <div class="container">
+        <div class="row" id="banner-content">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="padding-right: 5%;">
+                <div>
+                    <h1 class="display-5 vollkron" id="omkar-title">Omkar Pathak <span></span></h1>
+                    <p class="algreya">Software Developer by Profession, Pythonista by ♥ stuffed inside a compact, witty, artistic body</p>
+                </div>
+
+                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                    <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-secondary social-media-icon"><i class="fab fa-twitter"></i></button></a>
+                    <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-secondary social-media-icon"><i class="fab fa-github"></i></button></a>
+                    <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><button class="btn btn-secondary social-media-icon"><i class="fab fa-linkedin"></i></button></a>
+                    <a href="https://www.facebook.com/{{ site.facebook_username }}"><button class="btn btn-secondary social-media-icon"><i class="fab fa-facebook-square"></i></button></a>
+                    <a href="https://www.quora.com/profile/{{ site.quora_username }}"><button class="btn btn-secondary social-media-icon"><i class="fab fa-quora"></i></button></a>
+                    <a href="https://www.instagram.com/{{ site.instagram_username }}"><button class="btn btn-secondary social-media-icon"><i class="fab fa-instagram"></i></button></a>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="banner-image" style="padding: 0;">
+              <div>
+                  <img loading="lazy" src="{{ 'public/images/omkar_desk.svg' | relative_url }}" class="img-fluid" alt="">
+              </div>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col">
+                <a class="anchor" href="{{ '/#about' | prepend:site.baseurl }}">
+                    <div class="arrow bounce"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container text-center">
+        <h1 class="display-4 vollkron">About Me</h1>
+        <hr data-content="</>" class="hr-text">
+        <!-- <p class="text-muted algreya" style="font-size: 20px;"><i>Because everyone has a unique story..</i></p> -->
+
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <a href="{{ '/#notable-projects' | prepend:site.baseurl }}">
+                <button type="button" class="btn btn-outline-primary algreya" style="border-radius: 0;">Projects</button>
+            </a>
+            <a href="{{ '/#skills' | prepend:site.baseurl }}">
+                <button type="button" class="btn btn-outline-primary algreya" style="border-radius: 0;">Skills</button>
+            </a>
+            <a href="{{ '/#awards' | prepend:site.baseurl }}">
+                <button type="button" class="btn btn-outline-primary algreya" style="border-radius: 0;">Achievements</button>
+            </a>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top: 5%;">
+        <div class="row in-section" data-aos="fade">
+            <div class="col-lg-4 col-md-4 col-12">
+                <figure class="figure">
+                    <img loading="lazy" src="{{ 'public/images/growth.svg' | relative_url }}" alt="Code" class="img-fluid">
+                    <figcaption class="figure-caption">
+                        <p class="algreya" style="font-size: 20px; color: black; margin-top: 10%;">
+                            I <a href="{{ 'freelancing/software-development/' | relative_url }}" target="_blank" rel="noopener noreferrer">help small businesses</a> get their online presence. Till date, I have helped Gymnasiums, dairy products supplier, colleges, mechanical job vendors, financial institutes, coaching classes to create their online presence and automate tasks.
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <figure class="figure">
+                    <img loading="lazy" src="{{ 'public/images/champ.svg' | relative_url }}" alt="Code" class="img-fluid">
+                    <figcaption class="figure-caption">
+                        <p class="algreya" style="font-size: 20px; color: black; margin-top: 10%;">
+                            Huge fan of open source software and an active contributor on Github. I am <a href="http://git-awards.com/users/omkarpathak" target="_blank" rel="noopener noreferrer">recognized</a> for my contributions towards Python programming language. Liking <a href="{{ '/photography/' | prepend:site.baseurl }}" target="_blank" rel="noopener noreferrer">photography</a> and illustrations these days too :)
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <figure class="figure">
+                    <img loading="lazy" src="{{ 'public/images/office.svg' | relative_url }}" alt="Code" class="img-fluid">
+                    <figcaption class="figure-caption">
+                        <p class="algreya" style="font-size: 20px; color: black; margin-top: 10%;">
+                            I can help you with building e-commerce websites, portfolio websites, beautiful illustrations for your branding, write technical content and could help you automate your stuff.
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section" id="notable-projects" style="position: relative;">
+    <div style="position: absolute;left:0;width:100%;margin-left:0px;top: 0;">
+        <img loading="lazy" src="{{ 'public/images/drawing-1.svg' | relative_url }}" style="width: 100%;">
+    </div>
+
+    <div class="container">
+        <div class="row" style="padding-top: 15%; padding-bottom: 2%;">
+            <div class="col text-center">
+                <h1 class="display-4 vollkron">Noteworthy Projects</h1>
+                <hr data-content="</>" class="hr-text">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row" data-aos="fade">
+            <div class="col-lg-4 col-md-4 col-12 text-center">
+                <figure class="figure">
+                    <img loading="lazy" src="{{ 'public/images/resume_parser.svg' | relative_url }}" alt="Code" class="img-fluid">
+                    <figcaption class="figure-caption">
+                        <p class="algreya" style="font-size: 25px; color: black; margin-top: 10%;">
+                            <b><a href="https://github.com/OmkarPathak/pyresparser" target="_blank" rel="noopener noreferrer" style="font-size: 30px;">Resume Parser</a></b>
+                        </p>
+    
+                        <p class="algreya" style="font-size: 20px; color: black;">
+                            Easy to use, that parses hundreds of resumes in minutes. 32k+ downloads on Github
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12 text-center">
+                <figure class="figure">
+                    <img loading="lazy" src="{{ 'public/images/pygorithm.svg' | relative_url }}" alt="Code" class="img-fluid">
+                    <figcaption class="figure-caption">
+                        <p class="algreya" style="font-size: 25px; color: black; margin-top: 10%;">
+                            <b><a href="https://github.com/OmkarPathak/pygorithm" target="_blank" rel="noopener noreferrer" style="font-size: 30px;">Pygorithm</a></b>
+                        </p>
+    
+                        <p class="algreya" style="font-size: 20px; color: black;">
+                            Learn all major algorithms in one library, implemented in pure python
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12 text-center">
+                <figure class="figure">
+                    <img loading="lazy" src="{{ 'public/images/notekeeper.svg' | relative_url }}" alt="Code" class="img-fluid">
+                    <figcaption class="figure-caption">
+                        <p class="algreya" style="font-size: 25px; color: black; margin-top: 10%;">
+                            <b><a href="https://github.com/OmkarPathak/django-notekeeper" target="_blank" rel="noopener noreferrer" style="font-size: 30px;">Notekeeper</a></b>
+                        </p>
+    
+                        <p class="algreya" style="font-size: 20px; color: black;">
+                            Encrypted note taking app with modern features like public sharing and markdown
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom: 15%;">
+            <div class="col text-center algreya">
+                <b>View all my projects <a href="{{ '/projects/' | prepend:site.baseurl }}">here</a></b>
+            </div>
+        </div>
+    </div>
+
+    <div style="position: absolute;left:0;width:100%;margin-left:0px;bottom: 0;">
+        <img loading="lazy" src="{{ 'public/images/drawing-2.svg' | relative_url }}" style="width: 100%;">
+    </div>
+</div>
+
+<div class="bg-white" id="skills">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="display-4 vollkron">Skills</h1>
+                <hr data-content="</>" class="hr-text">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img loading="lazy" src="{{ 'public/images/skills.svg' | relative_url }}" alt="Code" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
+        </div>
+
+        <div class="row" style="margin-top: 50px;" data-aos="fade">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+                <i class="fas fa-tasks" style="font-size: 30px;"></i>
+                <p class="anchor" style="padding-top: 10px;"><b>Programming Languages</b></p>
+                <p>Python, C, PHP, C++, Shell Script</p>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+                <i class="fas fa-database" style="font-size: 30px;"></i>
+                <p class="anchor" style="padding-top: 10px;"><b>Databases</b></p>
+                <p>BigQuery, MySQL, SQLite, MongoDB, Oracle</p>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+                <i class="fas fa-code-branch" style="font-size: 30px;"></i>
+                <p class="anchor" style="padding-top: 10px;"><b>Frameworks</b></p>
+                <p>Django, Flask (Python), Laravel (PHP), GitHub, GitLab</p>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+                <i class="fas fa-cogs" style="font-size: 30px;"></i>
+                <p class="anchor" style="padding-top: 10px;"><b>Tools</b></p>
+                <p>Scikit-Learn, OpenCV, Cloud (GCP, Azure, DigitalOcean), CI/CD, Docker, Kubernetes</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section" id="awards" style="position: relative;">
+    <div style="position: absolute;left:0;width:100%;margin-left:0px;top: 0;">
+        <img loading="lazy" src="{{ 'public/images/drawing-1.svg' | relative_url }}" style="width: 100%;">
+    </div>
+    <div class="container" style="margin-top: 10%;">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="display-4 vollkron">Awards and Achievements</h1>
+                <hr data-content="</>" class="hr-text">
+            </div>
+        </div>
+
+        <div class="row" data-aos="fade">
+            <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img loading="lazy" src="{{ 'public/images/awards.svg' | relative_url }}" alt="Code" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
+        </div>
+
+        <div class="row" style="margin-top: 20px;" data-aos="fade">
+            <div class="col offset-md-2 offset-lg-2">
+                <ul>
+                    <li class="algreya">
+                        Winner at Paintball competition organized by Commerzone IT Park in Jan 2020
+                    </li>
+                    <li class="algreya">
+                        <b>Top</b> rated Python developer in Pune, Maharashtra, India and <b>Fifth</b> in India at <a href="http://git-awards.com/users/omkarpathak" target="_blank">Github</a> in 2018 - Present
+                    </li>
+                    <li class="algreya">
+                        Awarded <a href="{{ '/best-outgoing-student-award/' | prepend: site.baseurl }}">'The Best Outgoing Student Award 2017-18'</a>
+                    </li>
+                    <li class="algreya">
+                        Won 2nd Prize in 30 hour Hackathon organized by MIT-ADT Persona Fest 2018
+                    </li>
+                    <li class="algreya">
+                        <b>Quora’s Top Writer</b> for 2018
+                    </li>
+                    <li class="algreya">
+                        Won the Best Paper Award in National Level Conference on “Emerging Trends in Computing , Analytics and Security - 2018”(NCETCAS-2018)
+                    </li>
+                </ul>
+
+                <h2><u>Co-curricular and Extra-curricular Activities:</u></h2>
+                <ul>
+                    <li class="algreya">
+                        Participated in various National level events like COEP Mindspark (Inter college Technical event), Avishkar 2k17 (Inter college Project competition), Innovatus (Intra college Technical event)
+                    </li>
+                    <li class="algreya">
+                        Conducted various workshops for engineering students to give them a brief overview about IoT by completing three mini projects and taught them basics of Python programming language
+                    </li>
+                    <li class="algreya">
+                        Contributor in Pune PyCon 2018 Website Designing and volunteering
+                    </li>
+                    <li class="algreya">
+                        Organizing head for the National level technical event - Innovatus
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <style>.bmc-button img{height: 34px !important;width: 35px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 10px 7px 10px !important;line-height: 35px !important;height:51px !important;min-width:217px !important;text-decoration: none !important;display:inline-flex !important;color:#ffffff !important;background-color:#5F7FFF !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 10px 7px 10px !important;font-size: 20px !important;letter-spacing: 0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#ffffff !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/omkarpathak27"><img loading="lazy" src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:15px;font-size:28px !important;">Buy me a coffee</span></a> -->
