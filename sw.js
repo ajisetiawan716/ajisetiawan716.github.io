@@ -22,8 +22,8 @@ var CACHE_NAME = 'aji-setiawan-cache-v18';
 // Do nothing if it's either an AMP page (as these are served via Googles cache) or the blog page
 // Fallback to the offline pages for these
 {% for page in site.html_pages %}
-  {% if page.path contains 'amp-html' or page.path contains 'blog' or page.path contains 'projects' %}
-  {% else if %}
+  {% if page.path contains 'amp-html' or page.path contains 'blog' or page.path contains 'projects' or page.path contains 'services' %}
+  {% else %}
     urlsToCache.push("{{ page.url }}");
   {% endif %}
 {% endfor %}
