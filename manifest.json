@@ -5,6 +5,7 @@
   "background_color": "#fff",
   "display": "standalone",
   "orientation": "potrait-primary",
+  "description": "Developer blog sharing ideas and smart solutions to others",
   "scope": "/",
   "start_url": "/",
   "icons": [
