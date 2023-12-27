@@ -2,6 +2,7 @@
 
 title: 'Cara Mendaftar Domain My.Id Murah di Dewabiz.com'
 layout: post
+style: fill
 tags: [Domain, My.Id, Domain Murah, Domain Gratis]
 image: 'domain-myid-murah-blog-thumbnail.png'
 image-alt: Domain .My.Id Murah
@@ -62,7 +63,9 @@ Pada kali ini, saya akan memberikan tutorial lebih tepatnya untuk berbagi bagaim
 
 8.  Setelah itu, kita tinggal menunggu status domainnya yang awalnya *Pending* hingga menjadi *Active,* yang menandakan bahwa domain berhasil terdaftar dan dapat kita gunakan.
    ![Menunggu status domain menjadi aktif](/assets/img/content/daftar-domain-8.png)
-   
+
+
+> 💡 **Catatan**    
 > Untuk promo domain murah dengan harga Rp.2.000 di Dewabiz.com diatas hanya berlaku selama promonya masih ada. Harga sewaktu-waktu dapat kembali normal sesuai dengan harga nama domain .my.id pada umumnya.
 
 
