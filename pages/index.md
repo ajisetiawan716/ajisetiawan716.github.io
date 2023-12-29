@@ -6,4 +6,4 @@ image: https://avatars.githubusercontent.com/u/106381048?v=4
 permalink: /
 ---
 
-{% include index.html %}
+{% include landing.html %}
