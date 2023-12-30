@@ -1,3 +1,6 @@
+:root {
+    --primary-color: #7779f3
+}
 .link-after {
   content: "";
   display: block;
@@ -37,6 +40,31 @@
   &::after {
     margin-top: -0.25em;
   }
+ .navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0,0,0,.1)
+}
+
+.navbar.active .nav-link {
+    color: #555
+}
+
+.navbar-nav .active {
+    color: #fff
+}
+
+.navbar.active .navbar-nav .active {
+    color: var(--primary-color)
+}
+
+.navbar.active .nav-link:focus,.navbar.active .nav-link:hover {
+    color: var(--primary-color);
+    text-decoration: none
+}
+
+.navbar.active .navbar-brand {
+    color: var(--primary-color)
+} 
 }
 
 #navigation {
