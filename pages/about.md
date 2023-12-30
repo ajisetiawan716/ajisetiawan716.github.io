@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 weight: 4
+background: "https://peterkellner.net/img/bg-about.jpg"
 ---
 
 <p align="center">
