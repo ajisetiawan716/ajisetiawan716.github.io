@@ -1,5 +1,6 @@
 ---
 name: OpenWrt - Openclash Config Generator
+title: OpenWrt - Openclash Config Generator
 tools: [OpenWrt, PHP, HTML, JS, BASH]
 image: https://user-images.githubusercontent.com/126588109/252545698-09ec6e4c-c35d-4cb0-bdbd-5f275c123d52.png
 description: This project is a tool used to import config into Openclash which is based on a web interface.
