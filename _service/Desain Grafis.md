@@ -2,7 +2,7 @@
 name: Desain Grafis
 title: Desain Grafis
 tags: [Desain, Layanan, Jasa]
-image: https://www.ajisetiawan.my.id/assets/img/content/desain-grafis-thumb.jpg
+image: /assets/img/content/desain-grafis-thumb.jpg
 description: Design flyers, certificates, social media promotion feeds.
 ---
 
