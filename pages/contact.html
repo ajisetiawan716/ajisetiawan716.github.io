@@ -33,39 +33,20 @@ weight: 5
   Mail: <a href="mailto: {{ site.author.email }}?subject=From the Blog of {{ site.author.name }}">{{ site.author.email }}</a>
 </p>
 
-<script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
-<form action="{FORM_ENDPOINT}" method="POST">
-  <div class="mb-3 pt-0">
-    <input
-      type="text"
-      placeholder="Your name"
-      name="name"
-      class="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
-      required
-    />
+<form action="https://public.herotofu.com/v1/b170f100-a7cc-11ee-bdc0-3f9a7094bc17" method="post" accept-charset="UTF-8">
+  <div>
+    <label for="name">Your Name</label>
+    <input name="Name" id="name" type="text" required />
   </div>
-  <div class="mb-3 pt-0">
-    <input
-      type="email"
-      placeholder="Email"
-      name="email"
-      class="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
-      required
-    />
+  <div>
+    <label for="email">Your Email</label>
+    <input name="Email" id="email" type="email" required  />
   </div>
-  <div class="mb-3 pt-0">
-    <textarea
-      placeholder="Your message"
-      name="message"
-      class="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
-      required
-    ></textarea>
-  </div>
-  <div class="mb-3 pt-0">
-    <button
-      class="bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-      type="submit"
-    >Send a message</button>
+  <div>
+    <input type="submit" value="Download CTA" />
+    <div style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;" aria-hidden="true">
+      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+    </div>
   </div>
 </form>
 
