@@ -96,6 +96,8 @@
           {%- assign icon_class = "fas fa-briefcase" -%}
         {%- elsif html_page.title == "Services" -%}
           {%- assign icon_class = "fa fa-handshake-o" -%}
+        {%- elsif html_page.title == "Contact" -%}
+          {%- assign icon_class = "fa fa-user-circle-o" -%}
         {%- endif -%}
 
         {%- if icon_class == "" -%}
