@@ -34,7 +34,8 @@ weight: 5
   Mail: <a href="mailto: {{ site.author.email }}?subject=From the Blog of {{ site.author.name }}">{{ site.author.email }}</a>
 </p>
 
-<form id="my-form" action="https://formspree.io/f/mrgngpbk" method="post">
+<form id="my-form" action="https://formspree.io/f/mrgngpbk" method="post">  
+  <p id="my-form-status" class="col-lg-2 col-md-2"></p>
       <label>Name</label>
       <input class="form-control" name="name" type="text" required/>
 
@@ -50,7 +51,6 @@ weight: 5
       <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
       </button>
     </div>
-  <p id="my-form-status"></p>
 </form>
 <script>
     var form = document.getElementById("my-form");
