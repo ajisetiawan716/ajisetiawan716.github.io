@@ -25,6 +25,9 @@ nav_exclude:                                            # The following paths ar
   - pages/404.html
   - pages/index.md/**                           # For Documentation Only
   - pay/index.html/**
+  - ig.html
+  - wa.html
+  - tg.html
 
 ### Author Info ###
 author:
