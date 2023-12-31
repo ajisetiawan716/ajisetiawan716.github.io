@@ -34,15 +34,15 @@ weight: 5
   Mail: <a href="mailto: {{ site.author.email }}?subject=From the Blog of {{ site.author.name }}">{{ site.author.email }}</a>
 </p>
 
-<form action="https://docs.google.com/forms/d/e/1FAIpQLSc8FZeX6D-0WEw01BHGIgJHLGYvNoexKoKVR-Lb-xNG-vsLTA/formResponse" method="post">
+<form id="my-form" action="https://formspree.io/f/mrgngpbk" method="post">
       <label>Name</label>
-      <input class="form-control" name="entry.2005620554" type="text" required/>
+      <input class="form-control" name="name" type="text" required/>
 
       <label>Email</label>
-      <input class="form-control" type="email" name="entry.1045781291" required />
+      <input class="form-control" type="email" name="email" required />
 
       <label>Message</label>
-      <textarea class="form-control" name="entry.839337160" rows="5" required></textarea>
+      <textarea class="form-control" name="message" rows="5" required></textarea>
       <br>
       <button class="btn btn-primary pageclip-form__submit" type="submit">
         <span>Submit</span>
@@ -51,4 +51,35 @@ weight: 5
       </button>
     </div>
 </form>
-
+<script>
+    var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "Thanks for your submission!";
+          form.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Oops! There was a problem submitting your form"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+        </script>
