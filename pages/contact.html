@@ -67,7 +67,7 @@ weight: 5
         }
       }).then(response => {
         if (response.ok) {
-          status.innerHTML = "Thanks for your submission!";
+          status.innerHTML = "<div class='alert alert-success' style='padding: 10px; color: #2b2b2b;'>Thanks for your submission!</div>";
           form.reset()
         } else {
           response.json().then(data => {
