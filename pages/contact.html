@@ -35,19 +35,20 @@ weight: 5
 </p>
 
 <form action="https://public.herotofu.com/v1/b170f100-a7cc-11ee-bdc0-3f9a7094bc17" method="post" accept-charset="UTF-8">
-  <div>
-    <label for="name">Your Name</label>
-    <input name="Name" id="name" type="text" required />
-  </div>
-  <div>
-    <label for="email">Your Email</label>
-    <input name="Email" id="email" type="email" required  />
-  </div>
-  <div>
-    <input type="submit" value="Download CTA" />
+      <label>Name</label>
+      <input class="form-control" name="name" type="text" required/>
+
+      <label>Email</label>
+      <input class="form-control" type="email" name="email" required />
+
+      <label>Message</label>
+      <textarea class="form-control" name="message" rows="5" required></textarea>
+      <br>
+      <button class="btn btn-primary pageclip-form__submit" type="submit">
+        <span>Submit</span>
     <div style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;" aria-hidden="true">
       <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+      </button>
     </div>
-  </div>
 </form>
 
