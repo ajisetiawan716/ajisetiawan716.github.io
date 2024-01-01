@@ -26,14 +26,15 @@
           <a href="{{ site.baseurl }}{{ post.url }}">
               <div class="rel">
                   <h5>{{ post.title }}</h5>
-                  <img width="100%" src="{{post.image}}">
+                  <img width="100%" src="{{page.image}}">
               </div>
           </a>
-</div>
+
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
         {% break %}
       {% endif %}
+</div>
     {% endif %}
   {% endfor %}
 
