@@ -71,7 +71,9 @@ layout: blog
 <!-- End of tip -->
 
 <!-- Related Post -->
+{%- if page.tags != empty -%}
  {% include blog/related-post.html %}
+{%- endif -%}
  {% include blog/prev-next-post.html %}
 {% if page.comments %}
 <div class="pt-5">
