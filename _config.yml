@@ -11,7 +11,7 @@ breadcrumbs         : true # true, false (default)
 
 ## Contact Form Settings ##
 contact_form: https://formspree.io/f/mrgngpbk # Using Formspree.io backend
-gsite_recapthca:
+gsite_recapthca: 6Ld690EpAAAAACGGrqDlNyzFKmjE7rTgQkhGT2QT
 
 ### Plugins ###
 plugins: 
