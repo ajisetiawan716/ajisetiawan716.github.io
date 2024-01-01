@@ -46,7 +46,7 @@ opacity: 0;
 
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
  
-<form id="my-form" action="https://formspree.io/f/mrgngpbk" method="post">  
+<form id="my-form" action="{{ site.contact_form }" method="post">  
   <p id="my-form-status" class="col-lg-2 col-md-2"></p>
       <div class="form-group">
         <label>Name</label>
@@ -61,7 +61,7 @@ opacity: 0;
       <textarea class="form-control" name="message" rows="5" required></textarea>
   </div>
       <br>
-     <div class="g-recaptcha" data-sitekey="6Ld690EpAAAAACGGrqDlNyzFKmjE7rTgQkhGT2QT"></div><br>
+     <div class="g-recaptcha" data-sitekey="{{ site.gsite_recaptcha }}"></div><br>
       <button class="btn btn-primary pageclip-form__submit" type="submit">
         <span>Submit</span>
      </button>
