@@ -7,6 +7,16 @@ description: How can I help you?
 weight: 5
 ---
 
+<style>
+  /* CSS */
+#g-recaptcha-response {
+display: block !important;
+position: absolute;
+margin: -50px 0 0 0 !important;
+z-index: -999999;
+opacity: 0;
+}
+</style>
 <div class="container">
   <div class="row" data-aos="fade">
     <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
@@ -45,14 +55,20 @@ weight: 5
       <label>Message</label>
       <textarea class="form-control" name="message" rows="5" required></textarea>
       <br>
+     <div class="g-recaptcha" data-sitekey="6LfRukEpAAAAAABEfVwGNcPDSDZDc8QMd5-CiBKN"></div>
       <button class="btn btn-primary pageclip-form__submit" type="submit">
         <span>Submit</span>
-    <div style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;" aria-hidden="true">
-      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
-      </button>
+     </button>
     </div>
 </form>
 <script>
+  // javascript
+window.onload = function() { 
+  var el = document.getElementById('g-recaptcha-response'); 
+  if (el) { 
+    el.setAttribute('required', 'required'); 
+  } 
+}
     var form = document.getElementById("my-form");
     
     async function handleSubmit(event) {
