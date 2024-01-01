@@ -30,7 +30,12 @@
           <a href="{{ site.baseurl }}{{ post.url }}">
               <div class="rel">
                   <h5>{{ post.title }}</h5>
-                  <img width="100%" src="{{post.image}}">
+                  <!– call the related-post-image.html template file –>
+{% assign default_image = site.defaults[0].values.image %}
+
+{% if post.image or post.external-image %}
+  {% include blog/post-featured-image.html external-image=post.external-image image=post.image alt=post.image-alt %}
+{% endif %}
               </div>
           </a>
 
