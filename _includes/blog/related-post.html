@@ -21,10 +21,14 @@
       {% endif %}
     {% endfor %}
 
-<div class="separator"></div>
-<h4 class="text-muted">Related Posts</h4>
+
 
     {% if sameTagCount >= minCommonTags %}
+{% if isHeaderDisplayed %}
+<div class="separator"></div>
+<h4 class="text-muted">Related Posts</h4>
+{% endif %}
+
 
 <div class="rect">
   
@@ -39,7 +43,7 @@
 {% endif %}
               </div>
           </a>
-
+    {% assign isHeaderDisplayed = false %}
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
         {% break %}
