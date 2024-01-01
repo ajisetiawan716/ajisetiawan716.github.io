@@ -17,8 +17,6 @@ z-index: -999999;
 opacity: 0;
 }
 </style>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
- 
 <div class="container">
   <div class="row" data-aos="fade">
     <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
@@ -46,6 +44,8 @@ opacity: 0;
   Mail: <a href="mailto: {{ site.author.email }}?subject=From the Blog of {{ site.author.name }}">{{ site.author.email }}</a>
 </p>
 
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+ 
 <form id="my-form" action="https://formspree.io/f/mrgngpbk" method="post">  
   <p id="my-form-status" class="col-lg-2 col-md-2"></p>
       <label>Name</label>
