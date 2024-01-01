@@ -29,11 +29,11 @@
                   <img width="100%" src="{{post.image}}">
               </div>
           </a>
-
+</div>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
         {% break %}
       {% endif %}
     {% endif %}
   {% endfor %}
-</div>
+
