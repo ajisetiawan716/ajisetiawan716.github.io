@@ -9,6 +9,10 @@ remote_theme        : ajisetiawan716/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 breadcrumbs         : true # true, false (default)
 
+## Contact Form Settings ##
+contact_form: https://formspree.io/f/mrgngpbk # Using Formspree.io backend
+gsite_recapthca:
+
 ### Plugins ###
 plugins: 
   - jekyll-paginate
