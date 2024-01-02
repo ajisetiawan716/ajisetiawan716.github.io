@@ -27,7 +27,7 @@ Pada kali ini, saya akan memberikan tutorial lebih tepatnya untuk berbagi bagaim
 1. Buka web browser kalian dan kunjungi situs penyedia domain murah, dalam hal ini yaitu dari Dewabiz.com yang beralamat di [dewabiz.com](https://dewabiz.com), atau kalian bisa langsung klik [disini](https://my.dewabiz.com/cart.php?a=add&domain=register.php).
 
 2. Silahkan masukkan nama domain yang kalian inginkan, misalnya saya disini akan mencoba mendaftarkan domain www.mrasx.my.id. Jika nama domain tersedia maka akan bisa kalian beli dan kita bisa untuk melanjutkan ke langkah berikutnya.
-![Memasukan nama domain](/assets/img/content/daftar-domain-1.png)
+![Memasukan nama domain](/assets/img/content/daftar-domain-1.png){:.no-lightbox}
 
 
 
