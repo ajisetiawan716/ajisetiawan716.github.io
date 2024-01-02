@@ -9,6 +9,27 @@
     {% assign title = page.name | escape %}
   {% endif %}
 
+  <!-- Page Image Cover -->
+  {% assign default_image = site.defaults[0].values.image %}
+{% assign is_external = include.external-image | default: false %}
+
+{% if is_external %}
+  {% comment %}
+    Jika gambar eksternal diatur, gunakan URL langsung.
+  {% endcomment %}
+  {% assign image_url = include.external-image %}
+{% elsif include.image %}
+  {% comment %}
+    Jika gambar internal diatur, gunakan baseurl dari Jekyll.
+  {% endcomment %}
+  {% assign image_url = site.baseurl | append: '/assets/img/content/' | append: include.image %}
+{% else %}
+  {% comment %}
+    Jika tidak ada gambar internal maupun eksternal, gunakan gambar default.
+  {% endcomment %}
+  {% assign image_url = default_image %}
+{% endif %}
+  
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,7 +42,7 @@
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="{% if page.image %}{% assign page.external-image = site.url | append: site.baseurl | append: '/assets/img/content/' | append: page.image %}{% else %}
+  <meta property="og:image" content="{% image_url %}
   {% assign page.external-image = site.protocols.fb_image | prepend: site.baseurl | prepend: site.url %}{% endif %}" />
   <meta property="og:image:type" content="{{ site.protocols.fb_image_type }}" />
   <meta property="og:image:width" content="{{ site.protocols.fb_image_width }}" />
