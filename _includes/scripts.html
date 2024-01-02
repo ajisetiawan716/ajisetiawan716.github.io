@@ -49,3 +49,12 @@ $(function () {
 
 <!-- Lightgallery Js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js" integrity="sha512-jEJ0OA9fwz5wUn6rVfGhAXiiCSGrjYCwtQRUwI/wRGEuWRZxrnxoeDoNc+Pnhx8qwKVHs2BRQrVR9RE6T4UHBg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+window.addEventListener('DOMContentLoaded', function() {
+  var images = document.getElementById('post-body').getElementsByTagName('img');
+  for (var i = 0; i < images.length; i++) {
+    images[i].classList.add('lightgallery-link');
+    images[i].setAttribute('data-sub-html', 'description');
+  }
+});
+</script>
