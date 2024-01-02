@@ -3,7 +3,7 @@
   {% assign title = page.title | default: site.title | escape %}
 {% assign description = page.description | default: site.description | strip_html | strip_newlines | truncate: 160 %}
 {% assign post_description = post.content | truncatewords: 25 | strip_html | strip_newlines %}
-{% assign final_description = post_description | default: description %}
+{% assign default_description = post_description | default: description %}
 
   {% if page.name and page.collection == 'projects' %}
     {% assign title = page.name | escape %}
@@ -16,7 +16,7 @@
 
     {% if site.protocols.fb_image %}
   <!-- Facebook OGP cards -->
-  <meta property="og:description" content="{% if page.description %}{{ page.description | newline_to_br | strip_newlines | replace: '<br />', ' '| strip_html | truncate: 160 }}{% else %}{{ description }}{% endif %}" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description | newline_to_br | strip_newlines | replace: '<br />', ' '| strip_html | truncate: 160 }}{% else %}{{ default_description }}{% endif %}" />
   <meta property="og:url" content="{% if page.url %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}" />
@@ -31,7 +31,7 @@
   <!-- Twitter: card tags -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description | newline_to_br | strip_newlines | replace: '<br />', ' '| strip_html | truncate: 160 }}{% else %}{{ description }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description | newline_to_br | strip_newlines | replace: '<br />', ' '| strip_html | truncate: 160 }}{% else %}{{ default_description }}{% endif %}">
   <meta name="twitter:image" content="{% if page.image %}{{ {{ site.url | prepend: site.baseurl | append: '/assets/img/content/' | append: page.image }}{% else %}{{ site.protocols.twitter_image | prepend: site.baseurl | prepend: site.url }}{% endif %}">
   <meta name="twitter:url" content="{% if page.url %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}{% endif %}">
   {% endif %}
