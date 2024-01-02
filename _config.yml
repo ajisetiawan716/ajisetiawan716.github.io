@@ -157,6 +157,21 @@ defaults:
     values:
       image: cover-default-image.png
       image-alt: Default Image Post
+      
+# Social sharing protocols
+# These are for automatically generating sharing metadata for FB and Twitter
+# OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
+protocols:
+    fb_image: "/assets/img/content/cover-default-image.png"
+    fb_image_width: 1200
+    fb_image_height: 630
+    fb_image_type: "image/jpg"
+
+    twitter_image: "/assets/img/content/cover-default-image.png"
+
+    os_repo: "https://github.com/ajisetiawan716/ajisetiawan716.github.io"
+    os_rcs_type: "git"
+    os_src: "git@github.com:ajisetiawan716/ajisetiawan716.github.io"      
 
 ### Exclude from processing ###
 exclude:
