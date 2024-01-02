@@ -11,18 +11,18 @@
 
   <!-- Page Image Cover -->
   {% assign default_image = site.defaults[0].values.image %}
-{% assign is_external = include.external-image | default: false %}
+{% assign is_external = page.external-image | default: false %}
 
 {% if is_external %}
   {% comment %}
     Jika gambar eksternal diatur, gunakan URL langsung.
   {% endcomment %}
-  {% assign image_url = include.external-image %}
+  {% assign image_url = page.external-image %}
 {% elsif include.image %}
   {% comment %}
     Jika gambar internal diatur, gunakan baseurl dari Jekyll.
   {% endcomment %}
-  {% assign image_url = site.baseurl | append: '/assets/img/content/' | append: include.image %}
+  {% assign image_url = site.baseurl | append: '/assets/img/content/' | append: page.image %}
 {% else %}
   {% comment %}
     Jika tidak ada gambar internal maupun eksternal, gunakan gambar default.
