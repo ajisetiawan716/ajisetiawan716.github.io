@@ -27,7 +27,7 @@
 {% elsif page.image %}
   <meta property="og:image" content="{{ site.baseurl }}/assets/img/content/{{ page.image }}">
 {% else %}
-  <meta property="og:image" content="{{ site.baseurl }}/assets/img/{{ site.defaults.values.image }}">
+  <meta property="og:image" content="{{ site.baseurl }}/assets/img/content/{{ site.defaults.values.image }}">
 {% endif %}
   <meta property="og:image:type" content="{{ site.protocols.fb_image_type }}" />
   <meta property="og:image:width" content="{{ site.protocols.fb_image_width }}" />
@@ -39,7 +39,13 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | newline_to_br | strip_newlines | replace: '<br />', ' '| strip_html | truncate: 160 }}{% else %}{{ default_description }}{% endif %}">
-  <meta name="twitter:image" content="{% if page.image %}{{ {{ site.url | prepend: site.baseurl | append: '/assets/img/content/' | append: page.image }}{% else %}{{ site.protocols.twitter_image | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+    {% if page.external-image %}
+  <meta property="twitter:image" content="{{ page.external-image }}">
+{% elsif page.image %}
+  <meta property="twitter:image" content="{{ site.baseurl }}/assets/img/content/{{ page.image }}">
+{% else %}
+  <meta property="twitter:image" content="{{ site.baseurl }}/assets/img/content/{{ site.defaults.values.image }}">
+{% endif %}
   <meta name="twitter:url" content="{% if page.url %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}{% endif %}">
   {% endif %}
 
