@@ -2,9 +2,13 @@
 
   {% assign title = page.title | default: site.title | escape %}
 {% assign description = page.description | default: site.description | strip_html | strip_newlines | truncate: 160 %}
-{% assign post_description = page.content | strip_html | strip_newlines  | truncatewords: 25 %}
-{% assign default_description = post_description | default: description %}
 
+{% if page.url contains '/blog' %}
+  {% assign default_description = page.content | strip_html | strip_newlines | truncatewords: 25 %}
+{% else %}
+  {% assign default_description = site.default.description %}
+{% endif %}
+  
   {% if page.name and page.collection == 'projects' %}
     {% assign title = page.name | escape %}
   {% endif %}
