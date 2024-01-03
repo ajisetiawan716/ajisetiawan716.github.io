@@ -22,10 +22,10 @@
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}" />
   <meta property="og:type" content="website" />
-  {% if page.image %}
-  <meta property="og:image" content="{{ site.baseurl }}/assets/img/content/{{ page.image }}">
-{% elsif page.external-image %}
+  {% if page.external-image %}
   <meta property="og:image" content="{{ page.external-image }}">
+{% elsif page.image %}
+  <meta property="og:image" content="{{ site.baseurl }}/assets/img/content/{{ page.image }}">
 {% else %}
   <meta property="og:image" content="{{ site.baseurl }}/assets/img/{{ site.defaults.values.image }}">
 {% endif %}
