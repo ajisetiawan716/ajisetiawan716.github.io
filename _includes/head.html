@@ -16,7 +16,8 @@
     {% if site.protocols.fb_image %}
   <!-- Facebook OGP cards -->
   {% if page.description %}
-  <meta name="og:description" content="{% if page.excerpt %}{{ page.excerpt | newline_to_br | strip_newlines | replace: '<br />', ' '| strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="og:description" content="{% if page.description %}{{ page.description | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | truncate: 160 }}{% elsif page.content %}{{ page.content | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | truncate: 160 }}{% else %}{{ site.description }}
+{% endif %}">
 {% else %}
   <meta name="og:description" content="{{ description }}">
 {% endif %}
