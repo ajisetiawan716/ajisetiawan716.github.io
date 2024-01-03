@@ -27,7 +27,7 @@
 {% elsif page.image %}
   <meta property="og:image" content="{{ site.baseurl }}/assets/img/content/{{ page.image }}">
 {% else %}
-  <meta property="og:image" content="{{ site.baseurl }}/assets/img/content/{{ site.defaults.values.image }}">
+  <meta property="og:image" content="{{ site.protocols.fb_image }}">
 {% endif %}
   <meta property="og:image:type" content="{{ site.protocols.fb_image_type }}" />
   <meta property="og:image:width" content="{{ site.protocols.fb_image_width }}" />
@@ -44,7 +44,7 @@
 {% elsif page.image %}
   <meta property="twitter:image" content="{{ site.baseurl }}/assets/img/content/{{ page.image }}">
 {% else %}
-  <meta property="twitter:image" content="{{ site.baseurl }}/assets/img/content/{{ site.defaults.values.image }}">
+  <meta property="twitter:image" content="{{ site.protocols.twitter_image }}">
 {% endif %}
   <meta name="twitter:url" content="{% if page.url %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}{% endif %}">
   {% endif %}
