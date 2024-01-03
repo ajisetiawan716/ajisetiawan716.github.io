@@ -4,7 +4,7 @@
 {% assign description = page.description | default: site.description | strip_html | strip_newlines | truncate: 160 %}
 
 {% if page.url contains '/blog/' and page.url != '/blog/index.html' %}
-  {% assign default_description = page.content | strip_html | strip_newlines | truncatewords: 25 | escape %}
+  {% assign description = page.content | strip_html | strip_newlines | truncatewords: 25 | escape %}
 {% else %}
   {% assign description = site.default.description %}
 {% endif %}
