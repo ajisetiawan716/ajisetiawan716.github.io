@@ -27,7 +27,7 @@
 {% elsif page.external-image %}
   <meta property="og:image" content="{{ page.external-image }}">
 {% else %}
-  <meta property="og:image" content="{{ site.baseurl }}/assets/img/{{ site.defaults[0].values.image }}">
+  <meta property="og:image" content="{{ site.baseurl }}/assets/img/{{ site.defaults.values.image }}">
 {% endif %}
   <meta property="og:image:type" content="{{ site.protocols.fb_image_type }}" />
   <meta property="og:image:width" content="{{ site.protocols.fb_image_width }}" />
