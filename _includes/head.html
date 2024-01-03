@@ -15,16 +15,16 @@
     {% if site.protocols.fb_image %}
   <!-- Facebook OGP cards -->
   {% if page.description %}
-  <meta name="og:description" content="{{ page.description | escape }}">
+  <meta name="og:description" content="{{ page.description }}">
 {% elsif page.url contains '/blog/' %}
   {% if page.permalink contains '/blog/' and page.permalink != '/blog/index.html' %}
     {% assign default_description = post.content | strip_html | strip_newlines | truncatewords: 25 | escape %}
     <meta name="og:description" content="{{ default_description }}">
   {% else %}
-    <meta name="og:description" content="{{ site.default.description | escape }}">
+    <meta name="og:description" content="{{ site.default.description }}">
   {% endif %}
 {% else %}
-  <meta name="og:description" content="{{ site.default.description | escape }}">
+  <meta name="og:description" content="{{ site.default.description }}">
 {% endif %}
   <meta property="og:url" content="{% if page.url %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}" />
