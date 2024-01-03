@@ -14,7 +14,7 @@
 
     {% if site.protocols.fb_image %}
   <!-- Facebook OGP cards -->
-  <meta property="og:description" content="{% if page.description %}{{ page.description | default: site.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.url contains '/blog/' and page.url != '/blog/index.html' %}{% assign default_description = page.content | strip_html | strip_newlines | truncatewords: 25 | escape %}{{ default_description }}{% else %}{{ site.default.description | escape }}{% endif %}" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description | default: site.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.url contains '/blog/' and page.url != '/blog/index.html' %}{% assign description = page.content | strip_html | strip_newlines | truncatewords: 25 | escape %}{{ description }}{% else %}{{ site.default.description | escape }}{% endif %}" />
   <meta property="og:url" content="{% if page.url %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}" />
