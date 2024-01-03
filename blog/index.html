@@ -60,7 +60,7 @@ description: A blog about tutorials, graphic design, technology, stories and mor
         {%- if post.description -%}
         {{ post.description }}
         {%- else -%}
-        {{ post.excerpt | strip_html }}
+        {{ post.excerpt | strip_html  | truncatewords: 25, "<small><i>  ...read more</i></small>"}}
         {%- endif -%}
       </p>
     </div>
