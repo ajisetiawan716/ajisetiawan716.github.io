@@ -179,3 +179,4 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
+  - tmp/
