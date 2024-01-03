@@ -103,9 +103,9 @@ keywords                 : portfolio, resume, aji setiawan, ajisetiawan716, ajis
 ### Analytics ###
 analytics:
   provider: "google" # false (default), "google", "google-universal", "custom"
-  enabled: false                                        # Set true to enable analytics
+  enabled: true                                        # Set true to enable analytics
   google:
-    tracking_id: your-google-tracking-id
+    tracking_id: G-238CT53NBG
 
 ### Google Adsense ###
 tagmanager:
