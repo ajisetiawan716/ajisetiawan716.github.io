@@ -150,7 +150,6 @@ defaults:
       type: "posts"
     values:
       comments: true # or false (default)
-      excerpt: true
     # Posts defaults image
   - scope:
       path: "" # an empty string here means all files in the project
