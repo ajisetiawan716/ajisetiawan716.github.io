@@ -11,6 +11,7 @@
 
   <!-- Page Image Cover -->
   {% assign default_image = site.defaults[0].values.image %}
+  {% assign image = page.image | default: false %}
 {% assign is_external = page.external-image | default: false %}
 
 {% if is_external %}
@@ -22,7 +23,7 @@
   {% comment %}
     Jika gambar internal diatur, gunakan baseurl dari Jekyll.
   {% endcomment %}
-  {% assign image_url = site.baseurl | append: '/assets/img/content/' | append: page.image %}
+  {% assign image_url = site.baseurl | append: '/assets/img/content/' | append: image %}
 {% else %}
   {% comment %}
     Jika tidak ada gambar internal maupun eksternal, gunakan gambar default.
