@@ -15,12 +15,7 @@
 
     {% if site.protocols.fb_image %}
   <!-- Facebook OGP cards -->
-  {% if page.description %}
   <meta name="og:description" content="{% if page.description %}{{ page.description | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | truncate: 160 }}{% elsif page.content %}{{ page.content | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | truncate: 160 }}{% else %}{{ site.description }}
-{% endif %}">
-{% else %}
-  <meta name="og:description" content="{{ description }}">
-{% endif %}
   <meta property="og:url" content="{% if page.url %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}" />
