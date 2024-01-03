@@ -1,7 +1,8 @@
 <head>
 
   {% assign title = page.title | default: site.title | escape %}
-  
+  {% assign description = page.description | default: site.description | strip_html | strip_newlines | truncate: 160 %}
+
   {% if page.name and page.collection == 'projects' %}
     {% assign title = page.name | escape %}
   {% endif %}
@@ -16,15 +17,11 @@
   <!-- Facebook OGP cards -->
   {% if page.description %}
   <meta name="og:description" content="{{ page.description }}">
-{% elsif page.url contains '/blog/' %}
-  {% if page.permalink contains '/blog/' and page.permalink != '/blog/index.html' %}
+{% elsif page.url contains '/blog/' and page.url != '/blog/index.html'%}
     {% assign default_description = post.content | strip_html | strip_newlines | truncatewords: 25 | escape %}
     <meta name="og:description" content="{{ default_description }}">
-  {% else %}
-    <meta name="og:description" content="{{ site.default.description }}">
-  {% endif %}
 {% else %}
-  <meta name="og:description" content="{{ site.default.description }}">
+  <meta name="og:description" content="{{ description }}">
 {% endif %}
   <meta property="og:url" content="{% if page.url %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}" />
