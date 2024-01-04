@@ -21,7 +21,12 @@ plugins:
   - jekyll-redirect-from
   - jemoji
   - jekyll-tagging-related_posts
+ - mini_magick
 
+# Aditional Settings for mini_magick
+thumbnail:
+    resize_dimensions: '430x288^'
+    crop_dimensions: '430x288+0+0'
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
