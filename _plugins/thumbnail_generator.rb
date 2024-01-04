@@ -10,7 +10,7 @@ module Jekyll
        resize_dimensions = Jekyll.configuration({})['thumbnail']['resize_dimensions']
        crop_dimensions = Jekyll.configuration({})['thumbnail']['crop_dimensions']
        posts.each do |post|
-         input_path = ".#{post['cover']}"
+         input_path = ".#{post['image']}"
          output_path = ".#{post['thumbnail']}"
          if !File.exists?(output_path) || File.mtime(output_path) <= File.mtime(input_path)
             puts("Generating thumbnail", input_path, output_path)
