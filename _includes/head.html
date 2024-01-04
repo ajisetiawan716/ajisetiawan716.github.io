@@ -36,7 +36,7 @@
   <!-- Twitter: card tags -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description | newline_to_br | strip_newlines | replace: '<br />', ' '| strip_html | truncate: 160 }}{% else %}{{ default_description }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | truncate: 160 }}{% elsif page.content %}{{ page.content | markdownify | strip_html | truncatewords: 25 }}{% else %}{{ description }}{% endif %}">
     {% if page.external-image %}
   <meta property="twitter:image" content="{{ page.external-image }}">
 {% elsif page.image %}
@@ -59,7 +59,7 @@
   <!-- Manifest file -->
   <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
   <!-- SEO -->
-  <meta name="description" content="{{ page.description }}">
+  <meta name="description" content="{% if page.description %}{{ page.description | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | truncate: 160 }}{% elsif page.content %}{{ page.content | markdownify | strip_html | truncatewords: 25 }}{% else %}{{ description }}{% endif %}">
   {% if page.keywords %}
   <meta name="keywords" content="{{ page.keywords }}">
   {% else %}
