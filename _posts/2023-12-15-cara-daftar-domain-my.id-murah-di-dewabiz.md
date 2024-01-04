@@ -6,6 +6,7 @@ style: border
 color: primary
 tags: [Domain, My.Id, Domain Murah, Domain Gratis]
 image: 'domain-myid-murah-blog-thumbnail.png'
+thumbnails: /asset/image/thumbnails/domain-myid-thumbs.jpg
 image-alt: Domain .My.Id Murah
 description: Sebuah tutorial untuk mendapatkan domain .my.id murah dari Dewabiz.com
  
