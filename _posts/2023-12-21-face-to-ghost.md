@@ -14,7 +14,9 @@ image-alt: Face to Ghost
 
 
 
-Namaku adalah Melinda Snow, aku adalah seseorang yang begitu bersemangat saat mendengar paranormal activity, entahlah bagaimana awalnya aku begitu suka dengan hal-hal yang bahkan menurut saudaraku, Nancy, itu aneh. Aku tidak setuju, ada perasaan senang sekaligus mendebarkan saat kau mencoba menyelidikinya, entah dari internet atau kau langsung turun ke lapangan. Aku memiliki blog sendiri, ku berikan nama "13nightDays". Ada alasan kenapa aku begitu suka dengan angka "13". Menurutku angka itu berkaitan dengan kematian. Kau tahu. Kematian. Dan itu membuatku penuh dengan rasa penasaran.  
+Namaku adalah Melinda Snow, aku adalah seseorang yang begitu bersemangat saat mendengar paranormal activity, entahlah bagaimana awalnya aku begitu suka dengan hal-hal yang bahkan menurut saudaraku, Nancy, itu aneh. 
+
+Aku tidak setuju, ada perasaan senang sekaligus mendebarkan saat kau mencoba menyelidikinya, entah dari internet atau kau langsung turun ke lapangan. Aku memiliki blog sendiri, ku berikan nama "13nightDays". Ada alasan kenapa aku begitu suka dengan angka "13". Menurutku angka itu berkaitan dengan kematian. Kau tahu. Kematian. Dan itu membuatku penuh dengan rasa penasaran.  
 
 Cukup untuk basa-basinya. Tempo hari, aku menulis di blogku tentang "tempat mana yang paling ingin kau kunjungi namun menyimpan mimpi buruk terbesarmu?"
 
