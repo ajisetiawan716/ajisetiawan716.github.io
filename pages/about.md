@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 weight: 4
 background: "/assets/img/bg-about.jpg"
+description: A blog about tutorials, graphic design, technology, stories and more
 ---
 
 <p align="center">
