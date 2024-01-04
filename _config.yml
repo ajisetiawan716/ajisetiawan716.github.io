@@ -21,7 +21,7 @@ plugins:
   - jekyll-redirect-from
   - jemoji
   - jekyll-tagging-related_posts
- - mini_magick
+  - mini_magick
 
 # Aditional Settings for mini_magick
 thumbnail:
