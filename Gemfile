@@ -7,4 +7,5 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem 'jekyll-paginate', '~> 1.1'
   gem 'mini_magick'
+  gem "kramdown-parser-gfm"
 end
