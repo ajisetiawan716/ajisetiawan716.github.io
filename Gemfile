@@ -6,6 +6,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-sitemap"
   gem "jemoji"
+  gem "jekyll-tagging-related_posts"
   gem 'jekyll-paginate', '~> 1.1'
   gem 'mini_magick'
   gem "kramdown-parser-gfm"
