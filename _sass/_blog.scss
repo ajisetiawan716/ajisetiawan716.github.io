@@ -22,6 +22,10 @@ $linkColor: #0366d6;
     padding: 15px 35px;
   }
 }
+/* Image Post-body*/
+.post-body img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sesuaikan nilai bayangan sesuai preferensi Anda */
+}
 
 /* Start of Pagination */
 .pagination-box-idle {
