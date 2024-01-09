@@ -1,3 +1,4 @@
+/* Header Page Image */
 .site-header-container,.post-header-container {
     width: 100%;
     text-align: center
@@ -40,4 +41,8 @@
 .site-header-container .scrim.has-cover,.post-header-container .scrim.has-cover {
     background-color: rgba(0,0,20,0.5);
     padding: 6em 1em
+}
+/*Page Image Style*/
+.markdown-body img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sesuaikan nilai bayangan sesuai preferensi Anda */
 }
