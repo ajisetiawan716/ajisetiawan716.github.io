@@ -31,7 +31,7 @@ plugins:
 thumbnail:
     resize_dimensions: '430x288^'
     crop_dimensions: '430x288+0+0'
-
+    
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
   - pages/tags.html
@@ -69,7 +69,15 @@ author:
   whatsapp          : 6283861160442
   telegram          : ajisetiawan716
   paypal            : ajisetiawan716
-
+# Resume Settings
+  resume:
+    provider: "gdrive" # false (default), "google", "google-universal", "custom"
+    enabled: true                                        # Set true to enable analytics
+    gdrive:
+      link: https://drive.google.com
+    cvengineer:
+      username: https://cvengineer.io/resumes/ajisetiawan
+    
 
 ### Posts ###
 permalink: /blog/:year/:month/:day/:title:output_ext
