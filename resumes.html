@@ -33,7 +33,7 @@ weight: 5
   {% if provider == "gdrive" %}
     <iframe src="{{ site.author.resume.gdrive.link }}" width="100%" height="200%"></iframe>
   {% elsif provider == "cvengineer" %}
-    <iframe src="{{ site.author.resume.cvengineer.username }}" width="100%" height="100%"></iframe>
+    <iframe src="https://cvengineer.io/resumes/{{ site.author.resume.cvengineer.username }}" width="100%" height="100%"></iframe>
   {% endif %}
 {% else %}
   <p>Resume is not enabled.</p>
