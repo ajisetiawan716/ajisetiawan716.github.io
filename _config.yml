@@ -71,7 +71,7 @@ author:
   paypal            : ajisetiawan716
 # Resume Settings
   resume:
-    provider: "gdrive" # false (default), "google", "google-universal", "custom"
+    provider: "cvengineer" # false (default), "google", "google-universal", "custom"
     enabled: true                                        # Set true to enable analytics
     gdrive:
       link: https://drive.google.com/file/d/1x4lDQOZIibHgUwvj5voBoFnP4fTDhFSo/preview      #change to your gdrive link pdf resume file
