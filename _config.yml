@@ -10,7 +10,7 @@ open_new_tab        : false                             # Opens external URLs in
 breadcrumbs         : true # true, false (default)
 
 # Build website in docs folder so I can use github to host it
-#destination: "./docs" #
+#destination: "./docs" # 
 
 future: true
 
