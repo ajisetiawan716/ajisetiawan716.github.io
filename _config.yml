@@ -18,7 +18,7 @@ future: true
 contact_form: https://formspree.io/f/mrgngpbk # Using Formspree.io backend
 gsite_recaptcha: 6Ld690EpAAAAACGGrqDlNyzFKmjE7rTgQkhGT2QT
 
-### Plugins ###
+### Plugins ### 
 plugins: 
   - jekyll-paginate
   - jekyll-feed
