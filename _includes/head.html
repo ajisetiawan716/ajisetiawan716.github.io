@@ -89,8 +89,9 @@
   <!-- Lightgallery CSS CDN <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery-bundle.min.css" integrity="sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {%- if site.lightbox.enabled == true -%}
   <link rel="stylesheet" href="{{ '/assets/css/lightbox.css' | relative_url }}">
-  
+  {% endif %}
   <!-- Sitemap -->
   <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
   
