@@ -1,4 +1,3 @@
-<script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({
     pageLanguage: 'en',
@@ -76,4 +75,3 @@ function googleTranslateElementInit() {
     event.preventDefault();
   });
 }
-</script>
