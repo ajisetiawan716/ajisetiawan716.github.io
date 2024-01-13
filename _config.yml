@@ -138,7 +138,7 @@ tagmanager:
 
 ### Google Translate ###
 translate:
-  enabled: false                                        # Set true to enable google translate
+  enabled: true                                        # Set true to enable google translate
 
 ### AdBlock Detection ###
 adblock_detect:
