@@ -17,6 +17,10 @@ gsite_recaptcha: 6Ld690EpAAAAACGGrqDlNyzFKmjE7rTgQkhGT2QT
 ### Light Gallery Settings ###
 lightgallery:
   enabled: true                                        # Set true to enable lightgalley
+  
+# Light Box Settings 
+lightbox:
+  enabled: false                                        # Set true to enable lightbox
 
 
 ### Plugins ### 
