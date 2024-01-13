@@ -4,7 +4,7 @@ description         : >-
                       Mahasiswa Program Studi Manajemen Bisnis Syariah, Desainer Grafis, Webgrammer amatiran. 
                       Lihat proyek, portofolio, tulisan dan profilku di menu pojok kanan atas.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-url                 : "https://www.ajisetiawan.my.id"
+url                 : "https://www.ajisetiawan.my.id" #change to empty if you are'nt using github action 
 repository          : ajisetiawan716/ajisetiawan716.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : ajisetiawan716/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
@@ -18,6 +18,11 @@ future: true
 ## Contact Form Settings ##
 contact_form: https://formspree.io/f/mrgngpbk # Using Formspree.io backend
 gsite_recaptcha: 6Ld690EpAAAAACGGrqDlNyzFKmjE7rTgQkhGT2QT
+
+### Light Gallery Settings ###
+lightgallery:
+  enabled: true                                        # Set true to enable lightgalley
+
 
 ### Plugins ### 
 plugins: 
