@@ -46,9 +46,10 @@ $(function () {
 <!-- Unite Gallery -->
 <script src="{{ '/assets/js/unitegallery.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/ug-theme-tiles.js' | relative_url }}"></script>
-
+{%- if site.lightgallery.enabled == true -%}
 <!-- Lightgallery Js -->
-<!-- <script src="{{ "/assets/js/lightgallery.min.js" | prepend: site.baseurl }}"></script> -->
+<script src="{{ "/assets/js/lightgallery.min.js" | prepend: site.baseurl }}"></script>
+{% endif %}	
 <!-- <script>
 window.addEventListener('DOMContentLoaded', function() {
   var images = document.getElementById('post-body').getElementsByTagName('img');
