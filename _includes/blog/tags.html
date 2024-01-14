@@ -24,7 +24,7 @@
     <div class="py-3">
         {%- for post in site.tags[tag] -%}
             <div class="tag-entry">
-                <div class="text-muted" style="font-size:10px">
+                <div class="text-muted" style="font-size:12px">
                     <span class="fa fa-calendar"> <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time></span> <span><a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a></span>
                 </div>
             </div>
