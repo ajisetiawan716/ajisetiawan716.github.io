@@ -4,13 +4,17 @@
 - lang: en
   img: en
   text: English
-
+  
+- lang: id
+  img: id
+  text: Indonesian
+  
 - lang: fr
   img: fr
   text: Franch
 
 - lang: zh-CN
-  img: https://cdn.countryflags.com/thumbs/china/flag-400.png
+  img: cn
   text: Chinese(Simple)
 
 - lang: ja
