@@ -1,10 +1,21 @@
 ---
-layout: page
+layout: default
 title: Blog
 background: "/assets/img/bg-post.jpg"
 weight: 2
 description: A blog about tutorials, graphic design, technology, stories and more
 ---
+<div class="post-header-container {% if page.background %}has-cover{% endif %}" {% if page.background %}style="background-image: url({{ page.background | prepend: site.baseurl }});"{% endif %}>
+	<div class="scrim {% if page.background %}has-cover{% endif %} {% if page.background_options %}{{ page.background_options }}{% endif %}">
+		<header class="post-header">
+			{% if page.include_sticker %}<img src="{{site.sticker | prepend: site.baseurl }}" alt="sticker" class="sticker" />{% endif %}
+			<h1 class="title">{{ page.title }}</h1>
+			{% if page.description %}
+			<p class="info"><em>{{ page.description }}</em></p>
+			{% endif %}
+		</header>
+	</div>
+</div>
 {% include blog/search.html %}
 <div class="card-group mt-2">
 
