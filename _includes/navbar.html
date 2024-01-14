@@ -1,4 +1,4 @@
-{%- if site.translate.enabled == true -%}
+
 <!-- google translate button
 <script type="text/javascript">
   function googleTranslateElementInit() {
@@ -8,36 +8,6 @@
     );
   }
 </script> -->
-<!-- Google Translate Atr -->
-<script type="text/javascript">
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
-    }
-
-    function triggerHtmlEvent(element, eventName) {
-      var event;
-      if (document.createEvent) {
-        event = document.createEvent('HTMLEvents');
-        event.initEvent(eventName, true, true);
-        element.dispatchEvent(event);
-      } else {
-        event = document.createEventObject();
-        event.eventType = eventName;
-        element.fireEvent('on' + event.eventType, event);
-      }
-    }
-
-    jQuery('.lang-select').click(function() {
-      var theLang = jQuery(this).attr('data-lang');
-      jQuery('.goog-te-combo').val(theLang);
-
-      window.location = jQuery(this).attr('href');
-      location.reload();
-    });
-</script>
-<!-- Google Translate: -->
-<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-<!-- end of google translate button-->
 {%- endif -%}
 
 <!-- Javascript reminder -->
@@ -136,24 +106,21 @@
           </a>
         {%- endif -%}
       {%- endfor %}
-
+   {%- if site.translate.enabled == true -%}
       <!-- start google translate button-->
-      <span>
-      <div id="google_translate_element" style="display: none;"></div>
-        <span class="ct-language">
-          <ul class="list-unstyled ct-language-dropdown">
-          {% for lang_data in site.data.translate_langs %}
-            <li class="">
-              <a href="#" class="lang-select" data-lang="{{ lang_data.text }}">
-                  <img src="{{ lang_data.img }}" title="{{ lang_data.text }}">
-              </a>
-            </li>
-          {% endfor %}
-          </ul>
-        </span>
-      </span>
+      {%- assign name = 'translate_langs' -%}
+            {%- include functions.html func='get_value' -%}
+            {%- assign translate_langs = return -%}
+            {%- if translate_langs.size > 0 -%}
+              {%- assign name = 'lang' -%}
+              {%- include functions.html func='get_value' default='en' -%}
+              {%- assign lang = return -%}
+              <span class="page-link">
+                  {%- include extensions/google-translate.html -%}
+              </span>
+            {%- endif -%}
       <!-- end of google translate button-->
-
+    {%- endif -%}
       <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
     </div>
   </div>
