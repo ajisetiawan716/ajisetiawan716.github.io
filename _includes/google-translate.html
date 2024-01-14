@@ -6,12 +6,8 @@
   <ul class="list-unstyled ct-language-dropdown">
     {% for lang_data in site.data.translate_langs %}
       <li>
-        <a href="#" class="lang-select" data-lang="{{ item.lang }}">
-          {% if item.img %}
-          <img src="{{ item.img }}" title="{{ item.text }}">
-          {% else %}
-            {{ item.text }}
-          {% endif %}
+        <a href="#" class="lang-select" data-lang="{{ lang_data.lang }}">
+          <img src="{{ lang_data.img }}" title="{{ lang_data.text }}">
         </a>
       </li>
     {% endfor %}
