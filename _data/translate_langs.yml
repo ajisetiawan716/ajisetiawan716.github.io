@@ -1,6 +1,6 @@
 # Translate languages
 # langs refer to https://cloud.google.com/translate/docs/languages
-
+# img flag code refer to https://www.iso.org/obp/ui/#search/code/
 - lang: en
   img: en
   text: English
@@ -14,11 +14,11 @@
   text: Chinese(Simple)
 
 - lang: ja
-  img: ja
+  img: jp
   text: Japanese
 
 - lang: ko
-  img: ko
+  img: kr
   text: Korean
 
 - lang: ru
