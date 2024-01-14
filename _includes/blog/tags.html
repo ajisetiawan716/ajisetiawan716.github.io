@@ -1,5 +1,5 @@
 {% include blog/search.html %}
-{% assign date_format = default: "%b %-d, %Y" %}
+{% assign date_format = site.date.format | default: "%b %-d, %Y" %}
 
 {%- capture site_tags -%}
     {%- for tag in site.tags -%}
@@ -24,11 +24,9 @@
     <div class="py-3">
         {%- for post in site.tags[tag] -%}
             <div class="tag-entry">
-                <li clas="">
                 <div class="text-muted">
                     <span class="fa fa-calendar"> <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time></span> <span><a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a></span>
                 </div>
-                </li>
             </div>
         {%- endfor -%}
     </div>
