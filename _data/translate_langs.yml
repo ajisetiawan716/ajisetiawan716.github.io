@@ -2,7 +2,7 @@
 # langs refer to https://cloud.google.com/translate/docs/languages
 # img flag code refer to https://www.iso.org/obp/ui/#search/code/
 - lang: en
-  img: as
+  img: us
   text: English
   
 - lang: id
