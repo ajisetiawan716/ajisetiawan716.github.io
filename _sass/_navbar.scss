@@ -35,34 +35,21 @@
   box-shadow: 1px 2px 10px rgba(0,0,0,.1);
 }
 
+/* Add a specific class to .navbar-brand */
+.no-hover-effect-on-brand:hover {
+  color: inherit; /* You can adjust this based on your original styles */
+  text-decoration: none; /* You can adjust this based on your original styles */
+}
+
 .navbar-brand {  
   margin-bottom: -4px;
   &::after {
     margin-top: -0.25em;
-  /* */
-        a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline) {
-    display: inline-block;
+  /* Add a hover effect only if it doesn't have the specific class */
+  &:not(.no-hover-effect-on-brand):hover {
+    color: var(--primary-color);
     text-decoration: none;
-
-    &:hover {
-      color: $primary;
-    }
-
-    &::after {
-      content: "";
-      display: block;
-      height: 0.15em;
-      margin-top: -0.15em;
-      width: 0;
-      background: $primary;
-      transition: width 0.35s;
-    }
-
-    &:hover::after {
-      width: 100%;
-    }
   }
-    /* */
   }
     
 .site-favicon {
