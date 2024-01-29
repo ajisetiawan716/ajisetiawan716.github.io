@@ -7,7 +7,7 @@ layout: blog
 <div class="separator"></div>
 <div class="post post-metadata text-muted" style="margin-top: 8px;">
  <li class="fa fa-calendar fa-1x"></li> {{ page.date | date_to_long_string }}  
- <li class="fa fa-clock-o fa-1x"></li> <b>
+ <li class="fa fa-clock-o fa-1x" style="margin-left: 8px;"></li> <b>
   {%- assign words = content | number_of_words -%}
   {%- if words < 360 -%}
     less than 1 min read time
