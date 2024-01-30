@@ -193,8 +193,8 @@ defaults:
 # OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
 protocols:
     fb_image: "/assets/img/content/cover-default-image.png"
-    fb_image_width: 1200
-    fb_image_height: 630
+    fb_image_width: 300
+    fb_image_height: 300
     fb_image_type: "image/jpg"
 
     twitter_image: "/assets/img/content/cover-default-image.png"
