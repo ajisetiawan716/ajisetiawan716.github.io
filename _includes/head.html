@@ -23,7 +23,7 @@
   {% if page.external-image %}
   <meta property="og:image" content="{{ page.external-image }}">
 {% elsif page.image %}
-  <meta property="og:image" content="{{ site.baseurl }}/assets/img/content/{{ page.image }}">
+  <meta property="og:image" content="{{ site.baseurl }}{{ site.url }}/assets/img/content/{{ page.image }}">
 {% else %}
   <meta property="og:image" content="{{ site.protocols.fb_image }}">
 {% endif %}
@@ -40,7 +40,7 @@
     {% if page.external-image %}
   <meta property="twitter:image" content="{{ page.external-image }}">
 {% elsif page.image %}
-  <meta property="twitter:image" content="{{ site.baseurl }}/assets/img/content/{{ page.image }}">
+  <meta property="twitter:image" content="{{ site.baseurl }}{{ site.url }}/assets/img/content/{{ page.image }}">
 {% else %}
   <meta property="twitter:image" content="{{ site.protocols.twitter_image }}">
 {% endif %}
