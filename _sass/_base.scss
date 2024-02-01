@@ -8,6 +8,13 @@ body {
   padding: 0;
 }
 
+@media screen and (min-width: 768px) {
+    body {
+        margin-left: -17px;
+    }
+}
+
+
 .badge {
   font-weight: 500;
 }
