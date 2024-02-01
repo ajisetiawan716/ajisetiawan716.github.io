@@ -46,14 +46,12 @@
 .markdown-body img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sesuaikan nilai bayangan sesuai preferensi Anda */
 }
-/* post-body selection content */
-.post-body::selection,
-.post-content::selection {
+/* selection content */
+::selection {
     background-color: yellow;
-    color: #fff;
+    color: black;
 }
-.post-body::-moz-selection,
-.post-content::-moz-selection {
+::-moz-selection {
     background-color: yellow;
-    color: #fff;
+    color: black;
 }
