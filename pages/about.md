@@ -16,8 +16,8 @@ I am a student at <b>STIES Putera Bangsa Tegal</b> with a study focus in Islamic
 </p>
 
 <p class="text-center"> {% include social.html %} </p>
-<p class="text-center">{% include elements/button.html link="/resumes" text="My CV" %} <br>
-{% include elements/button.html link="/pay/donate" text="Donate Me" %} </p>   
+<p class="text-center">{% include elements/button.html link="/resumes" text="View My CV" syle="primary" size="lg" %} <br>
+{% include elements/button.html link="/pay/donate" text="Donate Me" size="sm" %} </p>   
 <br>
 <br>
 ### **My Skills**
