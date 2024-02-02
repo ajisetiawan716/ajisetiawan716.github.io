@@ -22,8 +22,8 @@
 {% if image_url %}
 <div class="page-image">
   <img class="feat-img" src="{{ image_url }}" alt="{{ include.alt | default: 'image representing a theme in this article' }}" title="{{ include.alt | default: 'image post' }}" />
-    {% if page.image.caption %}
-      <div class="page-image-caption">{{ page.image.caption | markdownify }}</div>
+    {% if page.image-caption %}
+      <div class="page-image-caption">{{ page.image-caption | markdownify }}</div>
     {% endif %}
 </div>
 {% endif %}
