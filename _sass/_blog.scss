@@ -18,6 +18,22 @@
 /* Image Post-body*/
 .post-body img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sesuaikan nilai bayangan sesuai preferensi Anda */
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+.post-body img.half-width {
+    width: 50%
+}
+@media screen and (min-width: 768px) {
+    .post-body img {
+        width:90%
+    }
+
+    .post-body img.half-width {
+        width: 45%
+    }
 }
 
 /* Start of Pagination */
