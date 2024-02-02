@@ -46,6 +46,15 @@
 .markdown-body img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sesuaikan nilai bayangan sesuai preferensi Anda */
 }
+@media screen and (min-width: 768px) {
+    .markdown-body img {
+        width:40%
+    }
+
+    .markdown-body img.half-width {
+        width: 45%
+    }
+}
 /* selection content */
 ::selection {
     background-color: #ebd705;
