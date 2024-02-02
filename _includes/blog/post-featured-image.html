@@ -20,5 +20,8 @@
 {% endif %}
 
 {% if image_url %}
+<div class="page-image">
   <img class="feat-img" src="{{ image_url }}" alt="{{ include.alt | default: 'image representing a theme in this article' }}" title="{{ include.alt | default: 'image post' }}" />
+<div class="page-image-caption"></div>
+</div>
 {% endif %}
