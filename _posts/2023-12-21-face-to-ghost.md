@@ -9,6 +9,7 @@ tags: [Horror, Cerita Horor, Creepypasta, Misteri]
 #permalink:
 title: 'Face To Ghost - Creepypasta'
 external-image: https://thumbs2.imgbox.com/b0/f2/h5rMvfSj_t.jpeg
+image-caption: Ilustration
 image-alt: Face to Ghost
 ---
 
