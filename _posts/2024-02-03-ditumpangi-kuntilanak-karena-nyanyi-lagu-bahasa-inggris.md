@@ -6,14 +6,12 @@ categories: []
 #excerpt: ''
 date: 2024-02-03
 #image: 'BASEURL/assets/blog/img/.png'
-#description:
+description: Kuntilanak, makhluk gaib yang menghantui malam, telah lama menjadi bagian dari warisan budaya Indonesia. Dipercayai sebagai roh perempuan yang meninggal tragis, kuntilanak memancarkan aura mistis yang menakutkan. Namun, di balik ketakutan yang tercipta..
 #permalink:
-title: Ditumpangi Kuntilanak karena Nyanyi Lagu _"Super Lady"_ (G)I-DLE
+title: Ditumpangi Kuntilanak karena Nyanyi Lagu _'Super Lady'_ (G)I-DLE
 ---
 
 
-
-# Ditumpangi Kuntilanak karena Nyanyi Lagu _'Super Lady'_ (G)I-DLE
 
 
 Kuntilanak, makhluk gaib yang menghantui malam, telah lama menjadi bagian dari warisan budaya Indonesia. Dipercayai sebagai roh perempuan yang meninggal tragis, kuntilanak memancarkan aura mistis yang menakutkan. Namun, di balik ketakutan yang tercipta, seperti dilansir dari [Dark Ice](https://www.facebook.com/100050244950284/posts/pfbid032ATnV891sb6PUz6TWShZkYeYcz3myBtHCNnBcDDZH4urWcktuSvS9DDkEB2fCyWWl/) di Facebook, ada kisah unik yang berasal dari Facebook yang dibagikan ceritanya oleh Aditya. Mari kita ikuti ceritanya lebih lanjut.
@@ -53,5 +51,5 @@ Walau aku tak tahu apakah pada saat itu aku benar-benar mengalami kejadian misti
 <br>
 <br>
 
-Story by: Aditya Prax 
+Story by: Aditya Prax<br>
 Source: [Dark Ice](https://www.facebook.com/100050244950284/posts/pfbid032ATnV891sb6PUz6TWShZkYeYcz3myBtHCNnBcDDZH4urWcktuSvS9DDkEB2fCyWWl/)
