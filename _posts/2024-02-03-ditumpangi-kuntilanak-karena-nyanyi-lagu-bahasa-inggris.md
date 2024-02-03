@@ -8,7 +8,7 @@ date: 2024-02-03
 #image: 'BASEURL/assets/blog/img/.png'
 #description:
 #permalink:
-title: 'Ditumpangi Kuntilanak karena Nyanyi Lagu _'Super Lady'_ (G)I-DLE'
+title: Ditumpangi Kuntilanak karena Nyanyi Lagu _"Super Lady"_ (G)I-DLE
 ---
 
 
