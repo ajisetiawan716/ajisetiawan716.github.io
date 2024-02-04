@@ -4,7 +4,7 @@ layout: blog
 
 <article>
 <img data-pagefind-meta="image[src]" src="{{ page.thumbnail | prepend: site.baseurl }}" style="display:none" />
-<h1><b>{{ page.title }}</b></h1>
+<h1><b>{{ page.title | markdownify }}</b></h1>
 <div class="separator"></div>
 <div class="post post-metadata text-muted" style="margin-top: 8px;">
  <li class="fa fa-calendar fa-1x"></li> {{ page.date | date_to_long_string }}  
