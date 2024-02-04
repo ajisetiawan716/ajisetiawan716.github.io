@@ -8,7 +8,7 @@ date: 2024-02-03
 #image: 'BASEURL/assets/blog/img/.png'
 description: Kuntilanak, makhluk gaib yang menghantui malam, telah lama menjadi bagian dari warisan budaya Indonesia. Dipercayai sebagai roh perempuan yang meninggal tragis, kuntilanak memancarkan aura mistis yang menakutkan. Namun, di balik ketakutan yang tercipta..
 #permalink:
-title: Ditumpangi Kuntilanak karena Nyanyi Lagu <em>'Super Lady'</em> (G)I-DLE
+title: Ditumpangi Kuntilanak karena Nyanyi Lagu *'Super Lady'* (G)I-DLE
 ---
 
 
