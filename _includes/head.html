@@ -18,7 +18,7 @@
   <meta name="og:description" content="{% if page.description %}{{ page.description | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | truncate: 160 }}{% elsif page.content %}{{ page.content | markdownify | strip_html | truncatewords: 25 }}{% else %}{{ description }}{% endif %}" />
   <meta property="og:url" content="{% if page.url %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}" />
-  <meta property="og:title" content="{% if page.title %}{{ page.title | markdownify }}{% else %}{{ title | markdownify }}{% endif %}" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title | markdownify }}{% endif %}" />
   <meta property="og:type" content="website" />
   {% if page.external-image %}
   <meta property="og:image" content="{{ page.external-image }}">
@@ -55,7 +55,7 @@
   <meta property="os:src" content="{{ protocols.os_src }}" />
   {% endif %}
 
-  <title>{{ title | markdownify }} | Portofolio {{ site.title }}</title>
+  <title>{{ title }} | Portofolio {{ site.title }}</title>
   <!-- Manifest file -->
   <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
   <!-- SEO -->
