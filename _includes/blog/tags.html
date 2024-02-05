@@ -29,10 +29,10 @@
                     <span class="fa fa-calendar"> <time datetime="{{- post.date | date_to_long_string -}}">{{- post.date | date_to_long_string -}}</time></span> <span><a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a></span>
                 </div>
             </div>
-        <a href="#top">
+        {%- endfor -%}
+        <a href="#top" class="kanan">
                             <small>^back to top</small>
         </a>
-        {%- endfor -%}
     </div>
     <hr class="bg-light">
 {%- endfor -%}
