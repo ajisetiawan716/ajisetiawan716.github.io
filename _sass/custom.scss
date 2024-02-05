@@ -28,6 +28,10 @@
     .site-header-container.has-cover .title,.post-header-container.has-cover .title {
         font-size:2.985984em
     }
+    /* text title size on tag pages */ 
+    .tag-entry .text-muted {
+	font-size: 18px;
+    }
 }
 
 .site-header-container.has-cover .subtitle,.site-header-container.has-cover .info,.post-header-container.has-cover .subtitle,.post-header-container.has-cover .info {
