@@ -20,7 +20,7 @@
 {%- for tag in tags_list -%}
     <h4 id="{{- tag -}}" class="signboard-meta">
         #&nbsp;{{- tag -}}&nbsp;
-    </h4>
+    </h4> <li class="tag badge text-primary border border-primary">{{site.tags[tag].size}}</li>
     <div class="py-3">
         {%- for post in site.tags[tag] -%}
             <div class="tag-entry">
