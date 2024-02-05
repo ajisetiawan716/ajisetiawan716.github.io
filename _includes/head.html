@@ -55,7 +55,7 @@
   <meta property="os:src" content="{{ protocols.os_src }}" />
   {% endif %}
 
-  <title>{{ title }} | Portofolio {{ site.title }}</title>
+  <title>{{ title | markdownify }} | Portofolio {{ site.title }}</title>
   <!-- Manifest file -->
   <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
   <!-- SEO -->
