@@ -19,7 +19,8 @@
 <div class="py-2">
 {%- for tag in tags_list -%}
     <h4 id="{{- tag -}}" class="signboard-meta">
-        #&nbsp;{{- tag -}}&nbsp; <li class="tag badge text-primary border border-primary">{{site.tags[tag].size}}</li>
+        #&nbsp;{{- tag -}}&nbsp; 
+        <li class="tag badge text-primary border border-primary">{{site.tags[tag].size}}</li>
     </h4> 
     <div class="py-3">
         {%- for post in site.tags[tag] -%}
@@ -28,6 +29,9 @@
                     <span class="fa fa-calendar"> <time datetime="{{- post.date | date_to_long_string -}}">{{- post.date | date_to_long_string -}}</time></span> <span><a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a></span>
                 </div>
             </div>
+        <a href="#top">
+                            <small>back to top</small>
+        </a>
         {%- endfor -%}
     </div>
     <hr class="bg-light">
