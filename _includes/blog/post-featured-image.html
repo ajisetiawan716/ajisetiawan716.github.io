@@ -16,7 +16,7 @@
     Jika tidak ada gambar internal maupun eksternal, atau variabel image tidak diatur,
     pada halaman index tampilkan gambar default, sedangkan pada halaman post tidak tampilkan gambar.
   {% endcomment %}
-  {% assign image_url = page.url == '/blog/' ? default_image : nil %}
+  {% assign image_url = nil %}
 {% endif %}
 
 {% if image_url %}
