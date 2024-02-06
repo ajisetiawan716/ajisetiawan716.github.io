@@ -46,8 +46,10 @@ layout: blog
  <!– call the featured-post-image.html template file –>
 {% if page.image != empty %}
   {% include blog/post-featured-image.html image=page.image alt=page.image-alt %}
-{% elseif page.external-image != empty %}
+{% elsif page.external-image != empty %}
   {% include blog/post-featured-image.html external-image=page.external-image alt=page.image-alt %}
+{% else %}
+  {# Tidak menampilkan gambar jika keduanya kosong #}
 {% endif %}
 
 <div id="post-body" class="post-body">
