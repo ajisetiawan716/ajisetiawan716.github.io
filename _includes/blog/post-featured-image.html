@@ -19,7 +19,7 @@
   {% assign image_url = nil %}
 {% endif %}
 
-{% if image_url %}
+{% if image_url != nil %}
 <div class="page-image">
   <img class="feat-img" src="{{ image_url }}" alt="{{ include.alt | default: 'image representing a theme in this article' }}" title="{{ include.alt | default: 'image post' }}" />
     {% if page.image-caption %}
