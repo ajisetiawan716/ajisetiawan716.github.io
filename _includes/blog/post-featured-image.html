@@ -1,5 +1,4 @@
 {% if page.image != empty or page.external-image != empty %}
-  {% assign default_image = site.defaults[0].values.image %}
   {% assign is_external = include.external-image | default: false %}
 
   {% if is_external %}
