@@ -1,4 +1,4 @@
-{% if include.image != empty or include.external-image != empty %}
+
   {% assign is_external = include.external-image %}
   {% if is_external %}
     {% assign image_url = include.external-image %}
@@ -14,4 +14,3 @@
       {% endif %}
     </div>
   {% endif %}
-{% endif %}
