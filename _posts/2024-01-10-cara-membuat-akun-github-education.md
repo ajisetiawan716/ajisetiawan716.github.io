@@ -7,7 +7,7 @@ date: 10.01.2024 16.35
 #image: 'BASEURL/assets/blog/img/.png'
 #description:
 #permalink:
-title: 'title'
+title: 'Cara Membuat Akun Github Education'
 ---
 
 
