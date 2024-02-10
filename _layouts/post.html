@@ -44,11 +44,7 @@ layout: blog
 <!-- trakteer widget -->
 <br>
  <!– call the featured-post-image.html template file –>
-{% if page.image != empty %}
-  {% include blog/post-featured-image.html image=page.image alt=page.image-alt %}
-{% elsif page.external-image != empty %}
   {% include blog/post-featured-image.html image=page.image external-image=page.external-image alt=page.image-alt %}
-{% endif %}
 
 <div id="post-body" class="post-body">
 {{ content }}
