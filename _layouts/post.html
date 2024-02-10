@@ -47,7 +47,7 @@ layout: blog
 {% if page.image != empty %}
   {% include blog/post-featured-image.html image=page.image alt=page.image-alt %}
 {% elsif page.external-image != empty %}
-  {% include blog/post-featured-image.html external-image=page.external-image alt=page.image-alt %}
+  {% include blog/post-featured-image.html image=page.image external-image=page.external-image alt=page.image-alt %}
 {% endif %}
 
 <div id="post-body" class="post-body">
