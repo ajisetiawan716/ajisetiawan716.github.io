@@ -1,0 +1,19 @@
+---
+name: Desain Grafis - STIES Putera Bangsa Tegal
+title: Desain Grafis - STIES Putera Bangsa Tegal 
+tools: [Graphic Design, Social Media Content, Flyer]
+image: https://www.ajisetiawan.my.id/assets/img/content/cover-graphic-design.jpg
+description: Portofolio desain grafis dan social media content untuk STIES Putera Bangsa Tegal.
+---
+
+# Desain Grafis - STIES Putera Bangsa Tegal
+
+Selama 2 tahun lebih saya bekerja di STIES Putera Bangsa Tegal sebagai seorang desian grafis. Saya berkontribusi dalam membuat rancangan desain untuk acara, peringatan hari besar, media promosi hingga keperluan informasi dan kebutuhan social media dari akun sosial media STIES Putera Bangsa Tegal.
+
+**Preview**
+![preview](https://www.ajisetiawan.my.id/assets/img/content/graphic-desain-stiespbtegal-preview.jpg)
+
+
+<p class="text-center">
+{% include elements/button.html link="https://stiespbtegal.ac.id" text="Visit STIES Putera Bangsa Tegal" %}
+</p>
