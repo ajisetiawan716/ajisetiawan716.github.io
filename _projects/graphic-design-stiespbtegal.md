@@ -12,7 +12,10 @@ Selama 2 tahun lebih saya bekerja di STIES Putera Bangsa Tegal sebagai seorang d
 
 **Preview**
 {% capture carousel_images %}
-https://www.ajisetiawan.my.id/assets/img/content/graphic-desain-stiespbtegal-preview.jpg https://www.ajisetiawan.my.id/assets/img/content/gd-stiespb-1.jpg 
+https://www.ajisetiawan.my.id/assets/img/content/graphic-desain-stiespbtegal-preview.jpg
+https://www.ajisetiawan.my.id/assets/img/content/gd-stiespb-1.jpg
+https://www.ajisetiawan.my.id/assets/img/content/gd-stiespb-2.jpg
+https://www.ajisetiawan.my.id/assets/img/content/gd-stiespb-3.jpg
 {% endcapture %}
 {% include elements/carousel.html %}
 
