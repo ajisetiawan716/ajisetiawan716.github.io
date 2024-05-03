@@ -10,9 +10,9 @@ description: Portofolio web desain dan konten situs web DEMA STIES Putera Bangsa
 Pembuatan situs web DEMA STIES Putera Bangsa Tegal, mulai dari pemilihan hosting provider, desain web hingga isi konten web pada tahun 2021. Saya memegang projek ini ketika saya menjabat menjadi Koordinator Departemen Media & Informasi di DEMA STIES Putera Bangsa Tegal Periode 2021/2022.
 
 **Preview**
-![Portofolio Web Desain](https://www.ajisetiawan.my.id/assets/img/content/wd-dema-1.png "Portofolio Web Desain")
+![Portofolio Web Desain](https://www.ajisetiawan.my.id/assets/img/content/wd-dema-1.jpg "Portofolio Web Desain")
 
-![Portofolio Web Desain](https://www.ajisetiawan.my.id/assets/img/content/wd-dema-2.png "Portofolio Web Desain")
+![Portofolio Web Desain](https://www.ajisetiawan.my.id/assets/img/content/wd-dema-2.jpg "Portofolio Web Desain")
 
 
 <p class="text-center">
