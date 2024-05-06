@@ -17,6 +17,8 @@ Selama 2 tahun lebih saya bekerja di STIES Putera Bangsa Tegal sebagai seorang d
 
 ![Portofolio Desain Grafis](https://www.ajisetiawan.my.id/assets/img/content/cover-graphic-design.jpg "Portofolio Desain Grafis")
 
+![Portofolio Desain Grafis](https://www.ajisetiawan.my.id/assets/img/content/graphic-desain-stiespbtegal-preview.jpg "Portofolio Desain Grafis")
+
 ![Portofolio Desain Grafis](https://www.ajisetiawan.my.id/assets/img/content/gd-stiespb-1.jpg "Portofolio Desain Grafis")
 
 ![Portofolio Desain Grafis](https://www.ajisetiawan.my.id/assets/img/content/gd-stiespb-2.jpg "Portofolio Desain Grafis")
