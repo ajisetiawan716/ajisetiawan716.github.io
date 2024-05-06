@@ -23,9 +23,5 @@ Menjadi bagian dari organisasi perwakilan tertinggi mahasiswa di DEMA STIES Pute
 
 
 <p class="text-center">
-{% include elements/button.html link="https://instagram.com/demastiespbtegal" text="Visit Instagram STIES Putera Bangsa Tegal" %}
-</p>
-
-<p class="text-center">
-{% include elements/button.html link="https://dema.stiespbtegal.ac.id" text="Visit Website STIES Putera Bangsa Tegal" %}
+{% include elements/button.html link="https://instagram.com/demastiespbtegal" text="Visit Instagram DEMA STIES Putera Bangsa Tegal" %}
 </p>
