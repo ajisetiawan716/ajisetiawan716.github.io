@@ -1,7 +1,7 @@
 ---
 name: Desain Grafis - STIES Putera Bangsa Tegal
 title: Desain Grafis - STIES Putera Bangsa Tegal 
-tools: [Graphic Design, Social Media Content, Flyer]
+tools: [Portofolio, Graphic Design, Social Media Content, Flyer, Corel Draw]
 image: https://www.ajisetiawan.my.id/assets/img/content/cover-graphic-design.jpg
 description: Portofolio desain grafis dan social media content untuk STIES Putera Bangsa Tegal.
 ---
