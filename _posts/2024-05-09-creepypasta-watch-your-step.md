@@ -78,4 +78,5 @@ Aku melihat diriku sendiri, terbaring kaku dengan darah mengucur dari kepala dan
 
 
 Sumber: Si Creepypasta, Bubu Pedia
+
 Gambar: [Laura W](https://www.pinterest.es/LauraWCO/)
