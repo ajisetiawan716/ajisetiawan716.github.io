@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [Creppypasta, Horror, Misteri, Kisah Horor]
+tags: [Creepypasta, Horror, Misteri, Kisah Horor]
 #categories: []
 #date: 09-05-2024 06:16
 #excerpt: ''
@@ -14,13 +14,11 @@ title: 'Creepypasta: Watch Your Step'
 
 
 
-Aku sedang duduk sendirian di kamarku, menunggu orang tuaku kembali dari rumah sakit. Tidak, bukan orang tuaku yang sakit.
+Aku sedang duduk sendirian di kamarku, menunggu orang tuaku kembali dari rumah sakit. Tidak, bukan orang tuaku yang sakit. Mereka pergi ke rumah sakit untuk melihat keadaan kakak laki-lakiku, Danny. 
 
-Mereka pergi ke rumah sakit untuk melihat keadaan kakak laki-lakiku, Danny.
+Mereka pergi begitu saja setelah mendapat telepon dari pihak kepolisian. Aku ingin ikut, tapi mereka melarangku, jadi aku hanya bisa menunggu mereka pulang. 
 
-Mereka pergi begitu saja setelah mendapat telepon dari pihak kepolisian. Aku ingin ikut, tapi mereka melarangku, jadi aku hanya bisa menunggu mereka pulang.
-
-Terakhir kali aku melihat kakakku, saat tadi pagi. Ya, lagi-lagi kakakku berkelahi dengan orang tuaku. Bukan berkelahi secara fisik, namun, berkelahi secara verbal.
+Terakhir kali aku melihat kakakku, saat tadi pagi. Ya, lagi-lagi kakakku berkelahi dengan orang tuaku. Bukan berkelahi secara fisik, namun, berkelahi secara verbal. 
 
 Kakakku terus mengumpat kata-kata kotor pada orang tuaku. Setelah itu, dia pergi begitu saja mengendarai motornya.
 

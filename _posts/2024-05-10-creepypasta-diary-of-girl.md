@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [Creppypasta, Horror, Misteri, Kisah Horor]
+tags: [Creepypasta, Horror, Misteri, Kisah Horor]
 #categories: []
 #date: 2019-06-25 13:14:15
 #excerpt: ''
