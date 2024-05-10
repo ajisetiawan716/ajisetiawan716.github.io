@@ -7,7 +7,7 @@ tags: [Creppypasta, Horror, Misteri, Kisah Horor]
 image: 'diary-of-girl.jpeg'
 image-alt: Diary of Girl
 image-caption: Image form [Pinterest](https://www.pinterest.com/pin/798896421385036457/)
-#description:
+description: Namanya Lisa, ia temanku. Mommy dan daddy tak bisa melihatnya, mereka bilang Lisa adalah teman khayalanku, Lisa teman yang baik..
 #permalink:
 title: 'Creepypasta: Diary of a Girl - Kisah Misterius tentang Lisa, Teman Khayalan atau Sesuatu yang Lebih?'
 ---
@@ -58,4 +58,5 @@ title: 'Creepypasta: Diary of a Girl - Kisah Misterius tentang Lisa, Teman Khaya
 <br>
 
 Sumber: Si Creepypasta, Bubupedia
+
 Gambar: Pinterest
