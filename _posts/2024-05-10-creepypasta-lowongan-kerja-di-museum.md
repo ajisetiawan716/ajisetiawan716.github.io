@@ -4,7 +4,7 @@ tags: [Creepypasta, Horror, Misteri]
 categories: []
 #date: 2019-06-25 13:14:15
 #excerpt: ''
-image: 'https://scp-wiki.wdfiles.com/local--files/scp-7557/haida.jpg'
+external-image: 'https://scp-wiki.wdfiles.com/local--files/scp-7557/haida.jpg'
 image-alt: SCP Museum
 caption: Image form [SCP Foundation](https://scp-wiki.wikidot.com/scp-7557)
 #description:
