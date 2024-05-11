@@ -6,7 +6,7 @@ categories: []
 #excerpt: ''
 external-image: 'https://scp-wiki.wdfiles.com/local--files/scp-7557/haida.jpg'
 image-alt: SCP Museum
-caption: Image form [SCP Foundation](https://scp-wiki.wikidot.com/scp-7557)
+image-caption: Image form [SCP Foundation](https://scp-wiki.wikidot.com/scp-7557)
 #description:
 #permalink:
 title: 'Creepypasta: Lowongan Kerja di Museum'
@@ -40,6 +40,5 @@ Jika Anda tertarik dengan lowongan kerja dan posisi ini, silakan telepon kami di
 
 <br>
 Sumber: Dark Ice, Bubupedia
-Gambar: SCP Foundation
 
-#bubupedia #bubucreepypasta
+Gambar: SCP Foundation
