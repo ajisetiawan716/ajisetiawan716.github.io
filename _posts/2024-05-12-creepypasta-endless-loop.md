@@ -5,7 +5,7 @@ tags: [Creepypasta, Horror, Misteri]
 #date: 2019-06-25 13:14:15
 #excerpt: ''
 image: 'endless-loop.jpg'
-image: A Lost Traveler - Endless Loop Creepypasta
+image-alt: A Lost Traveler - Endless Loop Creepypasta
 images-caption: Images by [Zara Shafiya](https://writco.in/Poem/P76004042024200306)
 #description:
 #permalink:
