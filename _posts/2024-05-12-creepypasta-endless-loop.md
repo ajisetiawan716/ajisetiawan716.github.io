@@ -6,7 +6,7 @@ tags: [Creepypasta, Horror, Misteri]
 #excerpt: ''
 image: 'endless-loop.jpg'
 image-alt: A Lost Traveler - Endless Loop Creepypasta
-images-caption: Images by [Zara Shafiya](https://writco.in/Poem/P76004042024200306)
+image-caption: Images by [Zara Shafiya](https://writco.in/Poem/P76004042024200306)
 #description:
 #permalink:
 title: 'Creepypasta: Endless Loop'
