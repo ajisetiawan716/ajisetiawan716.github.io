@@ -4,8 +4,8 @@
 {% assign relatedPostsFound = false %}
 
 
-
 {% if relatedPostsFound %}
+    {% assign relatedPostsFound = true %}
   <h2>Related Post</h2>
   <div class="rect">
     {% for post in site.posts %}
