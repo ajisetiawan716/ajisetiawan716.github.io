@@ -2,8 +2,7 @@
 {% assign minCommonTags = 1 %}
 {% assign maxRelatedCounter = 0 %}
 {% assign relatedPostsFound = false %}
-{% if relatedPostsFound %}
-  <h2>Related Post</h2>
+
 <div class="rect">
   {% for post in site.posts %}
     {% assign sameTagCount = 0 %}
@@ -30,5 +29,6 @@
     {% endif %}
   {% endfor %}
 </div>
-
+{% if relatedPostsFound %}
+  <h2>Related Post</h2>
 {% endif %}
