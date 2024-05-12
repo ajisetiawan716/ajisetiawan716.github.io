@@ -15,6 +15,8 @@
 
   {% if sameTagCount >= minCommonTags %}
     {% assign relatedPostsFound = true %}
+  <h2>Related Post</h2>
+  <div class="rect">
     <a href="{{ site.baseurl }}{{ post.url }}">
       <div class="rel">
         <h5>{{ post.title }}</h5>
