@@ -1,3 +1,4 @@
+<h2>Related Post</h2>
 <div class="rect">
 
   {% assign maxRelated = 4 %}
@@ -26,7 +27,7 @@
           <a href="{{ site.baseurl }}{{ post.url }}">
               <div class="rel">
                   <h5>{{ post.title }}</h5>
-                  <{% assign default_image = site.defaults[0].values.image %}
+                  {% assign default_image = site.defaults[0].values.image %}
 
 {% if post.image or post.external-image %}
   {% include blog/related-post-image.html external-image=post.external-image image=post.image alt=post.image-alt %}
