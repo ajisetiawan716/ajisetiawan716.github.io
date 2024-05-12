@@ -32,8 +32,6 @@
 {% endfor %}
 
 {% if relatedPostsFound %}
-  <h2>Related Post</h2>
-  <div class="rect">
     {% for post in site.posts %}
       {% assign sameTagCount = 0 %}
       {% for tag in post.tags %}
