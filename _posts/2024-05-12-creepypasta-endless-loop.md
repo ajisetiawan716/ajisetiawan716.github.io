@@ -52,4 +52,4 @@ Pria itu adalah dirinya.
 
 Sumber: WordPress Indonesia
 
-Gambar: pinterest
+Gambar: Writco.in
