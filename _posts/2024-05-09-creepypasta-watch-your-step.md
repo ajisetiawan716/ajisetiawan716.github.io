@@ -73,8 +73,7 @@ Aku melihat diriku sendiri, terbaring kaku dengan darah mengucur dari kepala dan
 “Sudah berapa kali ibu bilang padamu, perhatikan langkahmu.”
 
 
+<br>
 
-
-Sumber: Si Creepypasta, Bubu Pedia
-
+Sumber: Si Creepypasta, Bubu Pedia<br>
 Gambar: [Laura W](https://www.pinterest.es/LauraWCO/)
