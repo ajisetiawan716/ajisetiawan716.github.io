@@ -152,10 +152,8 @@ Dahlia berhasil menyalakan lampunya. Dia berbalik, berniat untuk menghakimi siap
 
 "Sudah kami katakan, lebih baik lampunya dimatikan, bukan?"
 
+<br>
 
-
-_Sumber: Dark Ice_
-
-_Cerita: Ice Prince_
-
-_Gambar: Treetop.pl_
+_Sumber: Dark Ice_<br>
+_Cerita: Ice Prince_<br>
+_Gambar: Treetop.pl_<br>
