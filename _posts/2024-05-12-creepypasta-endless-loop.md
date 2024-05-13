@@ -50,6 +50,5 @@ Pria itu adalah dirinya.
 
 <br>
 
-Sumber: WordPress Indonesia
-
+Sumber: WordPress Indonesia, Bubupedia<br>
 Gambar: Writco.in

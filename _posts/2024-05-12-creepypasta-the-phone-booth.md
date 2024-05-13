@@ -12,7 +12,7 @@ image-caption: Image form [Goo Blog](https://blog.goo.ne.jp/umix4/e/646f3fa3a4e8
 title: 'Creepypasta: The Phone Booth'
 ---
 
-The Phone Booth atau Telepon Umum merupakan cerita hantu seram berasal dari Jepang yang menceritakan dua orang sahabat. Keduanya tertarik dengan _urban legend_ yang ada.
+_The Phone Booth_ atau Telepon Umum merupakan cerita hantu seram berasal dari Jepang yang menceritakan dua orang sahabat. Keduanya tertarik dengan _urban legend_ yang ada.
 
 Diceritakan, ada dua pemuda bernama Kenzo dan Tatsuya. Mereka selalu berbagi cerita seram satu sama lain. Kapan pun mereka bertemu, mereka harus memiliki suatu cerita seram yang akan diceritakan.
 
@@ -54,5 +54,5 @@ Setengah jam kemudian, ketika Tatsuya tiba di jembatan gantung, dia menemukan te
 
 
 <br>
-Sumber: Dark Ice, Bubupedia, Wattpad,<br>
+Sumber: Dark Ice, Bubupedia, Wattpad<br>
 Gambar: [Goo Blog](https://blog.goo.ne.jp/umix4/e/646f3fa3a4e83e27e70fa10888620055)
