@@ -20,9 +20,7 @@ Ketika wanita ini akhirnya tak bisa terselamatkan di meja operasi, setelah merek
 
 Itu adalah bayi terburuk yang pernah mereka lihat, kulitnya berwarna abu-abu bercampur kebiru-biruan yang menggambarkan tak ada kehidupan. Kepalanya rusak dan belum terbentuk dengan sempurna, wajah bayi tersebut menggelayut dan mengerut persis seperti kulit orang tua. Perawat secepatnya mengambil bayi tersebut dan membawanya ke ruangan khusus, dimana terdapat tempat tidur untuk bayi yang baru lahir.
 
-Bayi itu sangat buruk rupa dan langsung menjadi pembicaraan yang
-
-hangat seluruh perawat dan karyawan yang ada di rumah sakit itu, tentang bagaimana menyeramkannya kejadian itu. Mereka semua bergantian ke ruangan dimana bayi itu berada, hanya untuk melihat dengan jelas menggunakan mata kepala mereka sendiri. Dua orang perawat juga ingin membuktikan kejadian tersebut dan masuk ke kamar bayi itu. Ketika mereka dapat melihatnya, mereka langsung merasa jijik dan tak mampu untuk melihatnya untuk kedua kali. "Oh Tuhan... Bayi itu sangat buruk rupa", kata seorang dari mereka. "Sungguh lebih baik jika itu sudah tak terselamatkan", kata perawat yang satunya lagi.
+Bayi itu sangat buruk rupa dan langsung menjadi pembicaraan yang hangat seluruh perawat dan karyawan yang ada di rumah sakit itu, tentang bagaimana menyeramkannya kejadian itu. Mereka semua bergantian ke ruangan dimana bayi itu berada, hanya untuk melihat dengan jelas menggunakan mata kepala mereka sendiri. Dua orang perawat juga ingin membuktikan kejadian tersebut dan masuk ke kamar bayi itu. Ketika mereka dapat melihatnya, mereka langsung merasa jijik dan tak mampu untuk melihatnya untuk kedua kali. "Oh Tuhan... Bayi itu sangat buruk rupa", kata seorang dari mereka. "Sungguh lebih baik jika itu sudah tak terselamatkan", kata perawat yang satunya lagi.
 
 Tiba-tiba mata dari bayi buruk rupa itu terbuka dan mulutnya mulai bergerak-gerak. Dari tenggorokannya keluar sebuah suara mengerang, lalu perlahan-lahan dengan suara yang serak dia mulai berbicara, "Saya mungkin bayi buruk rupa yang pernah ada, tapi yang lebih buruk akan terjadi pada kalian berdua pada hari Kamis pukul 3 sorenya!".
 
