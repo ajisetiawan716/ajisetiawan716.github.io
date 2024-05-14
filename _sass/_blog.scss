@@ -107,18 +107,34 @@
   border-bottom: 3px solid #333;
   padding-top: 15px;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centering items in the container */
 }
 
 .rel {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
   width: 200px;
-  display: inline-block;
-  padding: 5px;
+  margin: 10px; /* Space between items */
+  padding: 10px;
+  border: 1px solid #ddd; /* Optional: border for better visualization */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: shadow for depth */
+  transition: opacity 0.3s; /* Smooth transition for hover effect */
   opacity: 0.8;
 }
 
 .rel:hover {
   opacity: 1;    
 }
+
+@media (max-width: 600px) {
+  .rel {
+    width: 100%; /* Full width on small screens */
+  }
+}
+
 /* End of Related Post */
 
 
