@@ -14,7 +14,7 @@
   {% if sameTagCount >= minCommonTags %}
     {% assign relatedPostsFound = true %}
     {% capture relatedPost %}
-      <a href="{{ site.baseurl }}{{ post.url }}">
+      <a href="{{ site.baseurl }}{{ post.url }}" class="rel-link">
         <div class="rel">
           <h5>{{ post.title }}</h5>
           {% if post.image or post.external-image %}
