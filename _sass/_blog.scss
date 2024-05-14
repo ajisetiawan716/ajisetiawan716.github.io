@@ -109,7 +109,7 @@
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Centering items in the container */
+  justify-content: center;
 }
 
 .rel-link {
@@ -118,14 +118,14 @@
 
 .rel {
   display: flex;
-  flex-direction: column; /* Stack children vertically */
-  align-items: center; /* Center children horizontally */
+  flex-direction: column;
+  align-items: center;
   width: 200px;
-  margin: 10px; /* Space between items */
+  margin: 10px;
   padding: 10px;
-  border: 1px solid #ddd; /* Optional: border for better visualization */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: shadow for depth */
-  transition: opacity 0.3s; /* Smooth transition for hover effect */
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: opacity 0.3s;
   opacity: 0.8;
 }
 
@@ -135,7 +135,7 @@
 
 @media (max-width: 600px) {
   .rel {
-    width: 100%; /* Full width on small screens */
+    width: 100%;
   }
 }
 
