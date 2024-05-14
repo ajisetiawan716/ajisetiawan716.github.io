@@ -110,6 +110,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* Centering items in the container */
+  text-decoration: none;
 }
 
 .rel-link {
@@ -127,10 +128,13 @@
   box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: shadow for depth */
   transition: opacity 0.3s; /* Smooth transition for hover effect */
   opacity: 0.8;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .rel:hover {
-  opacity: 1;    
+  opacity: 1;
+  text-decoration: none;
 }
 
 @media (max-width: 600px) {
