@@ -112,6 +112,10 @@
   justify-content: center; /* Centering items in the container */
 }
 
+.rel-link {
+  text-decoration: none; /* Remove underline from links */
+}
+
 .rel {
   display: flex;
   flex-direction: column; /* Stack children vertically */
