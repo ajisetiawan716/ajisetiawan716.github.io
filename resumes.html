@@ -36,7 +36,7 @@ weight: 5
   {% elsif provider == "cvengineer" %}
     <iframe src="https://cvengineer.io/resumes/{{ site.author.resume.cvengineer.username }}" width="100%" height="100%"></iframe>
   {% elsif provider == "external" %}
-    <iframe src="{{ site.author.resume.external_link }}" width="100%" height="100%"></iframe>
+    <iframe src="https://docs.google.com/gview?url={{ site.author.resume.external.link }}&embedded=true" width="100%" height="100%"></iframe>
   {% endif %}
 {% else %}
   <p>Resume is not enabled.</p>
