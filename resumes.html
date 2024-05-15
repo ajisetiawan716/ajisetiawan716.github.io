@@ -26,7 +26,7 @@ weight: 5
     }
   </style>
 </head>
-<body>
+<body style="overflow: hidden;">
 {% assign provider = site.author.resume.provider %}
 {% assign enabled = site.author.resume.enabled %}
 
@@ -35,9 +35,12 @@ weight: 5
     <iframe src="{{ site.author.resume.gdrive.link }}" width="100%" height="100%"></iframe>
   {% elsif provider == "cvengineer" %}
     <iframe src="https://cvengineer.io/resumes/{{ site.author.resume.cvengineer.username }}" width="100%" height="100%"></iframe>
+  {% elsif provider == "external" %}
+    <iframe src="{{ site.author.resume.external_link }}" width="100%" height="100%"></iframe>
   {% endif %}
 {% else %}
   <p>Resume is not enabled.</p>
 {% endif %}
+
 </body>
 </html>
