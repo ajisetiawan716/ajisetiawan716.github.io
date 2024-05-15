@@ -92,7 +92,9 @@ author:
       link: https://drive.google.com/file/d/1x4lDQOZIibHgUwvj5voBoFnP4fTDhFSo/preview      #change to your gdrive link pdf resume file
     cvengineer:
       username: ajisetiawan
-    
+    external:
+      link: 'https://your-external-resume-provider.com/your-resume-link'
+  
 
 ### Posts ###
 permalink: /blog/:year/:month/:day/:title:output_ext
