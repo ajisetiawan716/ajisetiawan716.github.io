@@ -1,13 +1,3 @@
----
-layout: pdf
-title: Resumes
-permalink: /resumes/
-#background: 
-external-image: https://www.ajisetiawan.my.id/assets/images/icons/icon-128x128.png
-description: About My Resumes
-weight: 5
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,22 +15,49 @@ weight: 5
       border: 0; /* Untuk menghilangkan border pada iframe */
     }
   </style>
+  <script>
+    // Menonaktifkan klik kanan
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+    });
+
+    // Menonaktifkan pintasan keyboard untuk alat pengembang
+    document.addEventListener('keydown', function(e) {
+      if (e.keyCode == 123) { // F12
+          e.preventDefault();
+      } else if (e.ctrlKey && e.shiftKey && e.keyCode == 73) { // Ctrl+Shift+I
+          e.preventDefault();
+      } else if (e.ctrlKey && e.shiftKey && e.keyCode == 74) { // Ctrl+Shift+J
+          e.preventDefault();
+      } else if (e.ctrlKey && e.keyCode == 85) { // Ctrl+U
+          e.preventDefault();
+      }
+    });
+
+    // Deteksi jika alat pengembang dibuka
+    (function() {
+      var devtools = function() {};
+      devtools.toString = function() {
+        window.location.replace("https://www.ajisetiawan.my.id/warning");
+      };
+      console.log('%c', devtools);
+    })();
+  </script>
 </head>
-<body style="overflow: hidden;">
-{% assign provider = site.author.resume.provider %}
-{% assign enabled = site.author.resume.enabled %}
+<body oncontextmenu="return false;" style="overflow: hidden;">
+  {% assign provider = site.author.resume.provider %}
+  {% assign enabled = site.author.resume.enabled %}
 
-{% if enabled == true %}
-  {% if provider == "gdrive" %}
-    <iframe src="{{ site.author.resume.gdrive.link }}" width="100%" height="100%"></iframe>
-  {% elsif provider == "cvengineer" %}
-    <iframe src="https://cvengineer.io/resumes/{{ site.author.resume.cvengineer.username }}" width="100%" height="100%"></iframe>
-  {% elsif provider == "external" %}
-    <iframe src="https://docs.google.com/gview?url={{ site.author.resume.external.link }}&embedded=true" width="100%" height="100%"></iframe>
+  {% if enabled == true %}
+    {% if provider == "gdrive" %}
+      <iframe src="{{ site.author.resume.gdrive.link }}" width="100%" height="100%"></iframe>
+    {% elsif provider == "cvengineer" %}
+      <iframe src="https://cvengineer.io/resumes/{{ site.author.resume.cvengineer.username }}" width="100%" height="100%"></iframe>
+    {% elsif provider == "external" %}
+      <iframe src="https://docs.google.com/gview?url={{ site.author.resume.external.link }}&embedded=true" width="100%" height="100%"></iframe>
+    {% endif %}
+  {% else %}
+    <p>Resume is not enabled.</p>
   {% endif %}
-{% else %}
-  <p>Resume is not enabled.</p>
-{% endif %}
-
 </body>
 </html>
