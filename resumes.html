@@ -26,7 +26,7 @@ weight: 5
       border: 0; /* Untuk menghilangkan border pada iframe */
     }
   </style>
-  <script>
+<script>
     // Menonaktifkan klik kanan
     document.addEventListener('contextmenu', function(e) {
       e.preventDefault();
@@ -47,11 +47,18 @@ weight: 5
 
     // Deteksi jika alat pengembang dibuka
     (function() {
-      var devtools = function() {};
-      devtools.toString = function() {
-        window.location.replace("https://www.ajisetiawan.my.id/warning");
-      };
-      console.log('%c', devtools);
+      var isDevToolsOpen = false;
+      var threshold = 160;
+      setInterval(function() {
+        if ((window.outerWidth - window.innerWidth) > threshold || (window.outerHeight - window.innerHeight) > threshold) {
+          if (!isDevToolsOpen) {
+            alert("Developer tools are open!");
+            isDevToolsOpen = true;
+          }
+        } else {
+          isDevToolsOpen = false;
+        }
+      }, 1000);
     })();
   </script>
 </head>
