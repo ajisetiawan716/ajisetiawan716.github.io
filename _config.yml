@@ -100,7 +100,7 @@ author:
     provider: "gdrive" # false (default), "gdrive", "external"
     enabled: true                                        # Set true to enable analytics
     gdrive:
-      link: https://drive.google.com/file/d/11HhbXkTWIaaMAdbjCkNtcrk1-FROPqgG/view?usp=drive_link
+      link: https://drive.google.com/file/d/11HhbXkTWIaaMAdbjCkNtcrk1-FROPqgG/preview
     external:
       link: https://www.ajisetiawan.my.id/assets/Portfolio-Aji-Setiawan.pdf
 
