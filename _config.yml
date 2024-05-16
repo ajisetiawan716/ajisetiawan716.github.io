@@ -90,9 +90,9 @@ author:
     provider: "cvengineer" # false (default), "google", "google-universal", "custom"
     enabled: true                                        # Set true to enable analytics
     gdrive:
-      link: https://drive.google.com/file/d/1x4lDQOZIibHgUwvj5voBoFnP4fTDhFSo/preview      #change to your gdrive link pdf resume file
+      link: https://drive.google.com/file/d/1JAnTh7Dq2r2VIFusGStRxr5IRuyZnBK3/preview      #change to your gdrive link pdf resume file
     cvengineer:
-      username: ajisetiawan
+      username: ajisetiawan #change to your cvengineer username 
     external:
       link: 'https://your-external-resume-provider.com/your-resume.pdf'
 # Portfolio link Settings
