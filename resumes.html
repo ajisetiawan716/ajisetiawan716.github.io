@@ -26,42 +26,6 @@ weight: 5
       border: 0; /* Untuk menghilangkan border pada iframe */
     }
   </style>
-  
-<script>
-    // Menonaktifkan klik kanan
-    document.addEventListener('contextmenu', function(e) {
-      e.preventDefault();
-    });
-
-    // Menonaktifkan pintasan keyboard untuk alat pengembang
-    document.addEventListener('keydown', function(e) {
-      if (e.keyCode == 123) { // F12
-          e.preventDefault();
-      } else if (e.ctrlKey && e.shiftKey && e.keyCode == 73) { // Ctrl+Shift+I
-          e.preventDefault();
-      } else if (e.ctrlKey && e.shiftKey && e.keyCode == 74) { // Ctrl+Shift+J
-          e.preventDefault();
-      } else if (e.ctrlKey && e.keyCode == 85) { // Ctrl+U
-          e.preventDefault();
-      }
-    });
-
-    // Deteksi jika alat pengembang dibuka
-    (function() {
-      var isDevToolsOpen = false;
-      var threshold = 160;
-      setInterval(function() {
-        if ((window.outerWidth - window.innerWidth) > threshold || (window.outerHeight - window.innerHeight) > threshold) {
-          if (!isDevToolsOpen) {
-            alert("Developer tools are open!");
-            isDevToolsOpen = true;
-          }
-        } else {
-          isDevToolsOpen = false;
-        }
-      }, 1000);
-    })();
-  </script>
 </head>
 <body oncontextmenu="return false;" style="overflow: hidden;">
   {% assign provider = site.author.resume.provider %}
