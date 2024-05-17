@@ -70,6 +70,8 @@ weight: 5
     <iframe src="{{ site.author.portfolio.gdrive.link }}" width="100%" height="100%"></iframe>
    {% elsif provider == "external" %}
     <iframe src="https://docs.google.com/gview?url={{ site.author.portfolio.external.link }}&embedded=true" width="100%" height="100%"></iframe>
+   {% elsif provider == "gslide" %}
+    <iframe src="{{ site.author.portfolio.gslide.link }}?start=false&loop=false&delayms=3000" frameborder="0" width="1920" height="1109" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   {% endif %}
 {% else %}
   <p>Portfolio is not enabled.</p>
