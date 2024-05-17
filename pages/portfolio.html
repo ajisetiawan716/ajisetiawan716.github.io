@@ -24,6 +24,7 @@ weight: 5
       height: 100vh; /* 100% dari tinggi viewport */
       border: 0; /* Untuk menghilangkan border pada iframe */
     }
+    .responsive-wrap iframe{ max-width: 100%;}
   </style>
    <script>
     // Menonaktifkan klik kanan
@@ -71,8 +72,10 @@ weight: 5
    {% elsif provider == "external" %}
     <iframe src="https://docs.google.com/gview?url={{ site.author.portfolio.external.link }}&embedded=true" width="100%" height="100%"></iframe>
    {% elsif provider == "gslide" %}
-    <iframe src="{{ site.author.portfolio.gslide.link }}?start=false&loop=false&delayms=3000" frameborder="0" width="1920" height="1109" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-  {% endif %}
+  <div class="responsive-wrap">
+    <iframe src="{{ site.author.portfolio.gslide.link }}?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  </div>
+    {% endif %}
 {% else %}
   <p>Portfolio is not enabled.</p>
 {% endif %}
