@@ -77,7 +77,7 @@ description: A blog about tutorials, graphic design, technology, stories and mor
       </p>
     </div>
     <div class="card-footer {{ text_style }}"><i class="fa fa-calendar fa-1x"></i>
-      {{ post.date | date_to_long_string }}
+      {{ page.date | date: "%A, %d %B %Y" }}
      {% include blog/reading_time.html %}
     </div>
   </a>
