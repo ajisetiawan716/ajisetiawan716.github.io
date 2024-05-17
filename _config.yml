@@ -97,10 +97,12 @@ author:
       link: 'https://your-external-resume-provider.com/your-resume.pdf'
 # Portfolio link Settings
   portfolio:
-    provider: "external" # false (default), "gdrive", "external"
+    provider: "gslide" # false (default), "gdrive", "external", "gslide"
     enabled: true                                        # Set true to enable analytics
     gdrive:
       link: https://drive.google.com/file/d/11HhbXkTWIaaMAdbjCkNtcrk1-FROPqgG/preview
+    gslide:
+      link: https://docs.google.com/presentation/d/e/2PACX-1vS0yyKjMRBDPazHfKgTpNKQt8Jgh0Bw4NZ08LyGn4dNhO6lrSvHqhIhc4T9Nm7mHCDYhKQydVhwKZev/embed
     external:
       link: https://www.ajisetiawan.my.id/assets/Portfolio-Aji-Setiawan.pdf
 
