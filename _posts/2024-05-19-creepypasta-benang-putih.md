@@ -9,7 +9,7 @@ image-alt: White Ghost Shadow
 image-caption: Image form [Pinterest](https://za.pinterest.com/pin/503347695839591682/)
 #description:
 #permalink:
-title: 'Creepypasta: White Thread'
+title: 'Creepypasta: Benang Putih'
 ---
 
 
