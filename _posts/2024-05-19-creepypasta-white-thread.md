@@ -56,5 +56,5 @@ Sang dokter menjawab dengan suara sedih, “Maaf, tapi harus kukatakan bahwa kau
 
 
 <br>
-Sumber: WordPress Indonesia, Bubupedia 
+Sumber: WordPress Indonesia, Bubupedia <br>
 Gambar: Pinterest 
