@@ -58,6 +58,7 @@ nav_exclude:                                            # The following paths ar
   - donate.html
   - linkme.html
   - pages/portfolio.html
+  - pages/download.html
 
 ### Author Info ###
 author:
