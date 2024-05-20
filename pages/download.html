@@ -1,0 +1,86 @@
+---
+layout: pdf
+title: Download Ebook
+permalink: /download/ebook-desain-grafis
+#background: 
+external-image: https://www.ajisetiawan.my.id/assets/images/icons/icon-128x128.png
+description: Download Ebook
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Halaman Unduh Proteksi Password</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    h2 {
+        color: #333;
+    }
+    input[type="password"] {
+        width: 80%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Silakan Masukkan Password untuk Mengunduh Konten</h2>
+    <input type="password" id="password" placeholder="Masukkan password">
+    <button onclick="checkPassword()">Masuk</button>
+</div>
+
+<script>
+function checkPassword() {
+    // Tentukan password yang benar
+    var correctPassword = "ebook-desain-grafis";
+
+    // Dapatkan nilai yang dimasukkan pengguna
+    var enteredPassword = document.getElementById("password").value;
+
+    // Periksa apakah password yang dimasukkan oleh pengguna sesuai dengan yang benar
+    if (enteredPassword === correctPassword) {
+        // Jika password benar, berikan tautan untuk mengunduh konten
+        window.location.href = "konten_rahasia.zip"; // Ganti dengan URL konten yang ingin diunduh
+    } else {
+        // Jika password salah, berikan pesan kesalahan
+        alert("Password salah. Silakan coba lagi.");
+    }
+}
+</script>
+
+</body>
+</html>
