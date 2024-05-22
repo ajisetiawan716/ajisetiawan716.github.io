@@ -14,7 +14,8 @@
   {% if sameTagCount >= minCommonTags %}
     {% assign relatedPostsFound = true %}
     {% capture relatedPost %}
-<a href="{{ site.baseurl }}{{ post.url }}" class="card" style="width: 18rem;">
+<div class="card" style="width: 18rem;">
+<a  href="{{ site.baseurl }}{{ post.url }}"> 
   {% if post.image or post.external-image %}
     {% include blog/related-post-image.html external-image=post.external-image image=post.image alt=post.image-alt %}
   {% endif %}
@@ -23,6 +24,7 @@
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>  
   </div>
 </a>
+</div>
     {% endcapture %}
     {% assign relatedPosts = relatedPosts | append: relatedPost %}
     {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
