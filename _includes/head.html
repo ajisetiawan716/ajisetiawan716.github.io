@@ -89,13 +89,13 @@
   <!-- Animate CSS CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
   
-  <!-- Lightgallery CSS CDN <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery-bundle.min.css" integrity="sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <!-- Lightgallery CSS CDN -->
+  {% if page.url == "/view/cv-design" or page.url == "/desain-cv.html" %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery.min.css">
+  {% endif %}
+  
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    
-  {% if page.url == "/view/cv-design" or page.url == "/desain-cv.html" %}
-    <link rel="stylesheet" href="/assets/css/cv-design.css">
-  {% endif %}
   
   {%- if site.lightbox.enabled == true -%}
   <link rel="stylesheet" href="{{ '/assets/css/lightbox.css' | relative_url }}">
