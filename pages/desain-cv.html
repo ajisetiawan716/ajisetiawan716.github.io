@@ -30,7 +30,7 @@ description: Jasa Desain dan Pembuatan CV
 									<!-- copy from this -->
                                    
             {% for item in site.data.ats-cv-list %}
-            <div class="col-md-4 mb-3" href="{{ item.src }}" data-sub-html="{{ item.caption }}">
+            <div class="col-xl-2 col-lg-2 col-md-4 col-6 mb-3" href="{{ item.src }}" data-sub-html="{{ item.caption }}">
                 <img class="img-fluid" src="{{ item.src }}" alt="{{ item.caption }}" style="width:100%;height:250px;box-shadow:rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;border-radius:5px">
                 <div class="border px-4 text-center bg-warning mt-3" style="width:100%;box-shadow:rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;border-radius:5px">
                     Kode: {{ item.caption }}
