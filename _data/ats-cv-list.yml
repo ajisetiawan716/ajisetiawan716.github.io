@@ -1,4 +1,8 @@
-- src: image1.jpg
-  caption: Deskripsi Gambar 1
-- src: image2.jpg
-  caption: Deskripsi Gambar 2
+- src: ATS_1.png
+  caption: ATS-1
+- src: ATS_2.png
+  caption: ATS-2
+- src: ATS_3.png
+  caption: ATS-3
+- src: ATS_4.png
+  caption: ATS-4
