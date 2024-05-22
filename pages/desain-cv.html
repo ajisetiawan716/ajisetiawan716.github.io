@@ -28,26 +28,15 @@ description: Jasa Desain dan Pembuatan CV
                         <div class="card-body"style="font-size:14px;color:#000;">
                                 <div class="row"  id="lightgallery1" >
 									<!-- copy from this -->
-                                    <div class="col-xl-2 col-lg-2 col-md-4 col-6 mb-3" href="/api/ATS_1.png" data-sub-html="ATS-1">
-									<img class="img-fluid" src="/api/ATS_1.png" alt="Template 1" style="width:100%;height:250px;box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;border-radius:5px">
-                                        <div class="border px-4 text-center bg-warning mt-3" style="width:100%;box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;border-radius:5px">
-                                            Kode: ATS-1
-                                        </div>
-                                    </div>
-									
-									<div class="col-xl-2 col-lg-2 col-md-4 col-6 mb-3" href="/api/ATS_2.png" data-sub-html="ATS-2">
-									<img class="img-fluid" src="/api/ATS_2.png" alt="Template 1" style="width:100%;height:250px;box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;border-radius:5px">
-                                        <div class="border px-4 text-center bg-warning mt-3" style="width:100%;box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;border-radius:5px">
-                                             Kode: ATS-2
-                                        </div>
-                                    </div>
-									
-									<div class="col-xl-2 col-lg-2 col-md-4 col-6 mb-3" href="/api/ATS_3.png" data-sub-html="ATS-3">
-									<img class="img-fluid" src="/api/ATS_3.png" alt="Template 1" style="width:100%;height:250px;box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;border-radius:5px">
-                                        <div class="border px-4 text-center bg-warning mt-3" style="width:100%;box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;border-radius:5px">
-                                             Kode: ATS-3
-                                        </div>
-                                    </div>
+                                   
+            {% for item in site.data.cv-list %}
+            <div class="col-md-4 mb-3" href="{{ item.src }}" data-sub-html="{{ item.caption }}">
+                <img class="img-fluid" src="{{ item.src }}" alt="{{ item.caption }}" style="width:100%;height:250px;box-shadow:rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;border-radius:5px">
+                <div class="border px-4 text-center bg-warning mt-3" style="width:100%;box-shadow:rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;border-radius:5px">
+                    Kode: {{ item.caption }}
+                </div>
+            </div>
+            {% endfor %}
 									
 									<!-- You can add more template options similarly -->
 								</div>	
