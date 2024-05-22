@@ -15,7 +15,7 @@
     {% assign relatedPostsFound = true %}
     {% capture relatedPost %}
 <div class="card" style="width: 18rem;">
-<a  href="{{ site.baseurl }}{{ post.url }}"> 
+<a href="{{ site.baseurl }}{{ post.url }}"> 
   {% if post.image or post.external-image %}
     {% include blog/related-post-image.html external-image=post.external-image image=post.image alt=post.image-alt %}
   {% endif %}
