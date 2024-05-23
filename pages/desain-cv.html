@@ -40,6 +40,7 @@ description: Jasa Desain dan Pembuatan CV
 			<!-- You can add more template options similarly -->
 				</div>	
 	<!-- Galeri Kedua -->
+			</div>
 	
                         <div class="card-header font-weight-bold" style="font-size:18px;">
                             <div class="row">
@@ -47,7 +48,8 @@ description: Jasa Desain dan Pembuatan CV
                                     CV Profesional - Paket Regular
                                 </div>
                             </div>
-                        </div><p>
+                        </div>
+			<div class="card-body"style="font-size:14px;color:#000;">
         <div id="lightgallery2" class="row">
 	{% for item in site.data.prof-cv-list %}
             <div class="col-xl-2 col-lg-2 col-md-4 col-6 mb-3" href="/assets/img/data-cv/{{ item.src }}" data-sub-html="{{ item.caption }}">
