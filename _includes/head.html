@@ -14,8 +14,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="Index, Follow"/>
-
+  {% if page.robots == false %}
+    <meta name="robots" content="noindex, nofollow">
+  {% else %}
+    <meta name="robots" content="index, follow">
+  {% endif %}
   {% if site.protocols.fb_image %}
   <!-- Facebook OGP cards -->
   <meta name="og:description" content="{% if page.description %}{{ page.description | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | truncate: 160 }}{% elsif page.content %}{{ page.content | markdownify | strip_html | truncatewords: 25 }}{% else %}{{ description }}{% endif %}" />
