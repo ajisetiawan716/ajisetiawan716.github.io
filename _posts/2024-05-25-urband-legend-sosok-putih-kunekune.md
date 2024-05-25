@@ -61,5 +61,5 @@ Tapi satu hal yang pasti, Legenda Urban Kunkune ternyata benar-benar nyata.
 
 
 <br>
-Sumber: Rumah Misteri, Bubupedia<br>
-Gambar: Wikipedia
+_Sumber: Rumah Misteri, Bubupedia_<br>
+_Gambar: Wikipedia_
