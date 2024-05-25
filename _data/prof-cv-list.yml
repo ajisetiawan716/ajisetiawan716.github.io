@@ -1,8 +1,8 @@
-- src: CV-001.jpg
+- src: CV-001.png
   caption: CV-001
-- src: CV-002.jpg
+- src: CV-002.png
   caption: CV-002
-- src: CV-003.jpg
+- src: CV-003.png
   caption: CV-003
 - src: CV-004.jpg
   caption: CV-004
@@ -18,3 +18,19 @@
   caption: CV-009
 - src: CV-010.jpg
   caption: CV-010
+- src: CV-011.jpg
+  caption: CV-011
+- src: CV-012.jpg
+  caption: CV-012
+- src: CV-013.jpg
+  caption: CV-013
+- src: CV-014.jpg
+  caption: CV-014
+- src: CV-015.jpg
+  caption: CV-015
+- src: CV-016.jpg
+  caption: CV-016
+- src: CV-017.jpg
+  caption: CV-017
+- src: CV-017.jpg
+  caption: CV-018
