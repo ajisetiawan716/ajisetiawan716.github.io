@@ -6,11 +6,9 @@ layout: null
   <channel>
     <title>{{ site.title | xml_escape }} | Portofolio Aji Setiawan</title>
     <description><![CDATA[
-        {% if post.image %}
-            <img src="{{ post.image }}" alt="{{ post.title }}">
-        {% elsif post.external_image %}
-            <img src="{{ post.external_image }}" alt="{{ post.title }}">
-        {% endif %}
+    {% if post.image or post.external-image %}
+       {% include blog/related-post-image.html external-image=post.external-image image=post.image alt=post.image-alt %}
+    {% endif %}
         {{ post.content | xml_escape }}
     ]]></description>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
@@ -22,10 +20,8 @@ layout: null
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{<![CDATA[
-        {% if post.image %}
-            <img src="{{ post.image }}" alt="{{ post.title }}">
-        {% elsif post.external_image %}
-            <img src="{{ post.external_image }}" alt="{{ post.title }}">
+        {% if post.image or post.external-image %}
+          {% include blog/related-post-image.html external-image=post.external-image image=post.image alt=post.image-alt %}
         {% endif %}
         {{ post.content | xml_escape }}
     ]]></description>
