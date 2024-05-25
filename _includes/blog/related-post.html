@@ -17,13 +17,13 @@
 <!-- insert theme here -->
 <div class="col-md-6 my-3 wow animated fadeIn" data-wow-delay=".15s">
     <div class="card mb-3">
-      <a class="card-link" href="{{ site.baseurl }}{{ post.url }}"> 
+      <a class="card-link card text-themed" href="{{ site.baseurl }}{{ post.url }}"> 
   {% if post.image or post.external-image %}
     {% include blog/related-post-image.html external-image=post.external-image image=post.image alt=post.image-alt %}
   {% endif %}
   <div class="card-body">
     <h5 class="card-title">{{ post.title }}</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>  
+    <p class="card-text">{{ post.date }}</p>  
   </div>
   </a>
         </div>
