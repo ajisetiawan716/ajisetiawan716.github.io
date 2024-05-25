@@ -36,6 +36,6 @@ Ketika ayah gadis itu pulang keesokan harinya, dia memanggil istri dan anak pere
 
 <br>
 
-sumber: WordPress Indonesia, Bubupedia <br>
-gambar: Internet 
+_Sumber: WordPress Indonesia, Bubupedia_ <br>
+_Gambar: Travelingyuk_
 
