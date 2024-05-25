@@ -15,9 +15,9 @@
     {% assign relatedPostsFound = true %}
     {% capture relatedPost %}
 <!-- insert theme here -->
-<div class="col-md-6">
+<div class="col-md-6 my-3 rel wow animated fadeIn" data-wow-delay=".15s">
     <div class="card mb-3">
-      <a href="{{ site.baseurl }}{{ post.url }}"> 
+      <a class="card-link" href="{{ site.baseurl }}{{ post.url }}"> 
   {% if post.image or post.external-image %}
     {% include blog/related-post-image.html external-image=post.external-image image=post.image alt=post.image-alt %}
   {% endif %}
