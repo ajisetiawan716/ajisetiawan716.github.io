@@ -19,7 +19,7 @@ layout: null
     {% for post in site.posts limit:20 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{<![CDATA[
+        <description><![CDATA[
         {% if post.image or post.external-image %}
           {% include blog/related-post-image.html external-image=post.external-image image=post.image alt=post.image-alt %}
         {% endif %}
