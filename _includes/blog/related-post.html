@@ -23,7 +23,14 @@
   {% endif %}
   <div class="card-body">
     <h5 class="card-title">{{ post.title }}</h5>
-    <p class="card-text">{{ post.date }}</p>  
+    <p class="card-text"><li class="fa fa-calendar fa-1x"></li> {{ post.date }}</p>
+    <p class="card-text">
+       {%- if post.description -%}
+        {{ post.description }}
+        {%- else -%}
+        {{ post.excerpt | strip_html  | truncatewords: 25, "<small><i>  ...read more</i></small>"}}
+        {%- endif -%}
+    </p>
   </div>
   </a>
         </div>
