@@ -23,7 +23,7 @@
   {% endif %}
   <div class="card-body">
     <h5 class="card-title">{{ post.title }}</h5>
-    <p class="card-text"><li class="fa fa-calendar fa-1x"></li> {{ post.date }}</p>
+    <p class="card-text text-muted"><li class="fa fa-calendar fa-1x"></li> {{ post.date | date: "%A, %d %B %Y" }}</p>
     <p class="card-text">
        {%- if post.description -%}
         {{ post.description }}
