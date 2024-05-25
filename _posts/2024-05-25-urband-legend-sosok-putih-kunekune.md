@@ -4,7 +4,7 @@ tags: [Horror, Misteri, Urband Legend]
 #categories: []
 #date: 2019-06-25 13:14:15
 #excerpt: ''
-image: 'ilustrasi-kunekune.jpg'
+image: 'ilustrasi-kune-kune.jpg'
 image-alt: Ilustrasi KuneKune
 image-caption: Image from [Wikipedia](https://en.wikipedia.org/wiki/Kunekune_%28urban_legend%29)
 #description:
