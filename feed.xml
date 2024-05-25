@@ -9,7 +9,7 @@ layout: null
     {% if post.image or post.external-image %}
        {% include blog/related-post-image.html external-image=post.external-image image=post.image alt=post.image-alt %}
     {% endif %}
-        {{ post.content }}
+        {{ post.content | xml_escape }}
     ]]></description>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
     <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
@@ -23,7 +23,7 @@ layout: null
         {% if post.image or post.external-image %}
           {% include blog/related-post-image.html external-image=post.external-image image=post.image alt=post.image-alt %}
         {% endif %}
-        {{ post.content | xml_escape }}
+        {{ post.content }}
     ]]></description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
