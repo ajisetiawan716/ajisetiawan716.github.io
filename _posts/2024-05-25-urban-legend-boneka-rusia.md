@@ -15,24 +15,23 @@ title: 'Urban Legend: Matryoshka - Si Boneka Rusia'
 
 
 
-Suatu saat, ada seorang gadis muda yang mencintai boneka. Ibu dan ayahnya mengambil belanjaannya dan menyuruhnya untuk memilih mainan baru. Gadis itu pergi di seluruh toko, mencari mainan yang diinginkannya. Dia datang ke sebuah layar besar dari boneka dan di tengah, ia melihat boneka kaca paling indah yang pernah dilihatnya.
+Suatu hari, ada seorang gadis muda yang sangat menyukai boneka. Ibu dan ayahnya mengajaknya berbelanja dan meminta dia memilih mainan baru. Gadis itu menjelajahi toko demi toko, mencari mainan yang diinginkannya. Akhirnya, di tengah-tengah rak boneka yang besar, dia menemukan boneka kaca yang sangat cantik.
 
-Gadis itu meminta ayahnya membelikan boneka kaca. Ayahnya mengambil boneka itu dan mengamatinya dengan cermat. Tiba-tiba, mata boneka itu berubah merah dan ayah menjatuhkannya begitu saja. “Saya tidak suka penampilan boneka ini”, kata ayahnya. “Ada sesuatu yang tidak beres tentang hal itu”. Dan dia menolak untuk membelinya.
+Gadis itu meminta ayahnya untuk membelikan boneka kaca tersebut. Ayahnya mengambilnya dan memeriksanya dengan cermat. Tiba-tiba, mata boneka itu berubah menjadi merah, membuat ayahnya langsung menjatuhkannya. "Aku tidak suka penampilan boneka ini," kata ayahnya. "Ada yang aneh dengan boneka ini." Dan dia menolak untuk membelinya.
 
-Kemudian gadis itu bertanya kepada ibunya untuk membeli boneka kaca untuknya. “Ayahmu tidak suka penampilan boneka ini”, kata sang ibu. “Saya pikir kau harus memilih satu yang berbeda.” Tapi gadis itu mulai merajuk kekanakan, membanting kakinya dan berteriak “saya inginkan! Saya inginkan! Saya ingin! ” Akhirnya, ibu gadis itu mengalah dan membeli boneka kaca untuknya.
+Kemudian, gadis itu memohon kepada ibunya untuk membelikan boneka kaca tersebut. "Ayahmu tidak suka boneka ini," kata ibunya. "Mungkin lebih baik jika kamu memilih yang lain." Tetapi gadis itu mulai merajuk, menendang kaki, dan berteriak, "Aku mau! Aku mau! Aku ingin ini!" Akhirnya, ibunya menyerah dan membelikan boneka kaca tersebut.
 
-Kemudian pada hari itu, sang ayah bersiap-siap untuk pergi semalam dalam perjalanan bisnis. Masih gelisah tentang mainan baru putrinya, ia meninggalkan gadis itu catatan. Bunyinya “Putri, jangan pergi tidur dengan boneka kaca di kamar tidurmu.”
+Kemudian, saat ayahnya bersiap-siap untuk pergi dalam perjalanan bisnis semalam, dia meninggalkan catatan untuk putrinya. Catatannya berbunyi, "Sayang, jangan biarkan boneka kaca itu masuk ke kamar tidurmu."
 
-Gadis itu bermain sepanjang hari dengan boneka kaca dan kemudian, pada waktu tidur, ia meletakkannya di meja samping tempat tidurnya dan pergi tidur. Beberapa menit kemudian, ia mendengar suara di ruang gelap dan duduk tegak di tempat tidur. Dalam kegelapan, dia bisa melihat sepasang mata merah menyala. Dia berpikir itu harus menjadi trik cahaya dan dia mengusap matanya.
+Gadis itu bermain dengan boneka kacanya sepanjang hari. Ketika malam tiba, dia meletakkannya di meja samping tempat tidurnya dan pergi tidur. Beberapa menit kemudian, dia terbangun oleh suara aneh dan duduk tegak di tempat tidur. Di kegelapan, dia melihat sepasang mata merah menyala. 
 
-Ketika dia melihat lagi, mata merah lebih dekat. Berpikir itu hanya imajinasinya, gadis itu mengusap matanya lagi. Ketika dia melihat lagi, mata merah yang tepat di samping wajahnya. Dia mendengar bisikan di telinganya boneka “Berbaringlah di atas bantal. Aku berjanji tidak akan mencekikmu. “
+Awalnya, dia mengira itu hanya imajinasinya saja, tapi ketika dia melihat lagi, mata merah itu semakin dekat. Dia mencoba mengusap matanya, tetapi ketika dia melihat lagi, mata merah itu sudah di samping wajahnya. Ternyata mata merah itu berasal dari bonekanya. Dia mendengar bisikan dari boneka itu, "Berbaringlah di atas bantal. Aku berjanji tidak akan menyakitimu."
 
-Jadi gadis itu meletakkan kepalanya di atas bantal dan boneka itu mencekiknya sampai mati. Ibu gadis itu masuk ke dalam ruangan dan ketika ia melihat putrinya terbaring mati di tempat tidur, ia lari mendekat dan memeluk erat-erat.
+Jadi gadis itu menuruti perintah boneka tersebut dan meletakkan kepalanya di atas bantal. Tanpa disadarinya, boneka itu mencekiknya hingga mati. Ibunya masuk ke kamar dan ketika melihat putrinya terbujur kaku di tempat tidur, dia berlari mendekat dan memeluknya dengan erat.
 
-Si ibu mendengar bisikan di telinganya boneka “Berbaringlah di samping putri Anda. Aku berjanji tidak akan mencekikmu. ” Jadi ibu berbaring di atas tempat tidur di samping mayat putrinya dan boneka itu mencekiknya sampai mati juga.
+Namun, kemudian ibunya juga mendengar bisikan dari boneka itu, "Berbaringlah di samping putrimu. Aku tidak akan menyakitimu." Tanpa curiga, ibu itu berbaring di samping putrinya, dan boneka itu mencekiknya hingga mati juga.
 
-Ketika ayah gadis itu pulang keesokan harinya, dia memanggil istri dan anak perempuannya, tapi tidak ada jawaban. Dia menaiki tangga dan masuk ke kamar putrinya. Di sana, ia dikejutkan oleh pemandangan yang mengerikan. Istri dan putrinya berbaring mati di tempat tidur dan boneka kaca sedang duduk di antara mereka, tertawa di wajahnya. Dengan marah, sang ayah meraih boneka kaca dan menghancurkan dinding dan lantai itu sampai hancur. Tapi istri dan putrinya tetap mati.
-
+Keesokan harinya, saat sang ayah pulang, dia mencari serta memanggil istri dan anaknya, tetapi tidak mendapat jawaban. Saat dia masuk ke kamar putrinya, dia terkejut melihat pemandangan yang mengerikan. Istri dan putrinya terbujur kaku di tempat tidur, dengan boneka kaca duduk di antara mereka, tertawa dengan jahat. Dengan marah, sang ayah meraih boneka kaca itu dan menghancurkannya sampai hancur. Tetapi, meskipun dia hancurkan, istri dan putrinya tetap terbaring mati.
 
 <br>
 
