@@ -24,7 +24,9 @@ Di pintu masuk hutan, terdapat papan peringatan yang berbunyi, "Pikirkan baik-ba
 
 ![Jalur Aokigahara](/assets/img/content/Jalur-Aokigahara.jpg)
 
-Sebelum dikenal sebagai "Hutan Bunuh Diri," Aokigahara juga memiliki sejarah kelam dengan praktik *ubasute* dan *oyasute*, di mana orang tua yang sakit atau lanjut usia dibawa ke hutan atau gunung terpencil untuk ditinggalkan dan dibiarkan mati. Praktik ini, meskipun jarang terjadi, menunjukkan betapa hutan ini telah lama dikaitkan dengan kematian.
+Sebelum dikenal sebagai "Hutan Bunuh Diri," Aokigahara juga memiliki sejarah kelam dengan praktik *ubasute* dan *oyasute*, di mana orang tua yang sakit atau lanjut usia dibawa ke hutan atau gunung terpencil untuk ditinggalkan dan dibiarkan mati.
+
+ Praktik ini bisa disebut juga sebagai pembunuhan karena praktik ini berarti membawa mereka  ke tempat terpencil misalnya hutan atau gunung dan mereka akan ditinggalkan sendirian disana. Meskipun jarang terjadi, menunjukkan betapa hutan ini telah lama dikaitkan dengan kematian.
 
 Jepang memang dikenal sebagai salah satu negara dengan angka bunuh diri tertinggi di dunia. Pemerintah setempat dan relawan sering kali melakukan pencarian di hutan ini untuk menemukan jasad-jasad yang belum ditemukan. Langkah-langkah pencegahan juga terus diupayakan untuk mengurangi angka bunuh diri di Aokigahara.
 
