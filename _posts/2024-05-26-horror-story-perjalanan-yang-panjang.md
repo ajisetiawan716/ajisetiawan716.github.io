@@ -4,7 +4,7 @@ tags: [Horror Story, Horror, Misteri, Kisah Horor]
 #categories: []
 #date: 2019-06-25 13:14:15
 #excerpt: ''
-image: 'Walk-In-Rain.pg'
+image: 'Walk-In-Rain.jpg'
 image-alt: Walk in the Rain with Umbrella
 image-caption: Image by [Trisna Wayan](https://openart.ai/community/irH2BRy6efcPurmFuUB1)
 #description:
