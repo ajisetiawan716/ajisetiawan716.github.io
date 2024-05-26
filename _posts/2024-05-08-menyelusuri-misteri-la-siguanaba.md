@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [Urband Legend, Misteri, Horror]
+tags: [Hororpedia, Urban Legend, Misteri, Horror]
 #categories: []
 #date: 2024-05-08 
 #excerpt: ''

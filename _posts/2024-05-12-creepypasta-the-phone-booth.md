@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [Creepypasta, Horror, Misteri, Urband Legend]
+tags: [Creepypasta, Horror, Misteri, Urban Legend]
 #categories: []
 #date: 2019-06-25 13:14:15
 #excerpt: ''
