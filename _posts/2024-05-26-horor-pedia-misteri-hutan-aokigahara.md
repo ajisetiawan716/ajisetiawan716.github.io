@@ -1,10 +1,10 @@
 ---
 layout: post
-tags: [Hororpedia, ]
+tags: [Hororpedia, Misteri, Urband Legend]]
 categories: []
 #date: 2019-06-25 13:14:15
 #excerpt: ''
-#image: 'Misteri Hutan Aokigahara.jpg'.
+image: 'Misteri Hutan Aokigahara.jpg'.
 image-alt: Misteri Hutan Aokigahara
 image-caption: Image from [Lahatpos](https://lahatpos.disway.id/read/648347/ada-yang-kisah-nyata-deretan-film-horor-thailand-yang-bikin-takut-tidur-sendirian-mau-coba-nonton)
 #description:
