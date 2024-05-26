@@ -24,7 +24,7 @@ Di pintu masuk hutan, terdapat papan peringatan yang berbunyi, "Pikirkan baik-ba
 
 ![Jalur Aokigahara](/assets/img/content/Jalur-Aokigahara.jpg)
 
-Sebelum dikenal sebagai "Hutan Bunuh Diri," Aokigahara juga memiliki sejarah kelam dengan praktik *ubasute* dan *oyasute*, di mana orang tua yang sakit atau lanjut usia dibawa ke hutan atau gunung terpencil untuk ditinggalkan dan dibiarkan mati.
+Sebelum dikenal sebagai "Hutan Bunuh Diri" sejak 1960, Aokigahara juga memiliki sejarah kelam dengan praktik *ubasute* dan *oyasute*, di mana orang tua yang sakit atau lanjut usia dibawa ke hutan atau gunung terpencil untuk ditinggalkan dan dibiarkan mati.
 
  Praktik ini bisa disebut juga sebagai pembunuhan karena praktik ini berarti membawa mereka  ke tempat terpencil misalnya hutan atau gunung dan mereka akan ditinggalkan sendirian disana. Meskipun jarang terjadi, menunjukkan betapa hutan ini telah lama dikaitkan dengan kematian.
 
