@@ -12,6 +12,7 @@ breadcrumbs         : false # true, false (default)
 markdown: kramdown
 sass:
     style: compressed
+timezone: Asia/Jakarta
     
 ## Contact Form Settings ##
 contact_form: https://formspree.io/f/mrgngpbk # Using Formspree.io backend
