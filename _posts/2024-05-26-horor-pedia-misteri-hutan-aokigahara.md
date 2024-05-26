@@ -1,18 +1,16 @@
 ---
 layout: post
-tags: [Hororpedia, Misteri, Urband Legend]
+tags: [Hororpedia, Misteri, Urban Legend]
 #categories: []
 #date: 2019-06-25 13:14:15
 #excerpt: ''
-image: 'Misteri Hutan Aokigahara.jpg'.
+image: 'Misteri Hutan Aokigahara.jpg'
 image-alt: Misteri Hutan Aokigahara
 image-caption: Image from [Lahatpos](https://lahatpos.disway.id/read/648347/ada-yang-kisah-nyata-deretan-film-horor-thailand-yang-bikin-takut-tidur-sendirian-mau-coba-nonton)
 #description:
 #permalink:
 title: 'Horor Pedia: Misteri Hutan Aokigahara - Legenda Gelap di Balik Keindahan Alam'
 ---
-
-
 
 
 
@@ -38,4 +36,4 @@ Saat ini, Hutan Aokigahara menjadi tempat bunuh diri paling populer kedua di dun
 
 <br>
 _Sumber: Behind D Story, Bubupedia_ <br>
-_Gambar: Death Whisperer, [Lahatpos](https://lahatpos.disway.id/read/648347/ada-yang-kisah-nyata-deretan-film-horor-thailand-yang-bikin-takut-tidur-sendirian-mau-coba-nonton), [Tripjepang.co.id](https://tripjepang.co.id/hutan-aokihagara-lokasi-bunuh-diri-terpopuler-di-jepang.html)_
+_Gambar: Death Whisperer, [Lahatpos](https://lahatpos.disway.id/read/648347/ada-yang-kisah-nyata-deretan-film-horor-thailand-yang-bikin-takut-tidur-sendirian-mau-coba-nonton) , [Tripjepang.co.id](https://tripjepang.co.id/hutan-aokihagara-lokasi-bunuh-diri-terpopuler-di-jepang.html)_
