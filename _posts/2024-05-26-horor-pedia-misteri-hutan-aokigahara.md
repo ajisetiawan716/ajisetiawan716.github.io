@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [Hororpedia, Misteri, Urband Legend]]l
+tags: [Hororpedia, Misteri, Urband Legend]
 #categories: []
 #date: 2019-06-25 13:14:15
 #excerpt: ''
