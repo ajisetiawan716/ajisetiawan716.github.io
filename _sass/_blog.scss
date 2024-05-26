@@ -35,6 +35,16 @@
         width: 45%
     }
 }
+.post-image-gallery {
+  display: block;       /* Pastikan elemen <a> sebagai block-level element */
+  text-align: center;   /* Pusatkan konten di dalam elemen <a> secara horizontal */
+  width: 100%;          /* Pastikan elemen <a> mengambil lebar penuh */
+}
+
+.post-image-gallery img {
+  display: inline-block;
+}
+
 
 /* Start of Pagination */
 .pagination-box-idle {
