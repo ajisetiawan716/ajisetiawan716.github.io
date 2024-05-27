@@ -4,7 +4,8 @@
         "*.jpg",                   // ignore by extension
         "image1.png",              // ignore by filename
         "public/special_images/*", // ignore by folderpath           
-        "assets/images/*",         // ignore by folderpath           
+        "assets/images/*",         // ignore by folderpath
+        "assets/img/*",         // ignore by folderpath           
         "assets/favicon/*",         // ignore by folderpath  
     ],
     "aggressiveCompression": "true", // true|false
