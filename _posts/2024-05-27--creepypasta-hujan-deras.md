@@ -35,9 +35,7 @@ Aku hanya terdiam saja mendengar ucapan rekan seprofesiku ini.
 
 Mataku menatap ke tanah. Di situ ada suatu benda. Aku lalu menoleh
 
-ke arah spanduk yang dipasang di atas pintu besi yang menutup di
-
-belakang. Rupanya kami berteduh di emperan salon.
+ke arah spanduk yang dipasang di atas pintu besi yang menutup di belakang. Rupanya kami berteduh di emperan salon.
 
 "Aku ada ide, Tik", kataku kemudian, dengan pandangan tetap ke arah spanduk.
 
