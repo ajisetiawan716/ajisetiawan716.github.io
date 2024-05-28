@@ -104,8 +104,7 @@
   {% endif %}
   
   <!-- Custom CSS -->
-  <link rel="preload" href="{{ '/assets/css/style.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}"></noscript>
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   
   {%- if site.lightbox.enabled == true -%}
   <link rel="stylesheet" href="{{ '/assets/css/lightbox.css' | relative_url }}">
