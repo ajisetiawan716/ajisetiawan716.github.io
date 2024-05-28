@@ -31,9 +31,10 @@ $(function () {
 
 <!-- Lightbox for Embed Link Preview 
 <script type="text/javascript" src="/assets/js/lightbox.js"></script> -->
-
+{% if page.layout == 'post' %}
 <!-- Listen article -->
 <script src="{{ '/assets/js/tts.js' | relative_url }}"></script>
+{% endif %}
 
 <!-- WebApp Js -->
 <script src="{{ '/assets/js/webapp.js' | relative_url }}"></script>
