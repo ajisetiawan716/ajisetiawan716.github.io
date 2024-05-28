@@ -98,12 +98,14 @@
   
   <!-- Lightgallery CSS CDN -->
   {% if page.url == "/view/cv-design" or page.url == "/desain-cv.html" %}
-    <link rel="preload" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery.min.css"></noscript>
   {% endif %}
   
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="preload" href="{{ '/assets/css/style.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}"></noscript>
   
   {%- if site.lightbox.enabled == true -%}
   <link rel="stylesheet" href="{{ '/assets/css/lightbox.css' | relative_url }}">
