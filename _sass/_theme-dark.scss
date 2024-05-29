@@ -132,3 +132,8 @@ $text-white: #ffffff;
    background-color: rgb(26 26 26)!important;
    color: $text-white;
 }
+/* class .text-muted bootstrap */
+.text-black-50 { 
+  color: rgba($text-white, .5) !important; 
+}
+
