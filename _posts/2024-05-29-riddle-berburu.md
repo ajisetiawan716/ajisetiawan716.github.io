@@ -13,7 +13,7 @@ title: 'Riddle: Berburu'
 ---
 
 
-**Riddle: Berburu**
+
 
 Berburu memanglah sulit jika kau belum terbiasa, sama sepertiku yang baru saja belajar hal baru.
 
