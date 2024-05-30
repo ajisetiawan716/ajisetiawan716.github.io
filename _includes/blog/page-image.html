@@ -1,14 +1,13 @@
-{% if page.image %}
-  {% assign page_image = page.image.path | default: page.image %}
-  {% unless page_image contains '://' %}
-    {% assign page_image = page_image | relative_url %}
-  {% endunless %}
-  {% assign page_image = page_image | escape %}
 
-  <div class="page-image">
-    <img src="{{ page_image }}" class="entry-feature-image u-photo" alt="{{ page.title }}" {% unless site.logo %}style="margin-top: 0;"{% endunless %}>
-    {% if page.image.caption %}
-      <div class="page-image-caption">{{ page.image.caption | markdownify }}</div>
-    {% endif %}
-  </div>
-{% endif %}
+  {% assign is_external = include.external-image %}
+  {% if is_external %}
+    {% assign image_url = include.external-image %}
+  {% elsif include.image %}
+    {% assign image_url = site.baseurl | append: '/assets/img/content/' | append: include.image %}
+  {% endif %}
+
+  {% if image_url %}
+    <div class="page-image">
+      <img class="feat-img" src="{{ image_url }}" alt="{{ include.alt }}" title="{{ include.alt }}" />
+    </div>
+  {% endif %}
