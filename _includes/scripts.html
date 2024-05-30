@@ -52,7 +52,15 @@ $(function () {
 {%- if site.lightgallery.enabled == true -%}
 <!-- Lightgallery Js -->
 <script src="{{ "/assets/js/lightgallery.min.js" | prepend: site.baseurl }}"></script>
-{% endif %}	
+{% endif %}
+<script type="text/javascript">
+$(document).ready(function() {
+		$(".post-body").lightGallery({
+			 thumbnail:false,
+			 selector: '.lightgallery-link'
+		});
+});
+</script>
 <!-- <script>
 window.addEventListener('DOMContentLoaded', function() {
   var images = document.getElementById('post-body').getElementsByTagName('img');
