@@ -66,7 +66,7 @@ description: A blog about tutorials, graphic design, technology, stories and mor
 {% assign default_image = site.defaults[0].values.image %}
 
 {% if post.image or post.external-image %}
-  {% include blog/related-post-image.html external-image=post.external-image image=post.image alt=post.image-alt %}
+  {% include blog/page-image.html external-image=post.external-image image=post.image alt=post.image-alt %}
 {% endif %}
 
         {%- if post.description -%}
