@@ -1,13 +1,24 @@
+{% assign default_image = site.defaults[0].values.image %}
+{% assign is_external = include.external-image | default: false %}
 
-  {% assign is_external = include.external-image %}
-  {% if is_external %}
-    {% assign image_url = include.external-image %}
-  {% elsif include.image %}
-    {% assign image_url = site.baseurl | append: '/assets/img/content/' | append: include.image %}
-  {% endif %}
+{% if is_external %}
+  {% comment %}
+    Jika gambar eksternal diatur, gunakan URL langsung.
+  {% endcomment %}
+  {% assign image_url = include.external-image %}
+{% elsif include.image %}
+  {% comment %}
+    Jika variabel image diatur, gunakan baseurl dari Jekyll.
+  {% endcomment %}
+  {% assign image_url = site.baseurl | append: '/assets/img/content/' | append: include.image %}
+{% else %}
+  {% comment %}
+    Jika tidak ada gambar internal maupun eksternal, atau variabel image tidak diatur,
+    pada halaman index tampilkan gambar default, sedangkan pada halaman post tidak tampilkan gambar.
+  {% endcomment %}
+  {% assign image_url = page.url == '/blog/' ? default_image : nil %}
+{% endif %}
 
-  {% if image_url %}
-    <div class="page-image">
-      <img class="feat-img" src="{{ image_url }}" alt="{{ include.alt }}" title="{{ include.alt }}" />
-    </div>
-  {% endif %}
+{% if image_url %}
+  <img class="card-img-top" width="100%" src="{{ image_url }}" alt="{{ include.alt | default: 'image representing a theme in this article' }}" title="{{ include.alt | default: 'image post' }}" />
+{% endif %}
