@@ -7,12 +7,10 @@
   {% endif %}
 
   {% if image_url %}
-<a class="post-body" href="{{ image_url }}" class="lightgallery-link post-image-gallery" data-sub-html="{{ include.alt }}">
     <div class="page-image">
       <img class="feat-img" src="{{ image_url }}" alt="{{ include.alt }}" title="{{ include.alt }}" />
       {% if page.image-caption %}
         <div class="page-image-caption">{{ page.image-caption | markdownify }}</div>
       {% endif %}
     </div>
-</a>
   {% endif %}
