@@ -3,7 +3,7 @@
 </div>
 
 <span class="icon-language">
-  <ul class="list-unstyled ct-language-dropdown">
+  <ul class="list-unstyled icon-language-dropdown">
     {% for lang_data in site.data.translate_langs %}
       <li>
         <a href="#" class="lang-select" data-lang="{{ lang_data.lang }}">
@@ -59,15 +59,15 @@ function googleTranslateElementInit() {
   }
 
   var googleCombo = document.querySelector("select.goog-te-combo");
-  var langSelect = document.querySelector('.ct-language');
+  var langSelect = document.querySelector('.icon-language');
   langSelect.addEventListener('click', function(event) {
     if (!event.target) {
       return;
     }
 
-    var selected = document.querySelector('.ct-language .ct-language-selected');
+    var selected = document.querySelector('.icon-language .icon-language-selected');
     if (selected) {
-      selected.classList.remove('ct-language-selected');
+      selected.classList.remove('icon-language-selected');
     }
 
     var target = event.target;
@@ -83,7 +83,7 @@ function googleTranslateElementInit() {
       if (googleCombo.value == lang) {
         restoreLang();
       } else {
-        target.parentElement.classList.add('ct-language-selected');
+        target.parentElement.classList.add('icon-language-selected');
         googleCombo.value = lang;
         triggerHtmlEvent(googleCombo, 'change');
       }
