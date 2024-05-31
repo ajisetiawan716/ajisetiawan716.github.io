@@ -4,16 +4,16 @@
   <input id="search-input" type="text" class="form-control search-box" placeholder="Search posts..">
   <div class="input-group-append">
     <span class="input-group-text border border-primary bg-primary text-white">
-      <i class="fas fa-search"></i>
+      <i class="icon-search"></i>
     </span>
   </div>
   <button id="tags" aria-label="Tags" class="btn btn-outline-primary ml-1" onclick="location.href = '{{ '/blog/tags' | relative_url }}';">
-    <i class="fas fa-tags"></i>
+    <i class="icon-tag-cord"></i>
   </button>
 </div>
 <ul class="px-3" id="results-container"></ul>
 
-<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js" defer></script>
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
 <script>
   var sjs = SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
