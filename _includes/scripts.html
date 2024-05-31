@@ -2,13 +2,13 @@
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 <!-- jQuery CDN -->
-<script rel="preconnect" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script defer rel="preconnect" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <!-- Popper.js CDN -->
-<script rel="preconnect" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js" integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script defer rel="preconnect" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js" integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <!-- Bootstrap JS CDN -->
-<script rel="preconnect" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script defer rel="preconnect" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 <!-- wow.js CDN & Activation -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" async></script>
@@ -24,7 +24,7 @@ $(function () {
 </script>
 
 <!-- Back to Top Button -->
-<script src="/assets/js/vanilla-back-to-top.min.js"></script>
+<script defer src="/assets/js/vanilla-back-to-top.min.js"></script>
 <script>addBackToTop({
   diameter: 56,
   backgroundColor: '#ddd',
@@ -39,7 +39,7 @@ $(function () {
 {% endif %}
 
 <!-- WebApp Js -->
-<script src="{{ '/assets/js/webapp.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/webapp.js' | relative_url }}"></script>
 
 <!-- Page View -->
 <script defer src="https://cn.vercount.one/js"></script>
@@ -51,7 +51,7 @@ $(function () {
 <script src="{{ '/assets/js/ug-theme-tiles.js' | relative_url }}"></script>-->
 {%- if site.lightgallery.enabled == true -%}
 <!-- Lightgallery Js -->
-<script src="{{ "/assets/js/lightgallery.min.js" | prepend: site.baseurl }}"></script>
+<script defer src="{{ "/assets/js/lightgallery.min.js" | prepend: site.baseurl }}"></script>
 {% endif %}
 <script type="text/javascript">
 $(document).ready(function() {
