@@ -4,12 +4,12 @@
     <img id="{{ service_id }}-img" class="card-img-top" src="{{ service_img }}" alt="{{ service_name }}" />
     {%- endif -%}
     <div class="card-body">
-      <h5 id="{{ service_id }}-name" class="card-title">
+      <h3 id="{{ service_id }}-name" class="card-title">
           {%- if service_type == "remote" -%}
           <i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" data-delay="250" title="GitHub Repository"></i> |&nbsp;
           {%- endif -%}
         {{ service_name }}
-      </h5>
+      </h3>
       <p id="{{ service_id }}-desc" class="card-text">{{ service_desc }}</p>
       <p id="{{ service_id }}-tools" class="card-text">
         {%- for tag in service_tags -%}
