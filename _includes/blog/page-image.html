@@ -20,5 +20,5 @@
 {% endif %}
 
 {% if image_url %}
-  <img class="card-img-top" width="640" height="360" src="{{ image_url }}" alt="{{ include.alt | default: 'image representing a theme in this article' }}" title="{{ include.alt | default: 'image post' }}" />
+  <img class="card-img-top" width="640" height="360" src="{{ image_url }}" alt="{{ include.alt | default: 'image representing a theme in this article' }}" title="{{ include.alt | default: 'image post' }}" loading="lazy" />
 {% endif %}
