@@ -15,7 +15,7 @@ title: 'Urban Legend: Mimpi 10 Hari - Legenda Urban dari Jepang yang Menyeramkan
 
 
 
-Di Jepang, ada sebuah urban legend yang cukup terkenal, yaitu "10 Days Dream" atau "Mimpi 10 Hari." Konon, jika Anda mengalami mimpi ini, Anda akan terjebak terus di dalam mimpi tersebut, kecuali jika Anda mengikuti aturan yang telah ditetapkan.
+Di Jepang, ada sebuah urban legend yang cukup terkenal, yaitu _"10 Days Dream"_ atau "Mimpi 10 Hari." Konon, jika Anda mengalami mimpi ini, Anda akan terjebak terus di dalam mimpi tersebut, kecuali jika Anda mengikuti aturan yang telah ditetapkan.
 
 **MIMPI HARI PERTAMA:**
 Anda bermimpi sedang tidur di dalam kamar Anda. Anda kemudian akan menyadari ada seorang anak perempuan yang mengintip melalui jendela kamar Anda.
