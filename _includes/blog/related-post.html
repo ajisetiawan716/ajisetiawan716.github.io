@@ -23,7 +23,7 @@
   {% endif %}
   <div class="card-body">
      <h3 class="card-title">{{ post.title | markdownify | replace: "<p>", "" | replace: "</p>", "" }}</h3>
-    <p class="card-text text-muted"><li class="fa fa-calendar fa-1x"></li> {{ post.date | date: "%A, %d %B %Y" }}</p>
+    <p class="card-text text-muted"><i class="icon-calendar"></i> {{ post.date | date: "%A, %d %B %Y" }}</p>
     <p class="card-text">
        {%- if post.description -%}
         {{ post.description }}
