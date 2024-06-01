@@ -1,1 +1,78 @@
+<!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js" integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Bootstrap JS CDN -->
+<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" async></script>
+<script>$(document).ready(function() {
+    new WOW().init()
+});</script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+<!-- Back to Top Button -->
+<script src="/assets/js/vanilla-back-to-top.min.js"></script>
+<script>addBackToTop({
+  diameter: 56,
+  backgroundColor: '#ddd',
+  textColor: 'red'
+})</script>
+
+<!-- Lightbox for Embed Link Preview 
+<script type="text/javascript" src="/assets/js/lightbox.js"></script> -->
+{% if page.layout == 'post' %}
+<!-- Listen article -->
+<script src="{{ '/assets/js/tts.js' | relative_url }}"></script>
+{% endif %}
+
+<!-- WebApp Js -->
+<script defer src="{{ '/assets/js/webapp.js' | relative_url }}"></script>
+
+<!-- Page View -->
+<script defer src="https://cn.vercount.one/js"></script>
+
+<!-- Disqus Comments Count -->
+<script id="dsq-count-scr" src="//{{ site.comments.disqus.shortname }}.disqus.com/count.js" async></script>
+
+<!-- Unite Gallery -->
+<!-- <script src="{{ '/assets/js/unitegallery.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/ug-theme-tiles.js' | relative_url }}"></script> -->
+
+{% if site.lightgallery.enabled == true %}
+<!-- Lightgallery Js -->
+<script defer src="{{ '/assets/js/lightgallery.min.js' | prepend: site.baseurl }}"></script>
+{% endif %}
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".post-body").lightGallery({
+        thumbnail: false,
+        selector: '.lightgallery-link'
+    });
+});
+</script>
+
+<!-- <script>
+window.addEventListener('DOMContentLoaded', function() {
+  var images = document.getElementById('post-body').getElementsByTagName('img');
+  for (var i = 0; i < images.length; i++) {
+    images[i].classList.add('lightgallery-link');
+    images[i].setAttribute('data-sub-html', 'description');
+  }
+});
+</script> -->
+
+<!-- MathJax Support -->
+<!-- <script rel="preconnect" type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> -->
