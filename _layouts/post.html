@@ -7,8 +7,8 @@ layout: blog
 <h1><b>{{ page.title | markdownify | replace: "<p>", "" | replace: "</p>", "" }}</b></h1>
 <div class="separator"></div>
 <div class="post post-metadata text-muted" style="margin-top: 8px;">
- <li class="fa fa-calendar fa-1x"></li> {{ page.date | date: "%A, %d %B %Y" }}  
- <li class="fa fa-clock-o fa-1x" style="margin-left: 8px;"></li> <b>
+ <li class="icon-calendar1"></li> {{ page.date | date: "%A, %d %B %Y" }}  
+ <li class="icon-clock-o" style="margin-left: 8px;"></li> <b>
   {%- assign words = content | number_of_words -%}
   {%- if words < 360 -%}
     less than 1 min read time
@@ -16,7 +16,7 @@ layout: blog
     {{ words | divided_by: 180 }} mins read time
   {%- endif -%}
   </b> 
- <li class="fa fa-book fa-1x kanan"> {{ words }} words</li>
+ <li class="icon-book fa-1x kanan"> {{ words }} words</li>
   <br>
 
   {%- if page.tags != empty -%}
@@ -27,9 +27,9 @@ layout: blog
     </a>
     {% endfor %}
   {%- endif -%}
- <li class="fa fa-eye fa-1x kanan"> <span id="busuanzi_value_page_pv" class="text-muted">loading..</span> views</li>
+ <li class="icon-eye kanan"> <span id="busuanzi_value_page_pv" class="text-muted">loading..</span> views</li>
   <br>
-<i class="fa fa-comments text-muted" style="color:#008c25"></i><span> <a class="text-muted" style="text-decoration:none !important; border-bottom:none !important;" href="#disqus_thread">Comments</a></span>
+<i class="icon-comments text-muted" style="color:#008c25"></i><span> <a class="text-muted" style="text-decoration:none !important; border-bottom:none !important;" href="#disqus_thread">Comments</a></span>
  {% include blog/audio.html %}
   </p>
 </div>
