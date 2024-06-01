@@ -11,4 +11,5 @@ group :jekyll_plugins do
   gem 'mini_magick'
   gem "kramdown-parser-gfm"
   gem 'fastimage'
+  gem 'jekyll-seo-tag'
 end
