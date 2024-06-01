@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?a4khq6');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?a4khq6#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?a4khq6') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?a4khq6') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?a4khq6##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?7l17qi');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?7l17qi#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?7l17qi') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?7l17qi') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?7l17qi##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,21 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-shop {
+  &:before {
+    content: $icon-shop; 
+  }
+}
+.icon-calendar1 {
+  &:before {
+    content: $icon-calendar1; 
+  }
+}
+.icon-tags2 {
+  &:before {
+    content: $icon-tags2; 
+  }
+}
 .icon-facebook {
   &:before {
     content: $icon-facebook; 
@@ -35,6 +50,11 @@ i {
 .icon-coffee1 {
   &:before {
     content: $icon-coffee1; 
+  }
+}
+.icon-sphere {
+  &:before {
+    content: $icon-sphere; 
   }
 }
 .icon-kaggle {
@@ -98,6 +118,11 @@ i {
     content: $icon-coffee; 
   }
 }
+.icon-share-square {
+  &:before {
+    content: $icon-share-square; 
+  }
+}
 .icon-youtube-play {
   &:before {
     content: $icon-youtube-play; 
@@ -126,6 +151,11 @@ i {
 .icon-vimeo-square {
   &:before {
     content: $icon-vimeo-square; 
+  }
+}
+.icon-reddit {
+  &:before {
+    content: $icon-reddit; 
   }
 }
 .icon-language {
@@ -166,11 +196,6 @@ i {
 .icon-whatsapp {
   &:before {
     content: $icon-whatsapp; 
-  }
-}
-.icon-medium1 {
-  &:before {
-    content: $icon-medium1; 
   }
 }
 .icon-gitlab {
@@ -241,16 +266,6 @@ i {
 .icon-handshake-o {
   &:before {
     content: $icon-handshake-o; 
-  }
-}
-.icon-calendar1 {
-  &:before {
-    content: $icon-calendar1; 
-  }
-}
-.icon-tags2 {
-  &:before {
-    content: $icon-tags2; 
   }
 }
 
