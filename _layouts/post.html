@@ -7,8 +7,8 @@ layout: blog
 <h1><b>{{ page.title | markdownify | replace: "<p>", "" | replace: "</p>", "" }}</b></h1>
 <div class="separator"></div>
 <div class="post post-metadata text-muted" style="margin-top: 8px;">
- <li class="icon-calendar1"></li> {{ page.date | date: "%A, %d %B %Y" }}  
- <li class="icon-clock-o" style="margin-left: 8px;"></li> <b>
+ <i class="icon-calendar1"></i> {{ page.date | date: "%A, %d %B %Y" }}  
+ <i class="icon-clock-o" style="margin-left: 8px;"></i> <b>
   {%- assign words = content | number_of_words -%}
   {%- if words < 360 -%}
     less than 1 min read time
@@ -16,7 +16,7 @@ layout: blog
     {{ words | divided_by: 180 }} mins read time
   {%- endif -%}
   </b> 
- <li class="icon-book fa-1x kanan"> {{ words }} words</li>
+ <i class="icon-book kanan"> {{ words }} words</i>
   <br>
 
   {%- if page.tags != empty -%}
