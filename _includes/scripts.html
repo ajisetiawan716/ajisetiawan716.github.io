@@ -5,14 +5,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <!-- Popper.js CDN -->
-<script defer rel="preconnect" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js" integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js" integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <!-- Bootstrap JS CDN -->
-<script defer rel="preconnect" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 <!-- wow.js CDN & Activation -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" async></script>
-<script>$( document ).ready(function() {
+<script>$(document).ready(function() {
     new WOW().init()
 });</script>
 
@@ -46,21 +46,24 @@ $(function () {
 
 <!-- Disqus Comments Count -->
 <script id="dsq-count-scr" src="//{{ site.comments.disqus.shortname }}.disqus.com/count.js" async></script>
+
 <!-- Unite Gallery -->
-<!--<script src="{{ '/assets/js/unitegallery.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/ug-theme-tiles.js' | relative_url }}"></script>-->
-{%- if site.lightgallery.enabled == true -%}
+<!-- <script src="{{ '/assets/js/unitegallery.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/ug-theme-tiles.js' | relative_url }}"></script> -->
+
+{% if site.lightgallery.enabled == true %}
 <!-- Lightgallery Js -->
-<script defer src="{{ "/assets/js/lightgallery.min.js" | prepend: site.baseurl }}"></script>
+<script defer src="{{ '/assets/js/lightgallery.min.js' | prepend: site.baseurl }}"></script>
 {% endif %}
 <script type="text/javascript">
 $(document).ready(function() {
-		$(".post-body").lightGallery({
-			 thumbnail:false,
-			 selector: '.lightgallery-link'
-		});
+    $(".post-body").lightGallery({
+        thumbnail: false,
+        selector: '.lightgallery-link'
+    });
 });
 </script>
+
 <!-- <script>
 window.addEventListener('DOMContentLoaded', function() {
   var images = document.getElementById('post-body').getElementsByTagName('img');
@@ -70,5 +73,6 @@ window.addEventListener('DOMContentLoaded', function() {
   }
 });
 </script> -->
+
 <!-- MathJax Support -->
-<!--<script rel="preconnect" type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>-->
+<!-- <script rel="preconnect" type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> -->
