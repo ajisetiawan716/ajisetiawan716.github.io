@@ -16,13 +16,13 @@
 
 <script type="text/javascript">
 function googleTranslateElementInit() {
+  console.log("googleTranslateElementInit called");
   new google.translate.TranslateElement({
     pageLanguage: '{{ lang }}',
     autoDisplay: false,
     layout: google.translate.TranslateElement.InlineLayout.VERTICAL
   }, 'google_translate_element');
 
-  // Links to cross-origin destinations are unsafe
   var gll = document.getElementsByClassName('goog-logo-link')[0];
   if (gll) {
     gll.setAttribute('rel', 'noopener');
@@ -39,7 +39,9 @@ function googleTranslateElementInit() {
       if (restore_el[i].id.indexOf("restore") >= 0) {
         restore_el[i].click();
         var close_el = innerDoc.getElementsByClassName("goog-close-link");
-        close_el[0].click();
+        if (close_el.length > 0) {
+          close_el[0].click();
+        }
         return;
       }
     }
@@ -59,9 +61,20 @@ function googleTranslateElementInit() {
   }
 
   var googleCombo = document.querySelector("select.goog-te-combo");
+  if (!googleCombo) {
+    console.error("Google Translate combo box not found.");
+    return;
+  }
+
   var langSelect = document.querySelector('.ct-language');
+  if (!langSelect) {
+    console.error("Language selection element not found.");
+    return;
+  }
+
   langSelect.addEventListener('click', function(event) {
     if (!event.target) {
+      console.error("Event target not found.");
       return;
     }
 
