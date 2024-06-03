@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 // Custom Fonts
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap'); /* default Poppins */
+// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap'); /* default Poppins */
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "variables",
@@ -21,4 +21,5 @@
         "custom",
         "google-translate",
         "icomoon-style",
+        "font-face",
         "lightgallery/lightgallery";
