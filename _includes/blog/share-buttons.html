@@ -54,35 +54,33 @@
     <div class="more" title="Share this on other"><i class="icon-share-square share-button" id="bagikan"></i></div>
 </div>
 <script>
-            document.querySelector('#bagikan')
-        .addEventListener('click', event => {
-  
-            // Fallback, Tries to use API only
-            // if navigator.share function is
-            // available.
-			// This API only support HTTPS !!!
-            if (navigator.share) {
-                navigator.share({
-  
-                    // Judul Yang Di Share
-                    title: document.title,
-					text: "Read more about {{ page.title }} at " + window.location.href + "",
-                    // url: window.location.href + " Thanks U..!. ",
-					
-                }).then(() => {
-                    console.log('Thank you for sharing!');
-                }).catch(err => {
-  
-                    // Handle errors, if occured
-                    console.log(
-                    "An error occured when using Web API:");
-                    console.log(err);
-                });
-            } else {
-  
-                // Alerts user if API not available 
-                alert("Use HTTPS, or another browser.");
-            }
-        })
+document.querySelector('#bagikan').addEventListener('click', event => {
+
+    // Fallback, Tries to use API only
+    // if navigator.share function is
+    // available.
+    // This API only supports HTTPS !!!
+    if (navigator.share) {
+        navigator.share({
+
+            // Judul Yang Di Share
+            title: document.title,
+            text: "Read more about {{ page.title }} at " + window.location.href,
+            url: window.location.href // Ensure URL is shared correctly
+
+        }).then(() => {
+            console.log('Thank you for sharing!');
+        }).catch(err => {
+
+            // Handle errors, if occurred
+            console.log("An error occurred when using Web API:");
+            console.log(err);
+        });
+    } else {
+
+        // Alerts user if API not available 
+        alert("Use HTTPS, or another browser.");
+    }
+});
 </script>
 </div>
