@@ -54,35 +54,27 @@
     <div id="bagikan" class="more" title="Share this on other"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" xml:space="preserve"><path d="M0 0v1200h1200V573.486l-196.875 208.739v220.898h-806.25v-806.25h396.68V0zm857.861 0v225.977c-205.254.005-579.542 2.254-579.542 641.895 42.436-427.736 237.375-430.415 579.542-430.42v246.776L1200 342.09z"/></svg></i></div>
 </div>
 <script>
-            document.querySelector('#bagikan')
-        .addEventListener('click', event => {
-  
-            // Fallback, Tries to use API only
-            // if navigator.share function is
-            // available.
-			// This API only support HTTPS !!!
-            if (navigator.share) {
-                navigator.share({
-  
-                    // Judul Yang Di Share
-                    title: document.title,
-					text: "Read more about {{ page.title }} at " + window.location.href + "",
-                    // url: window.location.href + " Thanks U..!. ",
-					
-                }).then(() => {
-                    console.log('Thank you for sharing!');
-                }).catch(err => {
-  
-                    // Handle errors, if occured
-                    console.log(
-                    "An error occured when using Web API:");
-                    console.log(err);
-                });
-            } else {
-  
-                // Alerts user if API not available 
-                alert("Use HTTPS, or another browser.");
-            }
-        })
+document.querySelector('#bagikan').addEventListener('click', event => {
+    // Fallback, Tries to use API only if navigator.share function is available.
+    // This API only supports HTTPS.
+    if (navigator.share) {
+        navigator.share({
+            // Judul Yang Di Share
+            title: document.title,
+            text: "Read more about {{ page.title }} at " + window.location.href
+            // Anda bisa menambahkan URL di sini jika diperlukan
+            // url: window.location.href,
+        }).then(() => {
+            console.log('Thank you for sharing!');
+        }).catch(err => {
+            // Handle errors, if occurred
+            console.log("An error occurred when using Web API:");
+            console.log(err);
+        });
+    } else {
+        // Alerts user if API not available
+        alert("Use HTTPS, or another browser.");
+    }
+});
 </script>
 </div>
