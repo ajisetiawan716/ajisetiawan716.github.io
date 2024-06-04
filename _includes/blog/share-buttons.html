@@ -56,6 +56,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             document.querySelector('#bagikan').addEventListener('click', event => {
+                console.log('Bagikan button clicked');
                 // Fallback, Tries to use API only if navigator.share function is available.
                 // This API only supports HTTPS.
                 if (navigator.share) {
