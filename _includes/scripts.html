@@ -54,10 +54,10 @@ $(function () {
 
 <!-- Page View -->
 <script defer src="https://vercount.one/js"></script>
-
+{% if page.layout == 'post' %}
 <!-- Disqus Comments Count -->
 <script id="dsq-count-scr" src="//{{ site.comments.disqus.shortname }}.disqus.com/count.js" async></script>
-
+{% endif %}
 <!-- Unite Gallery -->
 <!-- <script src="{{ '/assets/js/unitegallery.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/ug-theme-tiles.js' | relative_url }}"></script> -->
