@@ -4,6 +4,7 @@ title: Comment Policy
 permalink: /comment-policy/
 #background: /assets/img/bg-contact.jpg
 #description: 
+robots: false
 ---
 
 
