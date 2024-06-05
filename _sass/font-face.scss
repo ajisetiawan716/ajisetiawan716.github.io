@@ -1,6 +1,6 @@
 /* noto-sans-300 - cyrillic */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: optional; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 300;
@@ -8,7 +8,7 @@
 }
 /* noto-sans-regular - cyrillic */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: optional; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 400;
@@ -16,7 +16,7 @@
 }
 /* noto-sans-700 - cyrillic */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: optional; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 700;
