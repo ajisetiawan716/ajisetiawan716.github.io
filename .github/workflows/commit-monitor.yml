@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Send Commit Notification to Better Stack
         run: |
-          curl -X POST https://betterstack-api-url/v1/incidents \
+          curl -X POST https://uptime.betterstack.com/api/v2/incidents \
           -H "Authorization: Bearer ${{ secrets.BETTERSTACK_API_KEY }}" \
           -H "Content-Type: application/json" \
           -d '{
