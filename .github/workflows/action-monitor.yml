@@ -1,0 +1,22 @@
+name: Monitor GitHub Actions
+
+on:
+  workflow_run:
+    workflows: ["Your Workflow Name"]
+    types:
+      - completed
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Workflow Run Notification to Better Stack
+        run: |
+          curl -X POST https://betterstack-api-url/v1/incidents \
+          -H "Authorization: Bearer ${{ secrets.BETTERSTACK_API_KEY }}" \
+          -H "Content-Type: application/json" \
+          -d '{
+            "status": "info",
+            "message": "Workflow run completed: ${{ github.event.workflow_run.conclusion }}",
+            "service": "GitHub Actions"
+          }'
