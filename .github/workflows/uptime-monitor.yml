@@ -17,7 +17,7 @@ jobs:
       - name: Send Status to Better Stack
         if: ${{ env.status != '200' }}
         run: |
-          curl -X POST https://betterstack-api-url/v1/uptime \
+          curl -X POST https://uptime.betterstack.com/api/v2/monitors \
           -H "Authorization: Bearer ${{ secrets.BETTERSTACK_UPTIME_API_KEY }}" \
           -H "Content-Type: application/json" \
           -d '{
