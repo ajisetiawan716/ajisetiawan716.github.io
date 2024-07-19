@@ -95,7 +95,7 @@ author:
   paypal            : ajisetiawan716
 # Resume Settings
   resume:
-    provider: "gdrive" # false (default), "google", "cvengineer", "external"
+    provider: "custom" # false (default), "google", "cvengineer", "external"
     enabled: true                                        # Set true to enable analytics
     gdrive:
       link: https://drive.google.com/file/d/1JAnTh7Dq2r2VIFusGStRxr5IRuyZnBK3/preview      #change to your gdrive link pdf resume file
@@ -107,7 +107,7 @@ author:
       link: 'https://rxresu.me/ajisetiawan716/cv-aji'
 # Portfolio link Settings
   portfolio:
-    provider: "gdrive" # false (default), "gdrive", "external", "gslide"
+    provider: "gslide" # false (default), "gdrive", "external", "gslide"
     enabled: true                                        # Set true to enable analytics
     gdrive:
       link: https://drive.google.com/file/d/11HhbXkTWIaaMAdbjCkNtcrk1-FROPqgG/preview
