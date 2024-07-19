@@ -104,7 +104,7 @@ author:
     external:
       link: 'https://your-cv.link/your-cv.pdf'
     custom:
-      link: 'https://rxresu.me/ajisetiawan716/cv-aji'
+      link: https://rxresu.me/ajisetiawan716/cv-aji
 # Portfolio link Settings
   portfolio:
     provider: "gslide" # false (default), "gdrive", "external", "gslide"
