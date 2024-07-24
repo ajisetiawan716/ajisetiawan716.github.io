@@ -50,7 +50,8 @@ Untuk pengaktifan permanen, tambahkan baris `kernel.sysrq = 1` ke dalam file `/e
   
   > **Catatan**: Pastikan setiap huruf ditekan dan dilepaskan sebelum melanjutkan ke huruf berikutnya.
   
-  #### Urutan Fungsi REISUB
+  
+#### Urutan Fungsi REISUB
   
   - **R (UnRaw):** Mengembalikan kontrol keyboard dari X server ke kernel. Ini berguna jika sistem terjebak dalam mode grafis dan tidak merespons input keyboard.
   - **E (tErm):** Mengirim sinyal SIGTERM ke semua proses, yang meminta mereka untuk berhenti secara normal.
@@ -96,4 +97,4 @@ Kombinasi REISUB aman karena memberikan kesempatan bagi sistem untuk menyinkronk
 
 Menggunakan REISUB bisa menyelamatkan sistem Linux kita dari kebekuan tanpa merusak data atau sistem file. Meskipun fitur Magic SysRq tidak selalu diaktifkan secara default, pengguna Linux harus mengetahui dan memanfaatkan alat ini dalam situasi darurat. Dengan memahami urutan REISUB dan fungsinya, kita dapat melakukan reboot sistem dengan aman saat menghadapi masalah *hang/not responding* pada Linux.
 
-Semoga tutorial ini membantu Anda memahami dan menggunakan REISUB dengan efektif. Selalu pastikan untuk mencoba metode non-destruktif lain sebelum menggunakan REISUB, seperti mencoba untuk masuk ke terminal teks menggunakan `Ctrl + Alt + F1` hingga `F6`, atau memeriksa proses yang bermasalah dengan `Ctrl + Alt + Esc`.
+Semoga tutorial ini membantu Anda memahami dan menggunakan REISUB dengan efektif. Selalu pastikan untuk mencoba metode alternatif lain sebelum menggunakan REISUB, seperti mencoba untuk masuk ke terminal teks menggunakan `Ctrl + Alt + F1` hingga `F6`, atau memeriksa proses yang bermasalah dengan `Ctrl + Alt + Esc`.
