@@ -70,7 +70,7 @@ Untuk menggunakan REISUO caranya hampir sama seperti cara menggunakan fungsi REI
 
 1. **Tekan dan Tahan Tombol Alt + PrintScreen/SysRq:** Tombol PrintScreen atau SysRq biasanya terletak di pojok kanan atas keyboard.
   
-2. **Masukkan Kombinasi REISUB:** Dengan menahan Alt + PrintScreen/SysRq, tekan tombol berikut secara berurutan:
+2. **Masukkan Kombinasi REISUO:** Dengan menahan Alt + PrintScreen/SysRq, tekan tombol berikut secara berurutan:
   
   - **R** - **Unmount (unRaw)**: Mengambil kembali kontrol keyboard dari X server.
   - **E** - **Terminate (tErm)**: Mengirim sinyal `SIGTERM` ke semua proses.
