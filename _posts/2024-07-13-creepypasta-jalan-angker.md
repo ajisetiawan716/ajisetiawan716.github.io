@@ -5,6 +5,7 @@ tags: [Creepypasta, Horror, Misteri, Kisah Horror, Horror Story]
 #date: 2019-06-25 13:14:15
 #excerpt: ''
 image: images (4)_1720881130204.jpeg
+image-alt: A Girl Walking in the Road Alone
 image-caption: Image from [Adobe Stock](https://stock.adobe.com/th/images/silhouette-of-a-woman-walking-down-a-dark-foggy-empty-street-at-night-under-streetlights-created-with-generative-ai/576881549)
 #description:
 #permalink:

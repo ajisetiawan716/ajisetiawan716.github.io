@@ -4,6 +4,7 @@ tags: [Tutorial, Linux, Seputar Linux]
 categories: []
 #date: 2019-06-25 13:14:15
 image: 'reisub-blog-post-thumb.png'
+image-alt: REISUB on Linux
 #excerpt: ''
 #description:
 #permalink:
