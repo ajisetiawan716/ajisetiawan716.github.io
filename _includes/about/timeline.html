@@ -3,6 +3,9 @@
   <div class="timeline-body bg-themed">
     {% for item in site.data.scholarship %}
       <div class="timeline-item">
+        <!-- Float the image to the right and set its size -->
+        <img src="{{ item.image }}" alt="{{ item.title }}" class="timeline-image float-right" style="width: 100px; height: auto;">
+
         <div class="content">
           <h4>{{ item.title }}</h4>
           <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
