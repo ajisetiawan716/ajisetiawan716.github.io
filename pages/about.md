@@ -10,7 +10,7 @@ description: A blog about tutorials, graphic design, technology, stories and mor
 <p align="center">
     <img src="{{ site.author.image }}" alt="{{ site.title }}" width="168px" height="168px" class="circle-image-profile wow animated zoomIn" data-wow-delay=".1s" style="display:flex;">
 <br>
-
+</p><p>
 Hi I am <b>{{ site.author.name }}</b> :wave:,<br>
 a dedicated <b>Multimedia</b> graduate from <b>Ma'arif NU 03 Larangan Vocational High School</b>. With a robust foundation in multimedia technologies and creative design, I bring a blend of technical expertise and artistic vision to every project. I have interests and hobbies in the field of IT, graphic design and amateur programming.  I also accept freelance work.<br>Please contact me at the contact below if you need graphic design services or anything else.
 </p>
