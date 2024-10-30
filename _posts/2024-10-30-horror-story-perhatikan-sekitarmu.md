@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [Horror Story, Horror, Misteri, Kisah Horor]]
+tags: [Horror Story, Horror, Misteri, Kisah Horor]
 #categories: []
 #date: 2019-06-25 13:14:15
 #excerpt: ''
