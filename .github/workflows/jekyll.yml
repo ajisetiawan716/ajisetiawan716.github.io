@@ -27,26 +27,26 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # Install Ruby manually
-      - name: Install Ruby
-        run: |
-          git clone https://github.com/rbenv/ruby-build.git /tmp/ruby-build
-          /tmp/ruby-build/bin/ruby-build 3.1.4 $RUNNER_TOOL_CACHE/Ruby/3.1.4/x64
-          touch $RUNNER_TOOL_CACHE/Ruby/3.1.4/x64.complete
+      # Setup Ruby using actions/setup-ruby (pre-built Ruby)
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1.4'  # Anda bisa mengubah versi jika diperlukan
+          bundler-cache: true  # Otomatis meng-cache gems agar tidak perlu install ulang
 
       # Verifikasi instalasi Ruby
       - name: Verify Ruby Version
         run: ruby -v
 
       # Install Bundler dan dependencies
-      - name: Install Bundler
+      - name: Install Bundler and Dependencies
         run: |
           export GEM_HOME=$HOME/.gem
           export GEM_PATH=$HOME/.gem
           gem install bundler
           bundle install
 
-      # Cache bundler gems
+      # Cache bundler gems untuk mempercepat build berikutnya
       - name: Cache Ruby gems
         uses: actions/cache@v4
         with:
