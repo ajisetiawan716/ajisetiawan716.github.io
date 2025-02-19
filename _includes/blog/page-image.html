@@ -11,7 +11,7 @@
     Jika variabel image diatur, gunakan baseurl dari Jekyll.
   {% assign image_url = site.baseurl | append: '/assets/img/content/' | append: include.image %}
   {% endcomment %}
-  {% assign image_url = 'https://ajimedia-615958019.imgix.net' | append: include.image | append: '?fm=webp' %}
+  {% assign image_url = 'https://ajimedia-615958019.imgix.net/' | append: include.image | append: '?fm=webp' %}
 {% else %}
   {% comment %}
     Jika tidak ada gambar internal maupun eksternal, atau variabel image tidak diatur,
