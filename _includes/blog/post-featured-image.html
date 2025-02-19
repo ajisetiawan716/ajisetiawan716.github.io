@@ -3,7 +3,9 @@
   {% if is_external %}
     {% assign image_url = include.external-image %}
   {% elsif include.image %}
+   {% comment %}
     {% assign image_url = site.baseurl | append: '/assets/img/content/' | append: include.image %}
+   {% comment %}
   {% endif %}
 
   {% if image_url %}
