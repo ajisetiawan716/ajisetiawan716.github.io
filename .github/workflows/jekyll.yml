@@ -40,9 +40,12 @@ jobs:
 
       # Install bundler dan dependencies
       - name: Install Bundler
-        run: |
-          gem install bundler
-          bundle install
+  run: |
+    export GEM_HOME=$HOME/.gem
+    export GEM_PATH=$HOME/.gem
+    gem install bundler
+    bundle install
+
 
       # Cache bundler gems
       - name: Cache Ruby gems
