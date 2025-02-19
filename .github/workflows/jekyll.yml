@@ -52,8 +52,8 @@ jobs:
         with:
           path: |
             ~/.gem
-            /opt/hostedtoolcache/Ruby/3.1.4/x64/lib/ruby/gems/3.1.0
-          key: ${{ runner.os }}-ruby-${{ hashFiles('**/*.gemfile.lock') }}
+            vendor/bundle
+          key: ${{ runner.os }}-ruby-${{ hashFiles('Gemfile.lock') }}
 
       - name: Setup Pages
         id: pages
@@ -79,3 +79,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        
