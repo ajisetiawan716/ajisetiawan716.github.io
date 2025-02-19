@@ -38,14 +38,13 @@ jobs:
       - name: Verify Ruby Version
         run: ruby -v
 
-      # Install bundler dan dependencies
+      # Install Bundler dan dependencies
       - name: Install Bundler
-  run: |
-    export GEM_HOME=$HOME/.gem
-    export GEM_PATH=$HOME/.gem
-    gem install bundler
-    bundle install
-
+        run: |
+          export GEM_HOME=$HOME/.gem
+          export GEM_PATH=$HOME/.gem
+          gem install bundler
+          bundle install
 
       # Cache bundler gems
       - name: Cache Ruby gems
@@ -80,4 +79,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        
