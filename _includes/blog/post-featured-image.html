@@ -5,7 +5,7 @@
   {% elsif include.image %}
    {% comment %}
     {% assign image_url = site.baseurl | append: '/assets/img/content/' | append: include.image %}
-   {% comment %}
+   {% endcomment %}
    {% assign image_url = 'https://ajimedia-615958019.imgix.net/' | append: include.image | append: '?fm=webp' %}
   {% endif %}
 
