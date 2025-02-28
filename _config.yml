@@ -9,6 +9,7 @@ repository          : ajisetiawan716/ajisetiawan716.github.io     # Change to <y
 remote_theme        : ajisetiawan716/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 breadcrumbs         : false # true, false (default)
+img_cdn             : https://img-cdn.ajimedia.my.id
 markdown: kramdown
 sass:
     style: compressed
