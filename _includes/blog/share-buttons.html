@@ -62,7 +62,7 @@
                 navigator.share({
                     title: document.title,
                     text: "Read more about " + document.title + " at " + window.location.href,
-                    url: window.location.href
+                    
                 }).then(() => {
                     console.log('Thank you for sharing!');
                 }).catch(err => {
