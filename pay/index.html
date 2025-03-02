@@ -129,38 +129,27 @@ robots: false
 		<button id="bagikan" class="btn btn-dark btn-block btn-lg">
 		<i class="icon-share-square"></i>&nbsp;Share This Page</a>
 	</div>
-    <script>
-        document.querySelector('#bagikan')
-        .addEventListener('click', event => {
-  
-            // Fallback, Tries to use API only
-            // if navigator.share function is
-            // available.
-			// This API only support HTTPS !!!
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelector('#bagikan').addEventListener('click', event => {
+            console.log('Bagikan button clicked');
+            
             if (navigator.share) {
                 navigator.share({
-  
-                    // Judul Yang Di Share
                     title: document.title,
-					text: "Visit Aji Setiawan payment site at " + window.location.href + " , Thank you! ",
-                    // url: window.location.href + " Terima kasih!. ",
-					
+                    text: "Read more about " + document.title + " at " + window.location.href,
+                    url: window.location.href
                 }).then(() => {
                     console.log('Thank you for sharing!');
                 }).catch(err => {
-  
-                    // Handle errors, if occured
-                    console.log(
-                    "An error occured when using Web API:");
-                    console.log(err);
+                    console.error("An error occurred while sharing:", err);
                 });
             } else {
-  
-                // Alerts user if API not available 
-                alert("Use HTTPS, or another browser.");
+                alert("Your browser does not support Web Share API. Please try a different browser.");
             }
-        })
-    </script>
+        });
+    });
+</script>
 <br>
 
 
