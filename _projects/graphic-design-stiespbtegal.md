@@ -1,4 +1,5 @@
 ---
+date: 30-09-2021 02:29
 name: Desain Grafis - STIES Putera Bangsa Tegal
 title: Desain Grafis - STIES Putera Bangsa Tegal 
 tools: [Portofolio, Graphic Design, Social Media Content, Flyer, Corel Draw]

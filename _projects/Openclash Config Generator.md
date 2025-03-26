@@ -1,4 +1,5 @@
 ---
+date: 19-10-2023 02:28
 name: OpenWrt - Openclash Config Generator
 title: OpenWrt - Openclash Config Generator
 tools: [OpenWrt, PHP, HTML, JS, BASH]

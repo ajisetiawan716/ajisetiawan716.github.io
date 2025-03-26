@@ -1,4 +1,5 @@
 ---
+date: 31-03-2022 02:31
 name: Desain Grafis - DEMA STIES Putera Bangsa Tegal
 title: Desain Grafis - DEMA STIES Putera Bangsa Tegal
 tools: [Portofolio, Graphic Design, Social Media Content, Flyer, Corel Draw]

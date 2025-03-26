@@ -1,4 +1,5 @@
 ---
+date: 26-03-2022 02:30
 name: Desain Grafis - HMJ MBS STIES Putera Bangsa Tegal
 title: Desain Grafis - HMJ MBS STIES Putera Bangsa Tegal
 tools: [Portofolio, Graphic Design, Social Media Content, Flyer, Corel Draw]
