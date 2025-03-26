@@ -1,7 +1,8 @@
 ---
+date: 26-03-2025 12:16
 name: Jsholat (luci-app-jsholat) - Prayer Times Notification 
 title: Jsholat (luci-app-jsholat) - Prayer Times Notification 
-tools: [OpenWrt, PHP, HTML, JS, BASH]
+tools: [OpenWrt,  HTML, JS, BASH]
 image: https://github.com/user-attachments/assets/4188fb22-5733-4a4e-b0b1-2ebcacc5b373
 description: This project is a tool used to deliver  prayer times notification via audio with webui interface settings.
 ---
