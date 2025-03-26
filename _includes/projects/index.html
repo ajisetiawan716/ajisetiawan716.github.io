@@ -1,75 +1,80 @@
 {%- comment -%}
-  Enhanced Project Index with:
-  1. Null safety checks
-  2. GitHub/Local project sorting
-  3. Environment fallbacks
+  Fixed version with:
+  1. Proper null handling
+  2. Array safety checks
+  3. Full error prevention
 {%- endcomment -%}
 
-{%- assign github_repos = site.github.public_repositories | default: site.data.github.public_repositories | default: empty -%}
-{%- assign local_projects = site.projects | default: empty -%}
+{%- assign github_repos = site.github.public_repositories | default: site.data.github.public_repositories | default: [] -%}
+{%- assign local_projects = site.projects | default: [] -%}
+{%- assign remote_projects_list = page.remote_projects | default: [] -%}
 
 <div class="col-lg-10 mx-auto card-columns m-3 mt-5">
   
   <!-- ============ REMOTE PROJECTS (GITHUB) ============ -->
-  {%- if github_repos -%}
+  {%- if github_repos.size > 0 and remote_projects_list.size > 0 -%}
     {%- assign sorted_repos = github_repos | sort: "pushed_at" | reverse -%}
     
-    {%- for remote_project in page.remote_projects -%}
-      {%- for repo in sorted_repos -%}
-        {%- if remote_project == repo.name -%}
-          {%- assign words = repo.name | split: '-' -%}
-          {%- capture titlecase -%}
-            {%- for word in words -%}{{ word | capitalize | append: ' ' }}{%- endfor -%}
-          {%- endcapture -%}
+    {%- for repo in sorted_repos -%}
+      {%- if remote_projects_list contains repo.name -%}
+        {%- assign words = repo.name | split: '-' -%}
+        {%- capture titlecase -%}
+          {%- for word in words -%}{{ word | capitalize | append: ' ' }}{%- endfor -%}
+        {%- endcapture -%}
 
-          {%- assign project_type = "remote" -%}
-          {%- assign project_id = repo.name -%}
-          {%- assign project_img = false -%}
-          {%- assign project_name = titlecase | strip -%}
-          {%- assign project_desc = repo.description -%}
-          {%- assign project_url = repo.html_url -%}
-          {%- assign project_tools = repo.topics -%}
-          {%- assign project_meta = "Updated: " | append: repo.pushed_at | date: "%b %d, %Y" -%}
-          {%- assign github_stats = "★ " | append: repo.stargazers_count | append: " | 🍴 " | append: repo.forks_count -%}
-          {%- if repo.language -%}
-            {%- assign github_stats = github_stats | append: " | " | append: repo.language -%}
-          {%- endif -%}
-
-          {% include projects/project-card.html %}
+        {%- assign project_type = "remote" -%}
+        {%- assign project_id = repo.name -%}
+        {%- assign project_img = false -%}
+        {%- assign project_name = titlecase | strip -%}
+        {%- assign project_desc = repo.description | default: "No description" -%}
+        {%- assign project_url = repo.html_url -%}
+        {%- assign project_tools = repo.topics | default: [] -%}
+        {%- assign project_meta = "Updated: " | append: repo.pushed_at | date: "%b %d, %Y" -%}
+        {%- assign github_stats = "★ " | append: repo.stargazers_count | append: " | 🍴 " | append: repo.forks_count -%}
+        {%- if repo.language -%}
+          {%- assign github_stats = github_stats | append: " | " | append: repo.language -%}
         {%- endif -%}
-      {%- endfor -%}
+
+        {% include projects/project-card.html %}
+      {%- endif -%}
     {%- endfor -%}
   {%- else -%}
     <div class="alert alert-info text-center">
       <i class="fas fa-info-circle me-2"></i>
-      GitHub projects are only visible when published on GitHub Pages.
+      {%- if github_repos.size == 0 -%}
+        GitHub projects data not available.
+      {%- else -%}
+        No remote projects configured in <code>remote_projects</code> front matter.
+      {%- endif -%}
     </div>
   {%- endif -%}
 
   <!-- ============ LOCAL PROJECTS ============ -->
-  {%- assign sorted_projects = local_projects | sort: "date" | reverse -%}
-  
-  {%- for project in sorted_projects -%}
-    {%- assign project_type = "local" -%}
-    {%- assign project_id = project.name | slugify -%}
-    {%- assign project_img = project.image -%}
-    {%- assign project_name = project.name -%}
-    {%- assign project_desc = project.description -%}
-    {%- assign project_tools = project.tools -%}
-    {%- assign project_meta = "Created: " | append: project.date | date: "%b %d, %Y" -%}
+  {%- if local_projects.size > 0 -%}
+    {%- assign sorted_projects = local_projects | sort: "date" | reverse -%}
+    
+    {%- for project in sorted_projects -%}
+      {%- assign project_type = "local" -%}
+      {%- assign project_id = project.name | slugify -%}
+      {%- assign project_img = project.image -%}
+      {%- assign project_name = project.name -%}
+      {%- assign project_desc = project.description | default: "No description" -%}
+      {%- assign project_tools = project.tools | default: [] -%}
+      {%- assign project_meta = "Created: " | append: project.date | date: "%b %d, %Y" -%}
 
-    {%- if project.external_url -%}
-      {%- assign project_url = project.external_url -%}
-    {%- else -%}
-      {%- assign project_url = project.url | relative_url -%}
-    {%- endif -%}
+      {%- if project.external_url -%}
+        {%- assign project_url = project.external_url -%}
+      {%- else -%}
+        {%- assign project_url = project.url | relative_url -%}
+      {%- endif -%}
 
-    {% include projects/project-card.html %}
+      {% include projects/project-card.html %}
+    {%- endfor -%}
   {%- else -%}
     <div class="alert alert-secondary text-center">
       <i class="fas fa-folder-open me-2"></i>
       No local projects found. Add markdown files in <code>_projects/</code> folder.
     </div>
-  {%- endfor -%}
+  {%- endif -%}
 
 </div>
