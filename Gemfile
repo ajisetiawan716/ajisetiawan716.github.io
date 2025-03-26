@@ -12,5 +12,6 @@ group :jekyll_plugins do
   gem "kramdown-parser-gfm"
   gem 'fastimage'
   gem 'jekyll-seo-tag'
+  gem 'jekyll-github-metadata'
   gem 'sassc', '~> 2.4'
 end
