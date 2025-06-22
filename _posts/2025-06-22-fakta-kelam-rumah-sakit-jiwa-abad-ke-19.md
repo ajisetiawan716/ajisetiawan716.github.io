@@ -68,7 +68,8 @@ Sudah saatnya kita berhenti melihat gangguan jiwa sebagai “kegilaan”, dan mu
 ---
 
 Sumber: _DarkIce_
-Sumber Gambar: [SpirngerLink](https://link.springer.com/chapter/10.1007/978-3-030-65306-4_6)
+
+Sumber Gambar: [SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-65306-4_6)
 
 ---
 
