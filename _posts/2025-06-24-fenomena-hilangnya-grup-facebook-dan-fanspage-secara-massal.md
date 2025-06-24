@@ -27,10 +27,13 @@ Hal serupa juga dialami oleh banyak pengguna Facebook di Indonesia. Dalam unggah
 
 ### **Asumsi Penyebab: Bug atau Sistem AI Otomatis?**
 
-Banyak pengguna menduga ini adalah akibat bug atau glitch pada sistem moderasi otomatis Facebook. Sebuah unggahan lain dari akun **Raaz** menyebutkan bahwa ia berhasil “menghapus” grup hanya dengan melaporkannya, dan dalam beberapa menit grup tersebut benar-benar hilang. Hal ini diperkuat oleh tweet dari pengguna Twitter *@G33kBoyRavi* yang menyebut bahwa ada celah serius di sistem pelaporan Facebook, yang memungkinkan siapa pun melaporkan grup dan langsung memicunya untuk dinonaktifkan.
+Banyak pengguna menduga ini adalah akibat bug atau glitch pada sistem moderasi otomatis Facebook. Sebuah unggahan lain dari akun **Raaz** menyebutkan bahwa ia berhasil “menghapus” grup hanya dengan melaporkannya, dan dalam beberapa menit grup tersebut benar-benar hilang. Hal ini diperkuat oleh tweet dari pengguna Twitter *@G33kBoyRavi* yang menyebutkan bahwa saat ini ada bug besar di sistem pelaporan Facebook — cukup laporkan sebuah grup dan grup itu langsung dinonaktifkan secara instan.
 
-![Unggahan Pengguna Facebook - Raaz](/assets/img/content//1750773960124.jpg)
+![Unggahan Pengguna Facebook - Raaz](/assets/img/content//1750773960124.jpg
 
+Jika benar demikian, maka ini merupakan celah serius dalam sistem moderasi otomatis Meta yang dapat disalahgunakan untuk tujuan negatif, termasuk sabotase terhadap komunitas tertentu.
+
+### **Isu Sensor dan Penghapusan Konten Pro-Palestina**
 Spekulasi lain datang dari forum komunitas digital dan organisasi kemanusiaan. Salah satu unggahan dari akun Nusantara Palestina Center (NPC) menyatakan bahwa **Meta telah menghapus 94% konten pro-Palestina atas permintaan pemerintah Israel**. Klaim ini mencuatkan isu **bias politik dan penyensoran** sebagai penyebab lain yang mungkin terjadi secara sistematis.
 ![Postingan akun Nusantara Palestina Center (NPC)](/assets/img/content//1750773960026.jpg)
 
