@@ -13,7 +13,7 @@ title: 'Fenomena Hilangnya Grup dan Fanspage Facebook Secara Massal: Bug, Sensor
 
 
 
-Sejak pukul 16.00 WIB pada Selasa, 22 Juni, pengguna Facebook di berbagai belahan dunia, termasuk Indonesia, dihebohkan dengan hilangnya banyak grup dan fanspage tanpa adanya pemberitahuan atau alasan yang jelas dari pihak Meta. Kejadian ini menimbulkan kegelisahan dan spekulasi luas di kalangan pengguna, terutama admin komunitas besar dan kreator konten yang merasa kehilangan tempat komunitas mereka.
+Sejak pukul 16.00 WIB pada Selasa (24/06), pengguna Facebook di berbagai belahan dunia, termasuk Indonesia, dihebohkan dengan hilangnya banyak grup dan fanspage tanpa adanya pemberitahuan atau alasan yang jelas dari pihak Meta. Kejadian ini menimbulkan kegelisahan dan spekulasi luas di kalangan pengguna, terutama admin komunitas besar dan kreator konten yang merasa kehilangan tempat komunitas mereka.
 
 ### **Gelombang Penghapusan Massal**
 
