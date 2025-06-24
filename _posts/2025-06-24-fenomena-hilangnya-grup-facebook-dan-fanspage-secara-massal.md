@@ -13,26 +13,26 @@ title: 'Fenomena Hilangnya Grup dan Fanspage Facebook Secara Massal: Bug, Sensor
 
 
 
-Sejak pukul 16.00 WIB pada Selasa, 22 Juni, pengguna Facebook di berbagai belahan dunia — termasuk Indonesia — dikejutkan oleh hilangnya sejumlah besar grup dan fanspage secara tiba-tiba tanpa pemberitahuan atau alasan yang jelas dari pihak Meta. Kejadian ini memicu kegelisahan dan berbagai spekulasi di kalangan pengguna, terutama di antara para admin komunitas besar dan kreator konten yang merasa kehilangan wadah utama mereka.
+Sejak pukul 16.00 WIB pada Selasa, 22 Juni, pengguna Facebook di berbagai belahan dunia, termasuk Indonesia, dihebohkan dengan hilangnya banyak grup dan fanspage tanpa adanya pemberitahuan atau alasan yang jelas dari pihak Meta. Kejadian ini menimbulkan kegelisahan dan spekulasi luas di kalangan pengguna, terutama admin komunitas besar dan kreator konten yang merasa kehilangan tempat komunitas mereka.
 
 ### **Gelombang Penghapusan Massal**
 
 Salah satu kasus yang paling mencolok berasal dari komunitas Reddit di r/facebook, di mana pengguna dengan akun *SoniSins* mengeluhkan bahwa 18 grup yang ia kenal dan kelola bersama temannya telah dihapus sekaligus, dan semua akun admin turut disuspend. Ironisnya, sebagian grup tersebut merupakan komunitas hobi seperti gaming dan pemrograman, yang sama sekali tidak berkaitan dengan isu kontroversial. Ia bahkan mempertanyakan, “Bagaimana mungkin grup pemrograman bisa dianggap sebagai aktivitas kriminal berbahaya?”
 
-![Tangkapan Layar Pengguna Reddit](/asset/img/content/1750773959952.jpg)
+![Tangkapan Layar Pengguna Reddit](/assets/img/content/1750773959952.jpg)
 
 Hal serupa juga dialami oleh banyak pengguna Facebook di Indonesia. Dalam unggahan pengguna bernama **Zainul Arham**, tercatat lebih dari 70 grup yang mendadak lenyap, termasuk komunitas seperti “24 Jam Kurator Meme”, “Forum Militer Indonesia”, “Pixel Art Indonesia”, “Genshin Official”, hingga “Mobile Legend Universe”. Ini mencakup berbagai tema dari hiburan, teknologi, hingga diskusi akademik.
 
-![Unggahan Pengguna Facebook - Zainul Arham](/asset/img/content/1750773960237.jpg)
+![Unggahan Pengguna Facebook - Zainul Arham](/assets/img/content/1750773960237.jpg)
 
 ### **Asumsi Penyebab: Bug atau Sistem AI Otomatis?**
 
 Banyak pengguna menduga ini adalah akibat bug atau glitch pada sistem moderasi otomatis Facebook. Sebuah unggahan lain dari akun **Raaz** menyebutkan bahwa ia berhasil “menghapus” grup hanya dengan melaporkannya, dan dalam beberapa menit grup tersebut benar-benar hilang. Hal ini diperkuat oleh tweet dari pengguna Twitter *@G33kBoyRavi* yang menyebut bahwa ada celah serius di sistem pelaporan Facebook, yang memungkinkan siapa pun melaporkan grup dan langsung memicunya untuk dinonaktifkan.
 
-![Unggahan Pengguna Facebook - Raaz](/asset/img/content//1750773960124.jpg)
+![Unggahan Pengguna Facebook - Raaz](/assets/img/content//1750773960124.jpg)
 
 Spekulasi lain datang dari forum komunitas digital dan organisasi kemanusiaan. Salah satu unggahan dari akun Nusantara Palestina Center (NPC) menyatakan bahwa **Meta telah menghapus 94% konten pro-Palestina atas permintaan pemerintah Israel**. Klaim ini mencuatkan isu **bias politik dan penyensoran** sebagai penyebab lain yang mungkin terjadi secara sistematis.
-![Postingan akun Nusantara Palestina Center (NPC)](/asset/img/content//1750773960026.jpg)
+![Postingan akun Nusantara Palestina Center (NPC)](/assets/img/content//1750773960026.jpg)
 
 ### **Moderasi AI yang Tidak Akurat**
 
