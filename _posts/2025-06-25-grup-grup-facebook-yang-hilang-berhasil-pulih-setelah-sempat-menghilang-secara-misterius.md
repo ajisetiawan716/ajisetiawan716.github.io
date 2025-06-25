@@ -20,7 +20,7 @@ Hilangnya grup secara massal ini sontak menjadi perbincangan hangat di berbagai 
 Unggahan tersebut juga menambahkan, "Pada pagi ini, grup-grup tersebut sudah berangsur kembali pulih, namun sebagian grup berubah nama menjadi 'Group title pending' dan tidak dapat diubah sampai 28 hari ke depan."
 
 
-![Tangkapan Layar Admin grup Facebook Konsultasi Seputar Komputer](/asset/img/content/1750815926356.jpg)
+![Tangkapan Layar Admin grup Facebook Konsultasi Seputar Komputer](/assets/img/content/1750815926356.jpg)
 
 
 Kabar pemulihan ini juga dikonfirmasi oleh sejumlah netizen di Twitter (sekarang X). Akun **@Izzadin_Sabani** pada tanggal 25 Juni 2025, misalnya, memposting:
@@ -28,7 +28,7 @@ Kabar pemulihan ini juga dikonfirmasi oleh sejumlah netizen di Twitter (sekarang
 > "Sebagian grup Facebook akhirnya mulai pulih."
 
 
-![Tangkapan Layar Pengguna X/Twitter](/asset/img/content/1750815926356.jpg)
+![Tangkapan Layar Pengguna X/Twitter](/assets/img/content/1750815926356.jpg)
 
 
 Kicauan tersebut disertai dengan tangkapan layar yang menampilkan daftar grup Facebook, di mana beberapa di antaranya sudah kembali pulih, termasuk satu grup yang bernama "Group title pending" dengan 13 kiriman baru. Ini memperkuat bukti bahwa pemulihan memang sedang berlangsung, meskipun dengan anomali nama grup.
@@ -37,12 +37,12 @@ Dampak dari kejadian ini juga terlihat dari meme-meme yang beredar, salah satuny
 
 Daftar grup Facebook yang terdampak pun sangat beragam, meliputi komunitas hobi, meme, hingga grup-grup diskusi serius. Beberapa nama grup yang dilaporkan hilang, seperti tercantum dalam sebuah daftar yang beredar, antara lain "24 Jam Kurator Meme," "Omke Gas," "Kolam Lele (Keluh Kesah Lele Berulah V3, V1)," "Genshin Official," dan banyak lagi.
 
-![Daftar Sejumlah Grup yang Sempat Dilaporkan Menghilang](/asset/img/content/1750815926500.jpg)
+![Daftar Sejumlah Grup yang Sempat Dilaporkan Menghilang](/assets/img/content/1750815926500.jpg)
 
 
 Kembalinya grup dengan nama "Group title pending" ini menimbulkan pertanyaan. Sejumlah pengamat menduga ini adalah akibat dari *bug* sistem yang muncul saat proses pemulihan. Kemungkinan lainnya adalah kesalahan pada sistem moderasi berbasis kecerdasan buatan Facebook yang secara otomatis mengubah nama grup saat mendeteksi konten atau aktivitas yang dianggap melanggar kebijakan, meskipun dalam banyak kasus, hal tersebut tidak relevan. Pembatasan untuk tidak mengubah nama grup selama 28 hari ke depan semakin memperkuat dugaan adanya intervensi otomatis dari sistem.
 
-![Tangkapan Layar Sejumlah Grup Yang Berhasil Dipulihkan](/asset/img/content/1750815926273.jpg)
+![Tangkapan Layar Sejumlah Grup Yang Berhasil Dipulihkan](/assets/img/content/1750815926273.jpg)
 
 
 Hingga saat ini, belum ada pernyataan resmi yang rinci dari pihak Facebook mengenai penyebab pasti insiden ini. Namun, langkah pemulihan yang cepat menunjukkan bahwa Facebook menyadari adanya masalah serius yang memengaruhi jutaan penggunanya.
