@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Privacy & Policy
+title: Privacy Policy
 permalink: /privacy-policy/
 #background: /assets/img/bg-contact.jpg
 description: A page about privacy & policy in Aji Setiawan's Personal Page
