@@ -28,7 +28,7 @@ Kabar pemulihan ini juga dikonfirmasi oleh sejumlah netizen di Twitter (sekarang
 > "Sebagian grup Facebook akhirnya mulai pulih."
 
 
-![Tangkapan Layar Pengguna X/Twitter](/assets/img/content/1750815926356.jpg)
+![Tangkapan Layar Pengguna X/Twitter](/assets/img/content/1750815926420.jpg)
 
 
 Kicauan tersebut disertai dengan tangkapan layar yang menampilkan daftar grup Facebook, di mana beberapa di antaranya sudah kembali pulih, termasuk satu grup yang bernama "Group title pending" dengan 13 kiriman baru. Ini memperkuat bukti bahwa pemulihan memang sedang berlangsung, meskipun dengan anomali nama grup.
