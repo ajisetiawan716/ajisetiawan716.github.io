@@ -2,6 +2,7 @@
 layout: page
 title: Comment Policy
 permalink: /privacy-policy/comment-policy/
+description: A page about comment policy in Aji Setiawan's Personal Page
 #background: /assets/img/bg-contact.jpg
 #description: 
 robots: false
