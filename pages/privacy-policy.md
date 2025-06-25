@@ -49,7 +49,7 @@ We use the information we collect for various purposes, including to:
 * Send you newsletters, marketing or promotional materials, and other information that may be of interest to you, if you have opted in to receive them.
 * Detect, prevent, and address technical issues.
 * Monitor the usage of our Blog.
-* [**Add any other specific uses, e.g., run contests, facilitate forum discussions, etc.**]
+* Facilitate forum discussions, etc.
 
 ---
 
@@ -104,5 +104,5 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
 If you have any questions about this Privacy Policy, please contact us:
 
 * By email: [email@ajisetiawan.my.id]
-* By visiting this page on our website: [https://www.ajisetiawan.my.id/]
+* By visiting this page on our website: [https://www.ajisetiawan.my.id/contact]
 

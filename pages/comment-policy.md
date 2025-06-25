@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Comment Policy
-permalink: /comment-policy/
+permalink: /privacy-policy/comment-policy/
 #background: /assets/img/bg-contact.jpg
 #description: 
 robots: false
