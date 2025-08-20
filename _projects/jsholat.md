@@ -6,7 +6,7 @@ tools: [OpenWrt,  HTML, JS, BASH]
 image: https://github.com/user-attachments/assets/4188fb22-5733-4a4e-b0b1-2ebcacc5b373
 description: This project is a tool used to deliver  prayer times notification via audio with webui interface settings.
 remote_projects:
-  - luci-app-jsholat
+  - Jsholat
 ---
 
 
@@ -22,5 +22,5 @@ https://github.com/user-attachments/assets/3140d347-e3cb-4976-9e57-f67bfcd63e43
 {% include elements/carousel.html %}
 
 <p class="text-center">
-{% include elements/button.html link="https://github.com/ajisetiawan716/luci-app-jsholat" text="More Info" %}
+{% include elements/button.html link="https://github.com/ajisetiawan716/Jsholat" text="More Info" %}
 </p>
