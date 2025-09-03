@@ -7,6 +7,7 @@ layout: post
 image: Rudolph-Fentz-1.jpg
 image-alt: Times Square, New York (1950)
 image-caption: Images form [Historic Mysteries](https://www.historicmysteries.com)
+description: Pada suatu malam di bulan Juni tahun 1950, Times Square, New York, tampak bersinar terang dengan cahaya neon yang berkilauan. Jalanan dipenuhi keramaian: orang-orang yang terburu-buru, bunyi klakson mobil yang bersahutan, dan hiruk pikuk kota yang seolah tak pernah tidur....
 ---
 
 ## Malam Aneh di Times Square
