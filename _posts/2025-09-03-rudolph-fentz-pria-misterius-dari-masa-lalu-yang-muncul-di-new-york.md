@@ -15,6 +15,8 @@ image-caption: Images form [Historic Mysteries](https://www.historicmysteries.co
 
 Pada suatu malam di bulan Juni tahun **1950**, Times Square, New York, tampak bersinar terang dengan cahaya neon yang berkilauan. Jalanan dipenuhi keramaian: orang-orang yang terburu-buru, bunyi klakson mobil yang bersahutan, dan hiruk pikuk kota yang seolah tak pernah tidur.
 
+![rudolp fent address](Gambar/rudolp-fent-address.jpg)
+
 Namun, di antara keramaian itu, muncul seorang pria yang langsung mengundang heran serta menarik perhatian banyak orang. Ia tampak kebingungan, berdiri kaku, dan menatap gedung-gedung tinggi seakan baru pertama kali melihat dunia modern. Penampilannya begitu aneh:
 
 * Mantel panjang bergaya Victoria,
@@ -26,7 +28,7 @@ Bagi orang-orang New York tahun 1950, sosok ini lebih mirip tokoh yang keluar da
 
 Beberapa saksi mengatakan pria itu tampak cemas, langkahnya ragu. Ia menoleh ke kanan dan ke kiri, seolah tak paham dengan kendaraan bermotor yang melintas cepat di hadapannya. Sayangnya, kepanikan itu justru menyeretnya ke tragedi. Saat mencoba menyeberang jalan, sebuah mobil menabraknya dengan keras. Dalam hitungan detik, nyawanya melayang, meninggalkan misteri yang baru saja dimulai.
 
----
+
 
 ## Barang-Barang yang Mengacaukan Logika
 
@@ -40,7 +42,7 @@ Ketika polisi memeriksa jasad pria itu, apa yang mereka temukan justru semakin m
 
 Anehnya, semua benda itu **tidak menunjukkan tanda penuaan**. Kertas surat masih segar, uang kertas tak sobek sedikit pun, bahkan logam koin masih berkilau. Seolah-olah benda-benda itu baru saja keluar dari masa lalu.
 
----
+
 
 ## Penyelidikan yang Mengejutkan
 
@@ -53,7 +55,7 @@ Identitasnya cocok. Usia yang sama. Nama yang sama. Dan yang lebih aneh: pakaian
 Pertanyaan pun menggantung:
 Bagaimana mungkin seorang pria yang hilang di **abad ke-19** muncul kembali di **abad ke-20**, tanpa menua satu hari pun?
 
----
+
 
 ## Misteri yang Menyebar
 
@@ -63,7 +65,7 @@ Koran-koran misteri, majalah supranatural, bahkan acara radio menyiarkan ulang k
 
 Bagi banyak orang, kasus ini adalah bukti bahwa waktu bukanlah garis lurus, melainkan sebuah lorong yang bisa memindahkan manusia kapan saja, ke mana saja.
 
----
+
 
 ## Penelusuran Modern: Fakta yang Tersembunyi
 
@@ -75,7 +77,7 @@ Jack Finney sendiri adalah penulis fiksi ilmiah terkenal, yang kemudian menulis 
 
 Dengan kata lain, **Rudolph Fentz hanyalah tokoh fiksi**—sebuah legenda modern yang lahir dari kesalahpahaman.
 
----
+
 
 ## Antara Fakta dan Imajinasi
 
@@ -92,3 +94,4 @@ Sampai saat ini, nama **Rudolph Fentz** tetap disebut dalam setiap diskusi tenta
 ✨ Jadi, apakah Rudolph Fentz hanyalah cerita karangan? Atau justru sebuah peringatan bahwa batas antara waktu, ruang, dan realitas lebih tipis dari yang kita bayangkan?
 
 ---
+*Sumber Gambar: [Historic Mysteries](https://www.historicmysteries.com)*
