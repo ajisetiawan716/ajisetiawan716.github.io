@@ -9,13 +9,11 @@ image-alt: Times Square, New York (1950)
 image-caption: Images form [Historic Mysteries](https://www.historicmysteries.com)
 ---
 
-# Misteri Rudolph Fentz: Pria yang Hilang dari Abad ke-19 dan Muncul di Abad ke-20
-
 ## Malam Aneh di Times Square
 
 Pada suatu malam di bulan Juni tahun **1950**, Times Square, New York, tampak bersinar terang dengan cahaya neon yang berkilauan. Jalanan dipenuhi keramaian: orang-orang yang terburu-buru, bunyi klakson mobil yang bersahutan, dan hiruk pikuk kota yang seolah tak pernah tidur.
 
-![rudolp fent address](Gambar/rudolp-fent-address.jpg)
+![Rudolp Fent Address](/assets/img/content/rudolp-fent-address.jpg)
 
 Namun, di antara keramaian itu, muncul seorang pria yang langsung mengundang heran serta menarik perhatian banyak orang. Ia tampak kebingungan, berdiri kaku, dan menatap gedung-gedung tinggi seakan baru pertama kali melihat dunia modern. Penampilannya begitu aneh:
 
