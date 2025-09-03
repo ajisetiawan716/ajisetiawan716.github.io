@@ -1,10 +1,11 @@
 ---
 title: "Rudolph Fentz: Pria Misterius Dari Masa Lalu Yang Muncul di Kota New York"
 #date: 2025-09-03
-description: "Kisah misterius Rudolph Fentz, seorang pria dari abad ke-19 yang tiba-tiba muncul di tengah kota New York pada tahun 1950."
+#description: "Kisah misterius Rudolph Fentz, seorang pria dari abad ke-19 yang tiba-tiba muncul di tengah kota New York pada tahun 1950."
 tags: [misteri, urban-legend, time-travel, new-york]
 image: Rudolph-Fentz-1.jpg
 image-alt: Times Square, New York (1950)
+image-caption: Images form [Historic Mysteries](https://www.historicmysteries.com)
 ---
 
 # Misteri Rudolph Fentz: Pria yang Hilang dari Abad ke-19 dan Muncul di Abad ke-20
@@ -85,7 +86,7 @@ Apakah perjalanan waktu benar-benar mungkin? Ataukah kisah seperti ini hanya lah
 
 Sampai saat ini, nama **Rudolph Fentz** tetap disebut dalam setiap diskusi tentang misteri waktu. Ia hidup sebagai legenda—sebuah mitos modern yang mengaburkan batas antara **fiksi dan kenyataan**.
 
----
+
 
 ✨ Jadi, apakah Rudolph Fentz hanyalah cerita karangan? Atau justru sebuah peringatan bahwa batas antara waktu, ruang, dan realitas lebih tipis dari yang kita bayangkan?
 
