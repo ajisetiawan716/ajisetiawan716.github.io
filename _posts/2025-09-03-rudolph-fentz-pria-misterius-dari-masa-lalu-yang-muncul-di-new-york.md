@@ -2,7 +2,8 @@
 title: "Rudolph Fentz: Pria Misterius Dari Masa Lalu Yang Muncul di Kota New York"
 #date: 2025-09-03
 #description: "Kisah misterius Rudolph Fentz, seorang pria dari abad ke-19 yang tiba-tiba muncul di tengah kota New York pada tahun 1950."
-tags: [misteri, urban-legend, time-travel, new-york]
+tags: [Misteri, Urban Legend, Time Travel, New York]
+layout: post
 image: Rudolph-Fentz-1.jpg
 image-alt: Times Square, New York (1950)
 image-caption: Images form [Historic Mysteries](https://www.historicmysteries.com)
