@@ -3,7 +3,7 @@ title: "Cara Install OpenWRT di Mini PC HP T620"
 layout: post
 tag: [OpenWrt, Tips, Tips OpenWrt, Mini PC, HP T20, Tutorial, Teknologi]
 #date: 04-09-2025 19:29:01
-image: /assets/img/content/install-openwrt-hp-t620.png
+image: install-openwrt-hp-t620.png
 image-alt: Cara Install OpenWrt di Mini PC HP T620
 ---
 
