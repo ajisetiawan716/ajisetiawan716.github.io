@@ -3,10 +3,10 @@ title: "Cara Install OpenWRT di Mini PC HP T620"
 layout: post
 tag: [OpenWrt, Tips, Tips OpenWrt, Mini PC, HP T20, Tutorial, Teknologi]
 #date: 04-09-2025 19:29:01
-#image: /assets/img/content/install-openwrt-hp-t620.png
+image: /assets/img/content/install-openwrt-hp-t620.png
+image-alt: Cara Install OpenWrt di Mini PC HP T620
 ---
 
-# Cara Install OpenWrt di Mini PC HP T620
 
 OpenWrt merupakan sistem operasi berbasis Linux yang didesain khusus agar berjalan di perangkat jaringan seperti router, modem, akses poin dan perangkat lainnya. Beda dengan sistem operasi kebanyakan yang diperuntukan untuk jaringan, OpenWrt lebih fleksibel dan powerful karena bisa dikustomisasi sesuai kebutuhan.
 
