@@ -108,7 +108,7 @@ semua nuansa lenyap. Bahasa Indonesia modern terlalu datar untuk menahan kelembu
 
 
 
-### **Iklim — “Buih Jadi Permaidani”**
+### **Exist — “Buih Jadi Permaidani”**
 
 Ini adalah contoh paling terkenal dari metafora transformasional Melayu. Melayu klasik memang sering mengubah benda menjadi benda lain untuk menggambarkan intensitas perasaan. Buih melambangkan kerapuhan, kehadiran yang singkat. Permaidani melambangkan keindahan lembut. Transformasi ini bukan cerita fisik—ini gambaran batin.
 
