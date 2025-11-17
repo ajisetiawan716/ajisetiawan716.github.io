@@ -11,9 +11,11 @@ description: A blog about tutorials, graphic design, technology, stories and mor
     <img src="{{ site.author.image }}" alt="{{ site.title }}" width="168px" height="168px" class="circle-image-profile wow animated zoomIn" data-wow-delay=".1s" style="display:flex;">
 <br>
 </p><p>
-Hi I am <b>{{ site.author.name }}</b> :wave:,<br>
-a dedicated <b>Multimedia</b> graduate from <b>Ma'arif NU 03 Larangan Vocational High School</b>. With a robust foundation in multimedia technologies and creative design, I bring a blend of technical expertise and artistic vision to every project. I have interests and hobbies in the field of IT, graphic design and amateur programming.  I also accept freelance work.<br>Please contact me at the contact below if you need graphic design services or anything else.
+Hi, I am <b>{{ site.author.name }}</b> :wave:,<br>
+a graduate of <b>Sharia Business Management</b> at <b>STIES Putera Bangsa Tegal</b>. With a strong foundation in Islamic economics and the halal business sector, I am able to analyze sharia financial aspects, halal industry markets, and apply ethical and sustainable business management principles. I also have a background in multimedia technology and creative design—bringing a blend of technical skills and artistic vision to every project. I have interests and hobbies in IT, graphic design, and amateur programming, and I also accept freelance work in graphic design, digital content creation, and other creative solutions.<br>
+Please contact me at the information below if you need graphic design services, sharia economics consultation, or anything else.
 </p>
+
 
 <p class="text-center"> {% include social.html %} </p>
 <br>
