@@ -7,7 +7,6 @@ image: mengulik-bahasa-bagian-1.png
 image-alt: Mengulik Bahasa Indonesia & Melayu — Bagian 1
 ---
 
-# **Mengulik Bahasa Indonesia & Melayu — Bagian 1: Perbedaan Bahasa Indonesia dan Melayu, Akar Sejarah, Evolusi, dan Awal Perbedaan Estetika**
 
 *Bagian 1 – Sejarah, Estetika, dan Analisis Lirik*
 
