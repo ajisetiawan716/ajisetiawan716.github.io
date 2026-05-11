@@ -4,7 +4,7 @@ name: Advan CPE V6 Telegram Bot
 title: Advan CPE V6 Telegram Bot - Remote Modem Management | Manajemen Modem Jarak Jauh
 tools: [OpenWrt, Node.js, JavaScript, Telegraf, Telegram Bot API]
 image: https://raw.githubusercontent.com/ajisetiawan716/advan-cpe-v6-bot/main/assets/screenshot/advan-cpe-v6-bot.jpg
-description: A powerful Telegram bot for remote management of Advan CPE V6 modems with real-time monitoring, band locking, WiFi control, SMS manager, and more. | Bot Telegram untuk manajemen jarak jauh modem Advan CPE V6 dengan monitoring real-time, penguncian band, kontrol WiFi, SMS manager, dan lainnya.
+description: A powerful Telegram bot for remote management of Advan CPE V6 modems with real-time monitoring, band locking, WiFi control, SMS manager, and more.
 remote_projects:
   - advan-cpe-v6-Bot
 ---
