@@ -1,19 +1,13 @@
 ---
+title: "Creepypasta: Jalan Angker"
 layout: post
-tags: [Creepypasta, Horror, Misteri, Kisah Horror, Horror Story]
-#categories: []
-#date: 2019-06-25 13:14:15
-#excerpt: ''
-image: images (4)_1720881130204.jpeg
-image-alt: A Girl Walking in the Road Alone
-image-caption: Image from [Adobe Stock](https://stock.adobe.com/th/images/silhouette-of-a-woman-walking-down-a-dark-foggy-empty-street-at-night-under-streetlights-created-with-generative-ai/576881549)
-#description:
-#permalink:
-title: 'Creepypasta: Jalan Angker'
+date: 2024-07-13
+tags: [Creepypasta, Horror, Kisah Horror, Horror Story, Misteri]
+image: 'images (4)_1720881130204.jpeg'
+thumbnail: 'images (4)_1720881130204.jpeg'
+image-alt: "A Girl Walking in the Road Alone"
+image-caption: "Image from [Adobe Stock](https://stock.adobe.com/th/images/silhouette-of-a-woman-walking-down-a-dark-foggy-empty-street-at-night-under-streetlights-created-with-generative-ai/576881549)"
 ---
-
-
-
 
 Namaku Rio, seorang pemuda yang biasa keluar malam, baik untuk pergi ke rumah teman atau ke kios. Seperti biasanya, aku melewati jalan ini sambil mendengarkan lagu lewat earphone, mungkin dengan volume yang sedikit keras.
 
@@ -53,4 +47,5 @@ Beberapa jam kemudian, aku melihat temanku berlari dengan wajah pucat dan terlih
 **Kiriman dari:** [@Willyant Mario](http://sicreepy.blogspot.com/)
 
 <br>
-Sumber: Bubupedia, Sicreepy.
+
+*Sumber: Bubupedia, Sicreepy.*
