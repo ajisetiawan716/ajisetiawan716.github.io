@@ -1,7 +1,7 @@
 ---
 title: "Mengungkap Simbol dan Mitos Bunga Sakura: Lebih dari Sekadar Keindahan Musim Semi"
 layout: post
-date: 2026-07-18 11:23:00 +0700
+date: 2026-07-18 11:31:00 +0700
 tags: [Bunga Sakura, Mitos Jepang, Budaya Jepang, Filosofi Sakura, Hanami, Sejarah Jepang, Legenda Kuno]
 external-image: 'https://images.pexels.com/photos/14978029/pexels-photo-14978029.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200'
 image-alt: "Pemandangan menakjubkan bunga sakura mekar penuh berwarna merah muda dengan latar belakang Gunung Fuji"
@@ -23,9 +23,8 @@ Berbeda dengan jenis bunga lain yang mungkin mampu mekar dan mempertahankan kein
 
 
 
-![Close-up of delicate white spring blossoms on a tree branch.](https://images.pexels.com/photos/36989565/pexels-photo-36989565.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200)
-*Foto ilustrasi oleh [Gizem Gökce](https://www.pexels.com/@gizem-gokce-1072613075) dari [Pexels](https://www.pexels.com/photo/spring-blossoms-on-a-tree-branch-36989565/)*
-
+![Close-up of sakura flower with a pigeon bird on a tree branch.](https://images.pexels.com/photos/14978009/pexels-photo-14978009.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200)
+*Foto ilustrasi oleh [Sevda Ozdemir](https://www.pexels.com/@sevda-ozdemir-30985330/) dari [Pexels](https://www.pexels.com/photo/14978009/)*
 
 
 Tidak ada hal di dunia ini yang abadi, dan justru karena ketidakabadian itulah kehidupan menjadi sangat berharga, intens, dan indah. Orang Jepang pada umumnya memandang jatuhnya kelopak sakura bukan sebagai sesuatu yang menyedihkan secara negatif atau tanda dari sebuah akhir yang pahit. Sebaliknya, hal itu merupakan sebuah pengingat puitis untuk selalu menghargai momen masa kini, merangkul setiap detik kehidupan dengan penuh syukur, dan menyadari bahwa kecantikan sejati sering kali terletak pada sesuatu yang tidak dapat kita genggam selamanya.
