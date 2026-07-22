@@ -86,27 +86,28 @@ window.addEventListener('DOMContentLoaded', function() {
 </script> -->
 
 <!-- Mermaid Flowchart Support -->
-<!-- Skrip Penerjemah Mermaid.js untuk GitHub Pages -->
+<!-- Skrip Penerjemah Mermaid.js untuk GitHub Pages (Versi Fix) -->
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   
-  document.addEventListener("DOMContentLoaded", () => {
-    // 1. Cari semua blok kode yang dilabeli 'mermaid' oleh Jekyll
-    const mermaidBlocks = document.querySelectorAll('code.language-mermaid, code.mermaid');
+  // 1. Langsung eksekusi pencarian elemen (tanpa event listener)
+  const mermaidBlocks = document.querySelectorAll('pre > code.language-mermaid');
+  
+  mermaidBlocks.forEach((block) => {
+    const pre = block.parentElement;
     
-    // 2. Ubah bungkusannya dari <pre><code> menjadi <div class="mermaid">
-    mermaidBlocks.forEach((block) => {
-      const pre = block.parentElement;
-      if (pre && pre.tagName === 'PRE') {
-        const div = document.createElement('div');
-        div.className = 'mermaid';
-        div.textContent = block.textContent;
-        // Ganti elemen lama dengan elemen baru yang siap dirender
-        pre.replaceWith(div);
-      }
-    });
+    // 2. Buat wadah div baru
+    const div = document.createElement('div');
+    div.className = 'mermaid';
     
-    // 3. Nyalakan mesin Mermaid
-    mermaid.initialize({ startOnLoad: true, theme: 'default' });
+    // Gunakan textContent agar enter/baris baru (line breaks) tidak rusak
+    div.textContent = block.textContent; 
+    
+    // 3. Ganti elemen <pre> lama dengan <div> baru
+    pre.replaceWith(div);
   });
+  
+  // 4. Konfigurasi dan paksa Mermaid merender wadah baru tersebut
+  mermaid.initialize({ startOnLoad: false, theme: 'default' });
+  await mermaid.run({ querySelector: '.mermaid' });
 </script>
