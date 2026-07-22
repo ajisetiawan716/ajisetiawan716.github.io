@@ -1,7 +1,7 @@
 ---
 title: "Uji Coba Render MathJax dan Marker di Github Pages"
 layout: post
-date: 2026-07-22 14:51:00 +0700
+date: 2026-07-22 15:09:00 +0700
 tags: [test, math, github-pages]
 description: "Postingan dummy untuk menguji integrasi skrip MathJax dan render sorotan teks (highlight) di GitHub Pages."
 ---
@@ -14,6 +14,7 @@ Mari kita lihat apakah efek "stabilo" muncul di blog Anda. Saya memasukkan dua j
 
 * **Format HTML (Standar):** Kalimat ini menggunakan <mark>tag HTML bawaan untuk menyorot teks menjadi kuning</mark>. Ini dijamin 100% muncul di GitHub Pages.
 * **Format Ekstensi (Markdown-it):** Kalimat ini menggunakan ==sintaks sama-dengan ganda==. Jika ini tidak berubah menjadi stabilo di blog Anda, berarti Jekyll/Kramdown memang tidak mendukungnya secara *default*.
+* Marker `tes`
 
 ---
 
