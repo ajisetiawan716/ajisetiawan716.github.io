@@ -85,5 +85,28 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 </script> -->
 
-<!-- MathJax Support -->
-<!-- <script rel="preconnect" type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> -->
+<!-- Mermaid Flowchart Support -->
+<!-- Skrip Penerjemah Mermaid.js untuk GitHub Pages -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  
+  document.addEventListener("DOMContentLoaded", () => {
+    // 1. Cari semua blok kode yang dilabeli 'mermaid' oleh Jekyll
+    const mermaidBlocks = document.querySelectorAll('code.language-mermaid, code.mermaid');
+    
+    // 2. Ubah bungkusannya dari <pre><code> menjadi <div class="mermaid">
+    mermaidBlocks.forEach((block) => {
+      const pre = block.parentElement;
+      if (pre && pre.tagName === 'PRE') {
+        const div = document.createElement('div');
+        div.className = 'mermaid';
+        div.textContent = block.textContent;
+        // Ganti elemen lama dengan elemen baru yang siap dirender
+        pre.replaceWith(div);
+      }
+    });
+    
+    // 3. Nyalakan mesin Mermaid
+    mermaid.initialize({ startOnLoad: true, theme: 'default' });
+  });
+</script>
