@@ -1,7 +1,7 @@
 ---
 title: "Uji Coba Render MathJax dan Marker di Github Pages"
 layout: post
-date: 2026-07-22 14:47:00 +0700
+date: 2026-07-22 14:51:00 +0700
 tags: [test, math, github-pages]
 description: "Postingan dummy untuk menguji integrasi skrip MathJax dan render sorotan teks (highlight) di GitHub Pages."
 ---
@@ -39,5 +39,19 @@ Kalkulus Limit:
 $$
 \lim_{x \to 0} \frac{\sin(x)}{x} = 1
 $$
+
+*Flowchart:*
+
+```mermaid
+flowchart TD 
+  Start --> Stop
+```
+
+
+```mermaid
+erDiagram
+  CAR ||--o{ NAMED-DRIVER : allows
+```
+
 
 Jika semua rumus di atas tampil sempurna, berarti konfigurasi MathJax di repositori Anda sudah sukses!
